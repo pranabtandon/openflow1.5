@@ -1,0 +1,1624 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COOKIE	ofproto.c	10;"	d	file:
+DESC_STR_LEN	openflow.h	2518;"	d
+MAX_PACKET_IN_BUFFER	ofproto.c	8;"	d	file:
+MAX_TABLE_SUPPORTED	ofproto.c	9;"	d	file:
+OFPACFC_EPERM	openflow.h	/^    OFPACFC_EPERM        = 2,      \/* Permissions error. *\/$/;"	e	enum:ofp_async_config_failed_code
+OFPACFC_INVALID	openflow.h	/^    OFPACFC_INVALID      = 0,      \/* One mask is invalid. *\/$/;"	e	enum:ofp_async_config_failed_code
+OFPACFC_UNSUPPORTED	openflow.h	/^    OFPACFC_UNSUPPORTED  = 1,      \/* Requested configuration not supported. *\/$/;"	e	enum:ofp_async_config_failed_code
+OFPACPT_CONT_STATUS_MASTER	openflow.h	/^    OFPACPT_CONT_STATUS_MASTER   = 15, \/* Controller status mask for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_CONT_STATUS_SLAVE	openflow.h	/^    OFPACPT_CONT_STATUS_SLAVE    = 14, \/* Controller status mask for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_EXPERIMENTER_MASTER	openflow.h	/^    OFPACPT_EXPERIMENTER_MASTER  = 0xFFFF, \/* Experimenter for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_EXPERIMENTER_SLAVE	openflow.h	/^    OFPACPT_EXPERIMENTER_SLAVE   = 0xFFFE, \/* Experimenter for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_FLOW_REMOVED_MASTER	openflow.h	/^    OFPACPT_FLOW_REMOVED_MASTER  = 5,  \/* Flow removed mask for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_FLOW_REMOVED_SLAVE	openflow.h	/^    OFPACPT_FLOW_REMOVED_SLAVE   = 4,  \/* Flow removed mask for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_FLOW_STATS_MASTER	openflow.h	/^    OFPACPT_FLOW_STATS_MASTER    = 13, \/* Flow stats mask for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_FLOW_STATS_SLAVE	openflow.h	/^    OFPACPT_FLOW_STATS_SLAVE     = 12, \/* Flow stats mask for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_PACKET_IN_MASTER	openflow.h	/^    OFPACPT_PACKET_IN_MASTER     = 1,  \/* Packet-in mask for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_PACKET_IN_SLAVE	openflow.h	/^    OFPACPT_PACKET_IN_SLAVE      = 0,  \/* Packet-in mask for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_PORT_STATUS_MASTER	openflow.h	/^    OFPACPT_PORT_STATUS_MASTER   = 3,  \/* Port-status mask for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_PORT_STATUS_SLAVE	openflow.h	/^    OFPACPT_PORT_STATUS_SLAVE    = 2,  \/* Port-status mask for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_REQUESTFORWARD_MASTER	openflow.h	/^    OFPACPT_REQUESTFORWARD_MASTER = 11, \/* RequestForward mask for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_REQUESTFORWARD_SLAVE	openflow.h	/^    OFPACPT_REQUESTFORWARD_SLAVE  = 10, \/* RequestForward mask for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_ROLE_STATUS_MASTER	openflow.h	/^    OFPACPT_ROLE_STATUS_MASTER   = 7,  \/* Role status mask for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_ROLE_STATUS_SLAVE	openflow.h	/^    OFPACPT_ROLE_STATUS_SLAVE    = 6,  \/* Role status mask for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_TABLE_STATUS_MASTER	openflow.h	/^    OFPACPT_TABLE_STATUS_MASTER  = 9,  \/* Table status mask for master. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPACPT_TABLE_STATUS_SLAVE	openflow.h	/^    OFPACPT_TABLE_STATUS_SLAVE   = 8,  \/* Table status mask for slave. *\/$/;"	e	enum:ofp_async_config_prop_type
+OFPAT_COPY_FIELD	openflow.h	/^    OFPAT_COPY_FIELD   = 28, \/* Copy value between header and register. *\/$/;"	e	enum:ofp_action_type
+OFPAT_COPY_TTL_IN	openflow.h	/^    OFPAT_COPY_TTL_IN  = 12, \/* Copy TTL "inwards" -- from outermost to$/;"	e	enum:ofp_action_type
+OFPAT_COPY_TTL_OUT	openflow.h	/^    OFPAT_COPY_TTL_OUT = 11, \/* Copy TTL "outwards" -- from next-to-outermost$/;"	e	enum:ofp_action_type
+OFPAT_DEC_MPLS_TTL	openflow.h	/^    OFPAT_DEC_MPLS_TTL = 16, \/* Decrement MPLS TTL *\/$/;"	e	enum:ofp_action_type
+OFPAT_DEC_NW_TTL	openflow.h	/^    OFPAT_DEC_NW_TTL   = 24, \/* Decrement IP TTL. *\/$/;"	e	enum:ofp_action_type
+OFPAT_EXPERIMENTER	openflow.h	/^    OFPAT_EXPERIMENTER = 0xffff$/;"	e	enum:ofp_action_type
+OFPAT_GROUP	openflow.h	/^    OFPAT_GROUP        = 22, \/* Apply group. *\/$/;"	e	enum:ofp_action_type
+OFPAT_METER	openflow.h	/^    OFPAT_METER        = 29, \/* Apply meter (rate limiter) *\/$/;"	e	enum:ofp_action_type
+OFPAT_OUTPUT	openflow.h	/^    OFPAT_OUTPUT       = 0,  \/* Output to switch port. *\/$/;"	e	enum:ofp_action_type
+OFPAT_POP_MPLS	openflow.h	/^    OFPAT_POP_MPLS     = 20, \/* Pop the outer MPLS tag *\/$/;"	e	enum:ofp_action_type
+OFPAT_POP_PBB	openflow.h	/^    OFPAT_POP_PBB      = 27, \/* Pop the outer PBB service tag (I-TAG) *\/$/;"	e	enum:ofp_action_type
+OFPAT_POP_VLAN	openflow.h	/^    OFPAT_POP_VLAN     = 18, \/* Pop the outer VLAN tag *\/$/;"	e	enum:ofp_action_type
+OFPAT_PUSH_MPLS	openflow.h	/^    OFPAT_PUSH_MPLS    = 19, \/* Push a new MPLS tag *\/$/;"	e	enum:ofp_action_type
+OFPAT_PUSH_PBB	openflow.h	/^    OFPAT_PUSH_PBB     = 26, \/* Push a new PBB service tag (I-TAG) *\/$/;"	e	enum:ofp_action_type
+OFPAT_PUSH_VLAN	openflow.h	/^    OFPAT_PUSH_VLAN    = 17, \/* Push a new VLAN tag *\/$/;"	e	enum:ofp_action_type
+OFPAT_SET_FIELD	openflow.h	/^    OFPAT_SET_FIELD    = 25, \/* Set a header field using OXM TLV format. *\/$/;"	e	enum:ofp_action_type
+OFPAT_SET_MPLS_TTL	openflow.h	/^    OFPAT_SET_MPLS_TTL = 15, \/* MPLS TTL *\/$/;"	e	enum:ofp_action_type
+OFPAT_SET_NW_TTL	openflow.h	/^    OFPAT_SET_NW_TTL   = 23, \/* IP TTL. *\/$/;"	e	enum:ofp_action_type
+OFPAT_SET_QUEUE	openflow.h	/^    OFPAT_SET_QUEUE    = 21, \/* Set queue id when outputting to a port *\/$/;"	e	enum:ofp_action_type
+OFPBAC_BAD_ARGUMENT	openflow.h	/^    OFPBAC_BAD_ARGUMENT       = 5,  \/* Bad action argument. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_EXPERIMENTER	openflow.h	/^    OFPBAC_BAD_EXPERIMENTER   = 2,  \/* Unknown experimenter id specified. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_EXP_TYPE	openflow.h	/^    OFPBAC_BAD_EXP_TYPE       = 3,  \/* Unknown action for experimenter id. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_LEN	openflow.h	/^    OFPBAC_BAD_LEN            = 1,  \/* Length problem in actions. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_OUT_GROUP	openflow.h	/^    OFPBAC_BAD_OUT_GROUP      = 9,  \/* Invalid group id in forward action. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_OUT_PORT	openflow.h	/^    OFPBAC_BAD_OUT_PORT       = 4,  \/* Problem validating output port. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_QUEUE	openflow.h	/^    OFPBAC_BAD_QUEUE          = 8,  \/* Problem validating output queue. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_SET_ARGUMENT	openflow.h	/^    OFPBAC_BAD_SET_ARGUMENT   = 15, \/* Bad argument in SET_FIELD action. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_SET_LEN	openflow.h	/^    OFPBAC_BAD_SET_LEN        = 14, \/* Length problem in SET_FIELD action. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_SET_MASK	openflow.h	/^    OFPBAC_BAD_SET_MASK       = 16, \/* Bad mask in SET_FIELD action. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_SET_TYPE	openflow.h	/^    OFPBAC_BAD_SET_TYPE       = 13, \/* Unsupported type in SET_FIELD action. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_TAG	openflow.h	/^    OFPBAC_BAD_TAG            = 12, \/* Actions uses an unsupported$/;"	e	enum:ofp_bad_action_code
+OFPBAC_BAD_TYPE	openflow.h	/^    OFPBAC_BAD_TYPE           = 0,  \/* Unknown or unsupported action type. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_EPERM	openflow.h	/^    OFPBAC_EPERM              = 6,  \/* Permissions error. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_MATCH_INCONSISTENT	openflow.h	/^    OFPBAC_MATCH_INCONSISTENT = 10, \/* Action can't apply for this match,$/;"	e	enum:ofp_bad_action_code
+OFPBAC_TOO_MANY	openflow.h	/^    OFPBAC_TOO_MANY           = 7,  \/* Can't handle this many actions. *\/$/;"	e	enum:ofp_bad_action_code
+OFPBAC_UNSUPPORTED_ORDER	openflow.h	/^    OFPBAC_UNSUPPORTED_ORDER  = 11, \/* Action order is unsupported for the$/;"	e	enum:ofp_bad_action_code
+OFPBCT_CLOSE_REPLY	openflow.h	/^    OFPBCT_CLOSE_REPLY     = 3,$/;"	e	enum:ofp_bundle_ctrl_type
+OFPBCT_CLOSE_REQUEST	openflow.h	/^    OFPBCT_CLOSE_REQUEST   = 2,$/;"	e	enum:ofp_bundle_ctrl_type
+OFPBCT_COMMIT_REPLY	openflow.h	/^    OFPBCT_COMMIT_REPLY    = 5,$/;"	e	enum:ofp_bundle_ctrl_type
+OFPBCT_COMMIT_REQUEST	openflow.h	/^    OFPBCT_COMMIT_REQUEST  = 4,$/;"	e	enum:ofp_bundle_ctrl_type
+OFPBCT_DISCARD_REPLY	openflow.h	/^    OFPBCT_DISCARD_REPLY   = 7,$/;"	e	enum:ofp_bundle_ctrl_type
+OFPBCT_DISCARD_REQUEST	openflow.h	/^    OFPBCT_DISCARD_REQUEST = 6,$/;"	e	enum:ofp_bundle_ctrl_type
+OFPBCT_OPEN_REPLY	openflow.h	/^    OFPBCT_OPEN_REPLY      = 1,$/;"	e	enum:ofp_bundle_ctrl_type
+OFPBCT_OPEN_REQUEST	openflow.h	/^    OFPBCT_OPEN_REQUEST    = 0,$/;"	e	enum:ofp_bundle_ctrl_type
+OFPBFC_BAD_FLAGS	openflow.h	/^  OFPBFC_BAD_FLAGS      = 7,  \/* Unsupported, unknown, or inconsistent flags. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_BAD_ID	openflow.h	/^  OFPBFC_BAD_ID         = 2,  \/* Bundle ID doesn't exist. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_BAD_TYPE	openflow.h	/^  OFPBFC_BAD_TYPE       = 6,  \/* Unsupported or unknown message control type. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_BUNDLE_CLOSED	openflow.h	/^  OFPBFC_BUNDLE_CLOSED  = 4,  \/* Bundle ID is closed. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_BUNDLE_EXIST	openflow.h	/^  OFPBFC_BUNDLE_EXIST   = 3,  \/* Bundle ID already exist. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_BUNDLE_IN_PROGRESS	openflow.h	/^  OFPBFC_BUNDLE_IN_PROGRESS = 15,  \/* Bundle is locking the resource. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_EPERM	openflow.h	/^  OFPBFC_EPERM          = 1,  \/* Permissions error. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_MSG_BAD_LEN	openflow.h	/^  OFPBFC_MSG_BAD_LEN    = 8,  \/* Length problem in included message. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_MSG_BAD_XID	openflow.h	/^  OFPBFC_MSG_BAD_XID    = 9,  \/* Inconsistent or duplicate XID. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_MSG_CONFLICT	openflow.h	/^  OFPBFC_MSG_CONFLICT   = 11, \/* Unsupported message combination in this$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_MSG_FAILED	openflow.h	/^  OFPBFC_MSG_FAILED     = 13, \/* One message in bundle failed. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_MSG_TOO_MANY	openflow.h	/^  OFPBFC_MSG_TOO_MANY   = 12, \/* Can't handle this many messages in bundle. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_MSG_UNSUP	openflow.h	/^  OFPBFC_MSG_UNSUP      = 10, \/* Unsupported message in this bundle. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_OUT_OF_BUNDLES	openflow.h	/^  OFPBFC_OUT_OF_BUNDLES = 5,  \/* Too many bundles IDs. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_SCHED_FUTURE	openflow.h	/^  OFPBFC_SCHED_FUTURE = 17,   \/* Scheduled commit time exceeds upper bound. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_SCHED_NOT_SUPPORTED	openflow.h	/^  OFPBFC_SCHED_NOT_SUPPORTED = 16, \/* Scheduled commit was received and$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_SCHED_PAST	openflow.h	/^  OFPBFC_SCHED_PAST = 18,     \/* Scheduled commit time exceeds lower bound. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_TIMEOUT	openflow.h	/^  OFPBFC_TIMEOUT        = 14, \/* Bundle is taking too long. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBFC_UNKNOWN	openflow.h	/^  OFPBFC_UNKNOWN        = 0,  \/* Unspecified error. *\/$/;"	e	enum:ofp_bundle_failed_code
+OFPBF_ATOMIC	openflow.h	/^    OFPBF_ATOMIC  = 1 << 0,  \/* Execute atomically. *\/$/;"	e	enum:ofp_bundle_flags
+OFPBF_ORDERED	openflow.h	/^    OFPBF_ORDERED = 1 << 1,  \/* Execute in specified order. *\/$/;"	e	enum:ofp_bundle_flags
+OFPBF_TIME	openflow.h	/^    OFPBF_TIME    = 1 << 2,  \/* Execute in specified time. *\/$/;"	e	enum:ofp_bundle_flags
+OFPBF_TIMESTAMP	openflow.h	/^    OFPBF_TIMESTAMP = 1 << 0,       \/* Request includes a timestamp. *\/$/;"	e	enum:ofp_bundle_feature_flags
+OFPBF_TIME_SET_SCHED	openflow.h	/^    OFPBF_TIME_SET_SCHED = 1 << 1,  \/* Request includes the sched_max_future and$/;"	e	enum:ofp_bundle_feature_flags
+OFPBIC_BAD_EXPERIMENTER	openflow.h	/^    OFPBIC_BAD_EXPERIMENTER = 5, \/* Unknown experimenter id specified. *\/$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_BAD_EXP_TYPE	openflow.h	/^    OFPBIC_BAD_EXP_TYPE     = 6, \/* Unknown instruction for experimenter id. *\/$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_BAD_LEN	openflow.h	/^    OFPBIC_BAD_LEN          = 7, \/* Length problem in instructions. *\/$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_BAD_TABLE_ID	openflow.h	/^    OFPBIC_BAD_TABLE_ID     = 2, \/* Invalid Table-ID specified. *\/$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_DUP_INST	openflow.h	/^    OFPBIC_DUP_INST         = 9, \/* Duplicate instruction. *\/$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_EPERM	openflow.h	/^    OFPBIC_EPERM            = 8, \/* Permissions error. *\/$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_UNKNOWN_INST	openflow.h	/^    OFPBIC_UNKNOWN_INST     = 0, \/* Unknown instruction. *\/$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_UNSUP_INST	openflow.h	/^    OFPBIC_UNSUP_INST       = 1, \/* Switch or table does not support the$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_UNSUP_METADATA	openflow.h	/^    OFPBIC_UNSUP_METADATA   = 3, \/* Metadata value unsupported by datapath. *\/$/;"	e	enum:ofp_bad_instruction_code
+OFPBIC_UNSUP_METADATA_MASK	openflow.h	/^    OFPBIC_UNSUP_METADATA_MASK = 4, \/* Metadata mask value unsupported by$/;"	e	enum:ofp_bad_instruction_code
+OFPBMC_BAD_DL_ADDR_MASK	openflow.h	/^    OFPBMC_BAD_DL_ADDR_MASK = 3,  \/* Unsupported datalink addr mask - switch$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_FIELD	openflow.h	/^    OFPBMC_BAD_FIELD        = 6,  \/* Unsupported field type in the match. *\/$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_LEN	openflow.h	/^    OFPBMC_BAD_LEN          = 1,  \/* Length problem in match. *\/$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_MASK	openflow.h	/^    OFPBMC_BAD_MASK         = 8,  \/* Unsupported mask specified in the match. *\/$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_NW_ADDR_MASK	openflow.h	/^    OFPBMC_BAD_NW_ADDR_MASK = 4,  \/* Unsupported network addr mask - switch$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_PREREQ	openflow.h	/^    OFPBMC_BAD_PREREQ       = 9,  \/* A prerequisite was not met. *\/$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_TAG	openflow.h	/^    OFPBMC_BAD_TAG          = 2,  \/* Match uses an unsupported tag\/encap. *\/$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_TYPE	openflow.h	/^    OFPBMC_BAD_TYPE         = 0,  \/* Unsupported match type specified by the$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_VALUE	openflow.h	/^    OFPBMC_BAD_VALUE        = 7,  \/* Unsupported value in a match field. *\/$/;"	e	enum:ofp_bad_match_code
+OFPBMC_BAD_WILDCARDS	openflow.h	/^    OFPBMC_BAD_WILDCARDS    = 5,  \/* Unsupported combination of fields masked$/;"	e	enum:ofp_bad_match_code
+OFPBMC_DUP_FIELD	openflow.h	/^    OFPBMC_DUP_FIELD        = 10, \/* A field type was duplicated. *\/$/;"	e	enum:ofp_bad_match_code
+OFPBMC_EPERM	openflow.h	/^    OFPBMC_EPERM            = 11, \/* Permissions error. *\/$/;"	e	enum:ofp_bad_match_code
+OFPBPC_BAD_EXPERIMENTER	openflow.h	/^    OFPBPC_BAD_EXPERIMENTER   = 5,  \/* Unknown experimenter id specified. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPC_BAD_EXP_TYPE	openflow.h	/^    OFPBPC_BAD_EXP_TYPE       = 6,  \/* Unknown exp_type for experimenter id. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPC_BAD_EXP_VALUE	openflow.h	/^    OFPBPC_BAD_EXP_VALUE      = 7,  \/* Unknown value for experimenter id. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPC_BAD_LEN	openflow.h	/^    OFPBPC_BAD_LEN            = 1,  \/* Length problem in property. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPC_BAD_TYPE	openflow.h	/^    OFPBPC_BAD_TYPE           = 0,  \/* Unknown or unsupported property type. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPC_BAD_VALUE	openflow.h	/^    OFPBPC_BAD_VALUE          = 2,  \/* Unsupported property value. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPC_DUP_TYPE	openflow.h	/^    OFPBPC_DUP_TYPE           = 4,  \/* A property type was duplicated. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPC_EPERM	openflow.h	/^    OFPBPC_EPERM              = 8,  \/* Permissions error. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPC_TOO_MANY	openflow.h	/^    OFPBPC_TOO_MANY           = 3,  \/* Can't handle this many properties. *\/$/;"	e	enum:ofp_bad_property_code
+OFPBPT_EXPERIMENTER	openflow.h	/^    OFPBPT_EXPERIMENTER           = 0xFFFF, \/* Experimenter property. *\/$/;"	e	enum:ofp_bundle_prop_type
+OFPBPT_TIME	openflow.h	/^    OFPBPT_TIME                   = 1,      \/* Time property. *\/$/;"	e	enum:ofp_bundle_prop_type
+OFPBRC_BAD_EXPERIMENTER	openflow.h	/^    OFPBRC_BAD_EXPERIMENTER = 3,  \/* Experimenter id not supported$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BAD_EXP_TYPE	openflow.h	/^    OFPBRC_BAD_EXP_TYPE     = 4,  \/* Experimenter type not supported. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BAD_LEN	openflow.h	/^    OFPBRC_BAD_LEN          = 6,  \/* Wrong request length for type. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BAD_MULTIPART	openflow.h	/^    OFPBRC_BAD_MULTIPART    = 2,  \/* ofp_multipart_request.type not$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BAD_PACKET	openflow.h	/^    OFPBRC_BAD_PACKET       = 12, \/* Invalid packet in packet-out. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BAD_PORT	openflow.h	/^    OFPBRC_BAD_PORT         = 11, \/* Invalid port or missing port. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BAD_TABLE_ID	openflow.h	/^    OFPBRC_BAD_TABLE_ID     = 9,  \/* Specified table-id invalid or does not$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BAD_TYPE	openflow.h	/^    OFPBRC_BAD_TYPE         = 1,  \/* ofp_header.type not supported. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BAD_VERSION	openflow.h	/^    OFPBRC_BAD_VERSION      = 0,  \/* ofp_header.version not supported. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BUFFER_EMPTY	openflow.h	/^    OFPBRC_BUFFER_EMPTY     = 7,  \/* Specified buffer has already been used. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_BUFFER_UNKNOWN	openflow.h	/^    OFPBRC_BUFFER_UNKNOWN   = 8,  \/* Specified buffer does not exist. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_EPERM	openflow.h	/^    OFPBRC_EPERM            = 5,  \/* Permissions error. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_IS_SLAVE	openflow.h	/^    OFPBRC_IS_SLAVE         = 10, \/* Denied because controller is slave. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_MULTIPART_BAD_SCHED	openflow.h	/^    OFPBRC_MULTIPART_BAD_SCHED = 16, \/* Switch received a OFPMP_BUNDLE_FEATURES$/;"	e	enum:ofp_bad_request_code
+OFPBRC_MULTIPART_BUFFER_OVERFLOW	openflow.h	/^    OFPBRC_MULTIPART_BUFFER_OVERFLOW    = 13, \/* ofp_multipart_request$/;"	e	enum:ofp_bad_request_code
+OFPBRC_MULTIPART_REPLY_TIMEOUT	openflow.h	/^    OFPBRC_MULTIPART_REPLY_TIMEOUT = 15, \/* Timeout during multipart reply. *\/$/;"	e	enum:ofp_bad_request_code
+OFPBRC_MULTIPART_REQUEST_TIMEOUT	openflow.h	/^    OFPBRC_MULTIPART_REQUEST_TIMEOUT = 14,  \/* Timeout during multipart$/;"	e	enum:ofp_bad_request_code
+OFPBRC_PIPELINE_FIELDS_ONLY	openflow.h	/^    OFPBRC_PIPELINE_FIELDS_ONLY = 17, \/* Match fields must include only$/;"	e	enum:ofp_bad_request_code
+OFPBRC_UNKNOWN	openflow.h	/^    OFPBRC_UNKNOWN          = 18, \/* Unspecified error. *\/$/;"	e	enum:ofp_bad_request_code
+OFPCID_UNDEFINED	openflow.h	3527;"	d
+OFPCML_MAX	openflow.h	/^        OFPCML_MAX       = 0xffe5, \/* maximum max_len value which can be used$/;"	e	enum:ofp_controller_max_len
+OFPCML_NO_BUFFER	openflow.h	/^        OFPCML_NO_BUFFER = 0xffff  \/* indicates that no buffering should be$/;"	e	enum:ofp_controller_max_len
+OFPCRR_CONFIG	openflow.h	/^    OFPCRR_CONFIG         = 1,  \/* Configuration changed on the switch. *\/$/;"	e	enum:ofp_controller_role_reason
+OFPCRR_EXPERIMENTER	openflow.h	/^    OFPCRR_EXPERIMENTER   = 2,  \/* Experimenter data changed. *\/$/;"	e	enum:ofp_controller_role_reason
+OFPCRR_MASTER_REQUEST	openflow.h	/^    OFPCRR_MASTER_REQUEST = 0,  \/* Another controller asked to be master. *\/$/;"	e	enum:ofp_controller_role_reason
+OFPCR_ROLE_EQUAL	openflow.h	/^    OFPCR_ROLE_EQUAL    = 1,    \/* Default role, full access. *\/$/;"	e	enum:ofp_controller_role
+OFPCR_ROLE_MASTER	openflow.h	/^    OFPCR_ROLE_MASTER   = 2,    \/* Full access, at most one master. *\/$/;"	e	enum:ofp_controller_role
+OFPCR_ROLE_NOCHANGE	openflow.h	/^    OFPCR_ROLE_NOCHANGE = 0,    \/* Don't change current role. *\/$/;"	e	enum:ofp_controller_role
+OFPCR_ROLE_SLAVE	openflow.h	/^    OFPCR_ROLE_SLAVE    = 3,    \/* Read-only access. *\/$/;"	e	enum:ofp_controller_role
+OFPCSPT_EXPERIMENTER	openflow.h	/^    OFPCSPT_EXPERIMENTER           = 0xFFFF, \/* Experimenter property. *\/$/;"	e	enum:ofp_controller_status_prop_type
+OFPCSPT_URI	openflow.h	/^    OFPCSPT_URI                    = 0,      \/* Connection URI property. *\/$/;"	e	enum:ofp_controller_status_prop_type
+OFPCSR_CHANNEL_STATUS	openflow.h	/^    OFPCSR_CHANNEL_STATUS     = 1,  \/* Oper status of channel changed. *\/$/;"	e	enum:ofp_controller_status_reason
+OFPCSR_CONTROLLER_ADDED	openflow.h	/^    OFPCSR_CONTROLLER_ADDED   = 3,  \/* New controller added. *\/$/;"	e	enum:ofp_controller_status_reason
+OFPCSR_CONTROLLER_REMOVED	openflow.h	/^    OFPCSR_CONTROLLER_REMOVED = 4,  \/* Controller removed from config. *\/$/;"	e	enum:ofp_controller_status_reason
+OFPCSR_EXPERIMENTER	openflow.h	/^    OFPCSR_EXPERIMENTER       = 6,  \/* Experimenter data changed. *\/$/;"	e	enum:ofp_controller_status_reason
+OFPCSR_REQUEST	openflow.h	/^    OFPCSR_REQUEST            = 0,  \/* Controller requested status. *\/$/;"	e	enum:ofp_controller_status_reason
+OFPCSR_ROLE	openflow.h	/^    OFPCSR_ROLE               = 2,  \/* Controller role changed. *\/$/;"	e	enum:ofp_controller_status_reason
+OFPCSR_SHORT_ID	openflow.h	/^    OFPCSR_SHORT_ID           = 5,  \/* Controller ID changed. *\/$/;"	e	enum:ofp_controller_status_reason
+OFPCT_STATUS_DOWN	openflow.h	/^    OFPCT_STATUS_DOWN   = 1,    \/* Control channel is not operational. *\/$/;"	e	enum:ofp_control_channel_status
+OFPCT_STATUS_UP	openflow.h	/^    OFPCT_STATUS_UP     = 0,    \/* Control channel is operational. *\/$/;"	e	enum:ofp_control_channel_status
+OFPC_BUNDLES	openflow.h	/^    OFPC_BUNDLES        = 1 << 9,  \/* Switch supports bundles. *\/$/;"	e	enum:ofp_capabilities
+OFPC_FLOW_MONITORING	openflow.h	/^    OFPC_FLOW_MONITORING = 1 << 10,  \/* Switch supports flow monitoring. *\/$/;"	e	enum:ofp_capabilities
+OFPC_FLOW_STATS	openflow.h	/^    OFPC_FLOW_STATS     = 1 << 0,  \/* Flow statistics. *\/$/;"	e	enum:ofp_capabilities
+OFPC_FRAG_DROP	openflow.h	/^    OFPC_FRAG_DROP     = 1 << 0,  \/* Drop fragments. *\/$/;"	e	enum:ofp_config_flags
+OFPC_FRAG_MASK	openflow.h	/^    OFPC_FRAG_MASK     = 3,$/;"	e	enum:ofp_config_flags
+OFPC_FRAG_NORMAL	openflow.h	/^    OFPC_FRAG_NORMAL   = 0,       \/* No special handling for fragments. *\/$/;"	e	enum:ofp_config_flags
+OFPC_FRAG_REASM	openflow.h	/^    OFPC_FRAG_REASM    = 1 << 1,  \/* Reassemble (only if OFPC_IP_REASM set). *\/$/;"	e	enum:ofp_config_flags
+OFPC_GROUP_STATS	openflow.h	/^    OFPC_GROUP_STATS    = 1 << 3,  \/* Group statistics. *\/$/;"	e	enum:ofp_capabilities
+OFPC_IP_REASM	openflow.h	/^    OFPC_IP_REASM       = 1 << 5,  \/* Can reassemble IP fragments. *\/$/;"	e	enum:ofp_capabilities
+OFPC_PORT_BLOCKED	openflow.h	/^    OFPC_PORT_BLOCKED   = 1 << 8,  \/* Switch will block looping ports. *\/$/;"	e	enum:ofp_capabilities
+OFPC_PORT_STATS	openflow.h	/^    OFPC_PORT_STATS     = 1 << 2,  \/* Port statistics. *\/$/;"	e	enum:ofp_capabilities
+OFPC_QUEUE_STATS	openflow.h	/^    OFPC_QUEUE_STATS    = 1 << 6,  \/* Queue statistics. *\/$/;"	e	enum:ofp_capabilities
+OFPC_TABLE_STATS	openflow.h	/^    OFPC_TABLE_STATS    = 1 << 1,  \/* Table statistics. *\/$/;"	e	enum:ofp_capabilities
+OFPET_ASYNC_CONFIG_FAILED	openflow.h	/^    OFPET_ASYNC_CONFIG_FAILED  = 15, \/* Asynchronous config request failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_BAD_ACTION	openflow.h	/^    OFPET_BAD_ACTION           = 2,  \/* Error in action description. *\/$/;"	e	enum:ofp_error_type
+OFPET_BAD_INSTRUCTION	openflow.h	/^    OFPET_BAD_INSTRUCTION      = 3,  \/* Error in instruction list. *\/$/;"	e	enum:ofp_error_type
+OFPET_BAD_MATCH	openflow.h	/^    OFPET_BAD_MATCH            = 4,  \/* Error in match. *\/$/;"	e	enum:ofp_error_type
+OFPET_BAD_PROPERTY	openflow.h	/^    OFPET_BAD_PROPERTY         = 14, \/* Some property is invalid. *\/$/;"	e	enum:ofp_error_type
+OFPET_BAD_REQUEST	openflow.h	/^    OFPET_BAD_REQUEST          = 1,  \/* Request was not understood. *\/$/;"	e	enum:ofp_error_type
+OFPET_BUNDLE_FAILED	openflow.h	/^    OFPET_BUNDLE_FAILED        = 17, \/* Bundle operation failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_EXPERIMENTER	openflow.h	/^    OFPET_EXPERIMENTER = 0xffff      \/* Experimenter error messages. *\/$/;"	e	enum:ofp_error_type
+OFPET_FLOW_MOD_FAILED	openflow.h	/^    OFPET_FLOW_MOD_FAILED      = 5,  \/* Problem modifying flow entry. *\/$/;"	e	enum:ofp_error_type
+OFPET_FLOW_MONITOR_FAILED	openflow.h	/^    OFPET_FLOW_MONITOR_FAILED  = 16, \/* Setting flow monitor failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_GROUP_MOD_FAILED	openflow.h	/^    OFPET_GROUP_MOD_FAILED     = 6,  \/* Problem modifying group entry. *\/$/;"	e	enum:ofp_error_type
+OFPET_HELLO_FAILED	openflow.h	/^    OFPET_HELLO_FAILED         = 0,  \/* Hello protocol failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_METER_MOD_FAILED	openflow.h	/^    OFPET_METER_MOD_FAILED     = 12, \/* Error in meter. *\/$/;"	e	enum:ofp_error_type
+OFPET_PORT_MOD_FAILED	openflow.h	/^    OFPET_PORT_MOD_FAILED      = 7,  \/* Port mod request failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_QUEUE_OP_FAILED	openflow.h	/^    OFPET_QUEUE_OP_FAILED      = 9,  \/* Queue operation failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_ROLE_REQUEST_FAILED	openflow.h	/^    OFPET_ROLE_REQUEST_FAILED  = 11, \/* Controller Role request failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_SWITCH_CONFIG_FAILED	openflow.h	/^    OFPET_SWITCH_CONFIG_FAILED = 10, \/* Switch config request failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_TABLE_FEATURES_FAILED	openflow.h	/^    OFPET_TABLE_FEATURES_FAILED = 13, \/* Setting table features failed. *\/$/;"	e	enum:ofp_error_type
+OFPET_TABLE_MOD_FAILED	openflow.h	/^    OFPET_TABLE_MOD_FAILED     = 8,  \/* Table mod request failed. *\/$/;"	e	enum:ofp_error_type
+OFPFC_ADD	openflow.h	/^    OFPFC_ADD           = 0, \/* New flow. *\/$/;"	e	enum:ofp_flow_mod_command
+OFPFC_DELETE	openflow.h	/^    OFPFC_DELETE        = 3, \/* Delete all matching flows. *\/$/;"	e	enum:ofp_flow_mod_command
+OFPFC_DELETE_STRICT	openflow.h	/^    OFPFC_DELETE_STRICT = 4, \/* Delete entry strictly matching wildcards and$/;"	e	enum:ofp_flow_mod_command
+OFPFC_MODIFY	openflow.h	/^    OFPFC_MODIFY        = 1, \/* Modify all matching flows. *\/$/;"	e	enum:ofp_flow_mod_command
+OFPFC_MODIFY_STRICT	openflow.h	/^    OFPFC_MODIFY_STRICT = 2, \/* Modify entry strictly matching wildcards and$/;"	e	enum:ofp_flow_mod_command
+OFPFF_CHECK_OVERLAP	openflow.h	/^    OFPFF_CHECK_OVERLAP = 1 << 1,  \/* Check for overlapping entries first. *\/$/;"	e	enum:ofp_flow_mod_flags
+OFPFF_NO_BYT_COUNTS	openflow.h	/^    OFPFF_NO_BYT_COUNTS = 1 << 4,  \/* Don't keep track of byte count. *\/$/;"	e	enum:ofp_flow_mod_flags
+OFPFF_NO_PKT_COUNTS	openflow.h	/^    OFPFF_NO_PKT_COUNTS = 1 << 3,  \/* Don't keep track of packet count. *\/$/;"	e	enum:ofp_flow_mod_flags
+OFPFF_RESET_COUNTS	openflow.h	/^    OFPFF_RESET_COUNTS  = 1 << 2,  \/* Reset flow packet and byte counts. *\/$/;"	e	enum:ofp_flow_mod_flags
+OFPFF_SEND_FLOW_REM	openflow.h	/^    OFPFF_SEND_FLOW_REM = 1 << 0,  \/* Send flow removed message when flow$/;"	e	enum:ofp_flow_mod_flags
+OFPFMC_ADD	openflow.h	/^    OFPFMC_ADD    = 0,       \/* New flow monitor. *\/$/;"	e	enum:ofp_flow_monitor_command
+OFPFMC_DELETE	openflow.h	/^    OFPFMC_DELETE = 2,       \/* Delete\/cancel existing flow monitor. *\/$/;"	e	enum:ofp_flow_monitor_command
+OFPFMC_MODIFY	openflow.h	/^    OFPFMC_MODIFY = 1,       \/* Modify existing flow monitor. *\/$/;"	e	enum:ofp_flow_monitor_command
+OFPFME_ABBREV	openflow.h	/^    OFPFME_ABBREV = 4,           \/* Abbreviated reply. *\/$/;"	e	enum:ofp_flow_update_event
+OFPFME_ADDED	openflow.h	/^    OFPFME_ADDED = 1,            \/* Flow was added. *\/$/;"	e	enum:ofp_flow_update_event
+OFPFME_INITIAL	openflow.h	/^    OFPFME_INITIAL = 0,          \/* Flow present when flow monitor created. *\/$/;"	e	enum:ofp_flow_update_event
+OFPFME_MODIFIED	openflow.h	/^    OFPFME_MODIFIED = 3,         \/* Flow instructions were changed. *\/$/;"	e	enum:ofp_flow_update_event
+OFPFME_PAUSED	openflow.h	/^    OFPFME_PAUSED = 5,          \/* Monitoring paused (out of buffer space). *\/$/;"	e	enum:ofp_flow_update_event
+OFPFME_REMOVED	openflow.h	/^    OFPFME_REMOVED = 2,          \/* Flow was removed. *\/$/;"	e	enum:ofp_flow_update_event
+OFPFME_RESUMED	openflow.h	/^    OFPFME_RESUMED = 6,         \/* Monitoring resumed. *\/$/;"	e	enum:ofp_flow_update_event
+OFPFMFC_BAD_COMMAND	openflow.h	/^    OFPFMFC_BAD_COMMAND  = 6,   \/* Unsupported or unknown command. *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_BAD_FLAGS	openflow.h	/^    OFPFMFC_BAD_FLAGS    = 7,   \/* Unsupported or unknown flags. *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_BAD_PRIORITY	openflow.h	/^    OFPFMFC_BAD_PRIORITY = 9,   \/* Unsupported priority value. *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_BAD_TABLE_ID	openflow.h	/^    OFPFMFC_BAD_TABLE_ID = 2,   \/* Table does not exist *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_BAD_TIMEOUT	openflow.h	/^    OFPFMFC_BAD_TIMEOUT  = 5,   \/* Flow not added because of unsupported$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_CANT_SYNC	openflow.h	/^    OFPFMFC_CANT_SYNC    = 8,   \/* Problem in table synchronisation. *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_EPERM	openflow.h	/^    OFPFMFC_EPERM        = 4,   \/* Permissions error. *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_IS_SYNC	openflow.h	/^    OFPFMFC_IS_SYNC      = 10,  \/* Synchronised flow entry is read only. *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_OVERLAP	openflow.h	/^    OFPFMFC_OVERLAP      = 3,   \/* Attempted to add overlapping flow with$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_TABLE_FULL	openflow.h	/^    OFPFMFC_TABLE_FULL   = 1,   \/* Flow not added because table was full. *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMFC_UNKNOWN	openflow.h	/^    OFPFMFC_UNKNOWN      = 0,   \/* Unspecified error. *\/$/;"	e	enum:ofp_flow_mod_failed_code
+OFPFMF_ADD	openflow.h	/^    OFPFMF_ADD = 1 << 1,         \/* New matching flows as they are added. *\/$/;"	e	enum:ofp_flow_monitor_flags
+OFPFMF_INITIAL	openflow.h	/^    OFPFMF_INITIAL = 1 << 0,     \/* Initially matching flows. *\/$/;"	e	enum:ofp_flow_monitor_flags
+OFPFMF_INSTRUCTIONS	openflow.h	/^    OFPFMF_INSTRUCTIONS = 1 << 4,\/* If set, instructions are included. *\/$/;"	e	enum:ofp_flow_monitor_flags
+OFPFMF_MODIFY	openflow.h	/^    OFPFMF_MODIFY = 1 << 3,      \/* Matching flows as they are changed. *\/$/;"	e	enum:ofp_flow_monitor_flags
+OFPFMF_NO_ABBREV	openflow.h	/^    OFPFMF_NO_ABBREV = 1 << 5,   \/* If set, include own changes in full. *\/$/;"	e	enum:ofp_flow_monitor_flags
+OFPFMF_ONLY_OWN	openflow.h	/^    OFPFMF_ONLY_OWN = 1 << 6,    \/* If set, don't include other controllers. *\/$/;"	e	enum:ofp_flow_monitor_flags
+OFPFMF_REMOVED	openflow.h	/^    OFPFMF_REMOVED = 1 << 2,     \/* Old matching flows as they are removed. *\/$/;"	e	enum:ofp_flow_monitor_flags
+OFPFSR_STATS_REQUEST	openflow.h	/^    OFPFSR_STATS_REQUEST = 0,   \/* Reply to a OFPMP_FLOW_STATS request. *\/$/;"	e	enum:ofp_flow_stats_reason
+OFPFSR_STAT_TRIGGER	openflow.h	/^    OFPFSR_STAT_TRIGGER  = 1,   \/* Status generated by OFPIT_STAT_TRIGGER. *\/$/;"	e	enum:ofp_flow_stats_reason
+OFPGBPT_EXPERIMENTER	openflow.h	/^    OFPGBPT_EXPERIMENTER      = 0xFFFF,  \/* Experimenter defined. *\/$/;"	e	enum:ofp_group_bucket_prop_type
+OFPGBPT_WATCH_GROUP	openflow.h	/^    OFPGBPT_WATCH_GROUP            = 2,  \/* Fast failover groups only. *\/$/;"	e	enum:ofp_group_bucket_prop_type
+OFPGBPT_WATCH_PORT	openflow.h	/^    OFPGBPT_WATCH_PORT             = 1,  \/* Fast failover groups only. *\/$/;"	e	enum:ofp_group_bucket_prop_type
+OFPGBPT_WEIGHT	openflow.h	/^    OFPGBPT_WEIGHT                 = 0,  \/* Select groups only. *\/$/;"	e	enum:ofp_group_bucket_prop_type
+OFPGC_ADD	openflow.h	/^    OFPGC_ADD    = 0,       \/* New group. *\/$/;"	e	enum:ofp_group_mod_command
+OFPGC_DELETE	openflow.h	/^    OFPGC_DELETE = 2,       \/* Delete all matching groups. *\/$/;"	e	enum:ofp_group_mod_command
+OFPGC_INSERT_BUCKET	openflow.h	/^    OFPGC_INSERT_BUCKET = 3,\/* Insert action buckets to the already available$/;"	e	enum:ofp_group_mod_command
+OFPGC_MODIFY	openflow.h	/^    OFPGC_MODIFY = 1,       \/* Modify all matching groups. *\/$/;"	e	enum:ofp_group_mod_command
+OFPGC_REMOVE_BUCKET	openflow.h	/^    OFPGC_REMOVE_BUCKET = 5,\/* Remove all action buckets or any specific action$/;"	e	enum:ofp_group_mod_command
+OFPGFC_CHAINING	openflow.h	/^    OFPGFC_CHAINING        = 1 << 2,  \/* Support chaining groups *\/$/;"	e	enum:ofp_group_capabilities
+OFPGFC_CHAINING_CHECKS	openflow.h	/^    OFPGFC_CHAINING_CHECKS = 1 << 3,  \/* Check chaining for loops and delete *\/$/;"	e	enum:ofp_group_capabilities
+OFPGFC_SELECT_LIVENESS	openflow.h	/^    OFPGFC_SELECT_LIVENESS = 1 << 1,  \/* Support liveness for select groups *\/$/;"	e	enum:ofp_group_capabilities
+OFPGFC_SELECT_WEIGHT	openflow.h	/^    OFPGFC_SELECT_WEIGHT   = 1 << 0,  \/* Support weight for select groups *\/$/;"	e	enum:ofp_group_capabilities
+OFPGMFC_BAD_BUCKET	openflow.h	/^    OFPGMFC_BAD_BUCKET           = 12, \/* Error in bucket. *\/$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_BAD_COMMAND	openflow.h	/^    OFPGMFC_BAD_COMMAND          = 11, \/* Unsupported or unknown command. *\/$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_BAD_TYPE	openflow.h	/^    OFPGMFC_BAD_TYPE             = 10, \/* Unsupported or unknown group type. *\/$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_BAD_WATCH	openflow.h	/^    OFPGMFC_BAD_WATCH            = 13, \/* Error in watch port\/group. *\/$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_BUCKET_EXISTS	openflow.h	/^    OFPGMFC_BUCKET_EXISTS        = 16, \/* Can't insert bucket because a bucket$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_CHAINED_GROUP	openflow.h	/^    OFPGMFC_CHAINED_GROUP        = 9,  \/* Group not deleted because another$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_CHAINING_UNSUPPORTED	openflow.h	/^    OFPGMFC_CHAINING_UNSUPPORTED = 5,  \/* Switch does not support groups that$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_EPERM	openflow.h	/^    OFPGMFC_EPERM                = 14, \/* Permissions error. *\/$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_GROUP_EXISTS	openflow.h	/^    OFPGMFC_GROUP_EXISTS         = 0,  \/* Group not added because a group ADD$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_INVALID_GROUP	openflow.h	/^    OFPGMFC_INVALID_GROUP        = 1,  \/* Group not added because Group$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_LOOP	openflow.h	/^    OFPGMFC_LOOP                 = 7,  \/* Group entry would cause a loop. *\/$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_OUT_OF_BUCKETS	openflow.h	/^    OFPGMFC_OUT_OF_BUCKETS       = 4,  \/* The maximum number of action buckets$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_OUT_OF_GROUPS	openflow.h	/^    OFPGMFC_OUT_OF_GROUPS        = 3,  \/* The group table is full. *\/$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_UNKNOWN_BUCKET	openflow.h	/^    OFPGMFC_UNKNOWN_BUCKET       = 15, \/* Invalid bucket identifier used in$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_UNKNOWN_GROUP	openflow.h	/^    OFPGMFC_UNKNOWN_GROUP        = 8,  \/* Group not modified because a group$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_WATCH_UNSUPPORTED	openflow.h	/^    OFPGMFC_WATCH_UNSUPPORTED    = 6,  \/* This group cannot watch the watch_port$/;"	e	enum:ofp_group_mod_failed_code
+OFPGMFC_WEIGHT_UNSUPPORTED	openflow.h	/^    OFPGMFC_WEIGHT_UNSUPPORTED   = 2,  \/* Switch does not support unequal load$/;"	e	enum:ofp_group_mod_failed_code
+OFPGPT_EXPERIMENTER	openflow.h	/^    OFPGPT_EXPERIMENTER      = 0xFFFF,  \/* Experimenter defined. *\/$/;"	e	enum:ofp_group_prop_type
+OFPGT_ALL	openflow.h	/^    OFPGT_ALL      = 0, \/* All (multicast\/broadcast) group.  *\/$/;"	e	enum:ofp_group_type
+OFPGT_FF	openflow.h	/^    OFPGT_FF       = 3, \/* Fast failover group. *\/$/;"	e	enum:ofp_group_type
+OFPGT_INDIRECT	openflow.h	/^    OFPGT_INDIRECT = 2, \/* Indirect group. *\/$/;"	e	enum:ofp_group_type
+OFPGT_SELECT	openflow.h	/^    OFPGT_SELECT   = 1, \/* Select group. *\/$/;"	e	enum:ofp_group_type
+OFPG_ALL	openflow.h	/^    OFPG_ALL        = 0xfffffffc,  \/* Represents all groups for group delete$/;"	e	enum:ofp_group
+OFPG_ANY	openflow.h	/^    OFPG_ANY        = 0xffffffff   \/* Special wildcard: no group specified. *\/$/;"	e	enum:ofp_group
+OFPG_BUCKET_ALL	openflow.h	/^    OFPG_BUCKET_ALL   = 0xffffffff  \/* All action buckets in a group,$/;"	e	enum:ofp_group_bucket
+OFPG_BUCKET_FIRST	openflow.h	/^    OFPG_BUCKET_FIRST = 0xfffffffd, \/* First bucket ID in the list of action$/;"	e	enum:ofp_group_bucket
+OFPG_BUCKET_LAST	openflow.h	/^    OFPG_BUCKET_LAST  = 0xfffffffe, \/* Last bucket ID in the list of action$/;"	e	enum:ofp_group_bucket
+OFPG_BUCKET_MAX	openflow.h	/^    OFPG_BUCKET_MAX   = 0xffffff00, \/* Last usable bucket ID. *\/$/;"	e	enum:ofp_group_bucket
+OFPG_MAX	openflow.h	/^    OFPG_MAX        = 0xffffff00,$/;"	e	enum:ofp_group
+OFPHET_VERSIONBITMAP	openflow.h	/^    OFPHET_VERSIONBITMAP          = 1,  \/* Bitmap of version supported. *\/$/;"	e	enum:ofp_hello_elem_type
+OFPHFC_EPERM	openflow.h	/^    OFPHFC_EPERM        = 1,    \/* Permissions error. *\/$/;"	e	enum:ofp_hello_failed_code
+OFPHFC_INCOMPATIBLE	openflow.h	/^    OFPHFC_INCOMPATIBLE = 0,    \/* No compatible version. *\/$/;"	e	enum:ofp_hello_failed_code
+OFPHTN_ETHERTYPE	openflow.h	/^    OFPHTN_ETHERTYPE        = 1,  \/* ns_type is an Ethertype. *\/$/;"	e	enum:ofp_header_type_namespaces
+OFPHTN_IPV4_OPTION	openflow.h	/^    OFPHTN_IPV4_OPTION      = 4,  \/* ns_type is an IPv4 option number. *\/$/;"	e	enum:ofp_header_type_namespaces
+OFPHTN_IP_PROTO	openflow.h	/^    OFPHTN_IP_PROTO         = 2,  \/* ns_type is a IP protocol number. *\/$/;"	e	enum:ofp_header_type_namespaces
+OFPHTN_ONF	openflow.h	/^    OFPHTN_ONF              = 0,  \/* ONF namespace. *\/$/;"	e	enum:ofp_header_type_namespaces
+OFPHTN_UDP_TCP_PORT	openflow.h	/^    OFPHTN_UDP_TCP_PORT     = 3,  \/* ns_type is a TCP or UDP port. *\/$/;"	e	enum:ofp_header_type_namespaces
+OFPHTO_ETHERNET	openflow.h	/^    OFPHTO_ETHERNET         = 0,  \/* Ethernet (DIX or IEEE 802.3) - default. *\/$/;"	e	enum:ofp_header_type_onf
+OFPHTO_NO_HEADER	openflow.h	/^    OFPHTO_NO_HEADER        = 1,  \/* No header, ex. circuit switch. *\/$/;"	e	enum:ofp_header_type_onf
+OFPHTO_OXM_EXPERIMENTER	openflow.h	/^    OFPHTO_OXM_EXPERIMENTER = 0xFFFF, \/* Use Experimenter OXM. *\/$/;"	e	enum:ofp_header_type_onf
+OFPIEH_AUTH	openflow.h	/^    OFPIEH_AUTH   = 1 << 2,     \/* Authentication header present. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIEH_DEST	openflow.h	/^    OFPIEH_DEST   = 1 << 3,     \/* 1 or 2 dest headers present. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIEH_ESP	openflow.h	/^    OFPIEH_ESP    = 1 << 1,     \/* Encrypted Sec Payload header present. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIEH_FRAG	openflow.h	/^    OFPIEH_FRAG   = 1 << 4,     \/* Fragment header present. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIEH_HOP	openflow.h	/^    OFPIEH_HOP    = 1 << 6,     \/* Hop-by-hop header present. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIEH_NONEXT	openflow.h	/^    OFPIEH_NONEXT = 1 << 0,     \/* "No next header" encountered. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIEH_ROUTER	openflow.h	/^    OFPIEH_ROUTER = 1 << 5,     \/* Router header present. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIEH_UNREP	openflow.h	/^    OFPIEH_UNREP  = 1 << 7,     \/* Unexpected repeats encountered. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIEH_UNSEQ	openflow.h	/^    OFPIEH_UNSEQ  = 1 << 8,     \/* Unexpected sequencing encountered. *\/$/;"	e	enum:ofp_ipv6exthdr_flags
+OFPIT_APPLY_ACTIONS	openflow.h	/^    OFPIT_APPLY_ACTIONS = 4,    \/* Applies the action(s) immediately *\/$/;"	e	enum:ofp_instruction_type
+OFPIT_CLEAR_ACTIONS	openflow.h	/^    OFPIT_CLEAR_ACTIONS = 5,    \/* Clears all actions from the datapath$/;"	e	enum:ofp_instruction_type
+OFPIT_DEPRECATED	openflow.h	/^    OFPIT_DEPRECATED = 6,       \/* Deprecated (was apply meter) *\/$/;"	e	enum:ofp_instruction_type
+OFPIT_EXPERIMENTER	openflow.h	/^    OFPIT_EXPERIMENTER = 0xFFFF  \/* Experimenter instruction *\/$/;"	e	enum:ofp_instruction_type
+OFPIT_GOTO_TABLE	openflow.h	/^    OFPIT_GOTO_TABLE = 1,       \/* Setup the next table in the lookup$/;"	e	enum:ofp_instruction_type
+OFPIT_STAT_TRIGGER	openflow.h	/^    OFPIT_STAT_TRIGGER = 7,     \/* Statistics triggers *\/$/;"	e	enum:ofp_instruction_type
+OFPIT_WRITE_ACTIONS	openflow.h	/^    OFPIT_WRITE_ACTIONS = 3,    \/* Write the action(s) onto the datapath action$/;"	e	enum:ofp_instruction_type
+OFPIT_WRITE_METADATA	openflow.h	/^    OFPIT_WRITE_METADATA = 2,   \/* Setup the metadata field for use later in$/;"	e	enum:ofp_instruction_type
+OFPMBT_DROP	openflow.h	/^    OFPMBT_DROP            = 1,      \/* Drop packet. *\/$/;"	e	enum:ofp_meter_band_type
+OFPMBT_DSCP_REMARK	openflow.h	/^    OFPMBT_DSCP_REMARK     = 2,      \/* Remark DSCP in the IP header. *\/$/;"	e	enum:ofp_meter_band_type
+OFPMBT_EXPERIMENTER	openflow.h	/^    OFPMBT_EXPERIMENTER    = 0xFFFF  \/* Experimenter meter band. *\/$/;"	e	enum:ofp_meter_band_type
+OFPMC_ADD	openflow.h	/^    OFPMC_ADD,              \/* New meter. *\/$/;"	e	enum:ofp_meter_mod_command
+OFPMC_DELETE	openflow.h	/^    OFPMC_DELETE,           \/* Delete specified meter. *\/$/;"	e	enum:ofp_meter_mod_command
+OFPMC_MODIFY	openflow.h	/^    OFPMC_MODIFY,           \/* Modify specified meter. *\/$/;"	e	enum:ofp_meter_mod_command
+OFPMFF_ACTION_SET	openflow.h	/^    OFPMFF_ACTION_SET   = 1 << 0, \/* Support meter action in action set. *\/$/;"	e	enum:ofp_meter_feature_flags
+OFPMFF_ANY_POSITION	openflow.h	/^    OFPMFF_ANY_POSITION = 1 << 1, \/* Support any position in action list. *\/$/;"	e	enum:ofp_meter_feature_flags
+OFPMFF_MULTI_LIST	openflow.h	/^    OFPMFF_MULTI_LIST   = 1 << 2, \/* Support multiple actions in action list. *\/$/;"	e	enum:ofp_meter_feature_flags
+OFPMF_BURST	openflow.h	/^    OFPMF_BURST   = 1 << 2,     \/* Do burst size. *\/$/;"	e	enum:ofp_meter_flags
+OFPMF_KBPS	openflow.h	/^    OFPMF_KBPS    = 1 << 0,     \/* Rate value in kb\/s (kilo-bit per second). *\/$/;"	e	enum:ofp_meter_flags
+OFPMF_PKTPS	openflow.h	/^    OFPMF_PKTPS   = 1 << 1,     \/* Rate value in packet\/sec. *\/$/;"	e	enum:ofp_meter_flags
+OFPMF_STATS	openflow.h	/^    OFPMF_STATS   = 1 << 3,     \/* Collect statistics. *\/$/;"	e	enum:ofp_meter_flags
+OFPMMFC_BAD_BAND	openflow.h	/^    OFPMMFC_BAD_BAND      = 8,  \/* Band unsupported. *\/$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_BAD_BAND_VALUE	openflow.h	/^    OFPMMFC_BAD_BAND_VALUE = 9, \/* Band value unsupported. *\/$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_BAD_BURST	openflow.h	/^    OFPMMFC_BAD_BURST     = 7,  \/* Burst size unsupported. *\/$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_BAD_COMMAND	openflow.h	/^    OFPMMFC_BAD_COMMAND   = 4,  \/* Unsupported or unknown command. *\/$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_BAD_FLAGS	openflow.h	/^    OFPMMFC_BAD_FLAGS     = 5,  \/* Flag configuration unsupported. *\/$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_BAD_RATE	openflow.h	/^    OFPMMFC_BAD_RATE      = 6,  \/* Rate unsupported. *\/$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_INVALID_METER	openflow.h	/^    OFPMMFC_INVALID_METER = 2,  \/* Meter not added because Meter specified$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_METER_EXISTS	openflow.h	/^    OFPMMFC_METER_EXISTS  = 1,  \/* Meter not added because a Meter ADD$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_OUT_OF_BANDS	openflow.h	/^    OFPMMFC_OUT_OF_BANDS  = 11, \/* The maximum number of properties$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_OUT_OF_METERS	openflow.h	/^    OFPMMFC_OUT_OF_METERS = 10, \/* No more meters available. *\/$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_UNKNOWN	openflow.h	/^    OFPMMFC_UNKNOWN       = 0,  \/* Unspecified error. *\/$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMMFC_UNKNOWN_METER	openflow.h	/^    OFPMMFC_UNKNOWN_METER = 3,  \/* Meter not modified because a Meter MODIFY$/;"	e	enum:ofp_meter_mod_failed_code
+OFPMOFC_BAD_COMMAND	openflow.h	/^    OFPMOFC_BAD_COMMAND   = 4,  \/* Unsupported or unknown command. *\/$/;"	e	enum:ofp_flow_monitor_failed_code
+OFPMOFC_BAD_FLAGS	openflow.h	/^    OFPMOFC_BAD_FLAGS     = 5,  \/* Flag configuration unsupported. *\/$/;"	e	enum:ofp_flow_monitor_failed_code
+OFPMOFC_BAD_OUT	openflow.h	/^    OFPMOFC_BAD_OUT       = 7,  \/* Error in output port\/group. *\/$/;"	e	enum:ofp_flow_monitor_failed_code
+OFPMOFC_BAD_TABLE_ID	openflow.h	/^    OFPMOFC_BAD_TABLE_ID  = 6,  \/* Specified table does not exist. *\/$/;"	e	enum:ofp_flow_monitor_failed_code
+OFPMOFC_INVALID_MONITOR	openflow.h	/^    OFPMOFC_INVALID_MONITOR = 2, \/* Monitor not added because Monitor specified$/;"	e	enum:ofp_flow_monitor_failed_code
+OFPMOFC_MONITOR_EXISTS	openflow.h	/^    OFPMOFC_MONITOR_EXISTS = 1, \/* Monitor not added because a Monitor ADD$/;"	e	enum:ofp_flow_monitor_failed_code
+OFPMOFC_UNKNOWN	openflow.h	/^    OFPMOFC_UNKNOWN       = 0,  \/* Unspecified error. *\/$/;"	e	enum:ofp_flow_monitor_failed_code
+OFPMOFC_UNKNOWN_MONITOR	openflow.h	/^    OFPMOFC_UNKNOWN_MONITOR = 3, \/* Monitor not modified because a Monitor$/;"	e	enum:ofp_flow_monitor_failed_code
+OFPMPF_REPLY_MORE	openflow.h	/^    OFPMPF_REPLY_MORE  = 1 << 0  \/* More replies to follow. *\/$/;"	e	enum:ofp_multipart_reply_flags
+OFPMPF_REQ_MORE	openflow.h	/^    OFPMPF_REQ_MORE  = 1 << 0  \/* More requests to follow. *\/$/;"	e	enum:ofp_multipart_request_flags
+OFPMP_AGGREGATE_STATS	openflow.h	/^    OFPMP_AGGREGATE_STATS = 2,$/;"	e	enum:ofp_multipart_type
+OFPMP_BUNDLE_FEATURES	openflow.h	/^    OFPMP_BUNDLE_FEATURES = 19,$/;"	e	enum:ofp_multipart_type
+OFPMP_CONTROLLER_STATUS	openflow.h	/^    OFPMP_CONTROLLER_STATUS = 18,$/;"	e	enum:ofp_multipart_type
+OFPMP_DESC	openflow.h	/^    OFPMP_DESC = 0,$/;"	e	enum:ofp_multipart_type
+OFPMP_EXPERIMENTER	openflow.h	/^    OFPMP_EXPERIMENTER = 0xffff$/;"	e	enum:ofp_multipart_type
+OFPMP_FLOW_DESC	openflow.h	/^    OFPMP_FLOW_DESC = 1,$/;"	e	enum:ofp_multipart_type
+OFPMP_FLOW_MONITOR	openflow.h	/^    OFPMP_FLOW_MONITOR = 16,$/;"	e	enum:ofp_multipart_type
+OFPMP_FLOW_STATS	openflow.h	/^    OFPMP_FLOW_STATS = 17,$/;"	e	enum:ofp_multipart_type
+OFPMP_GROUP_DESC	openflow.h	/^    OFPMP_GROUP_DESC = 7,$/;"	e	enum:ofp_multipart_type
+OFPMP_GROUP_FEATURES	openflow.h	/^    OFPMP_GROUP_FEATURES = 8,$/;"	e	enum:ofp_multipart_type
+OFPMP_GROUP_STATS	openflow.h	/^    OFPMP_GROUP_STATS = 6,$/;"	e	enum:ofp_multipart_type
+OFPMP_METER_DESC	openflow.h	/^    OFPMP_METER_DESC = 10,$/;"	e	enum:ofp_multipart_type
+OFPMP_METER_FEATURES	openflow.h	/^    OFPMP_METER_FEATURES = 11,$/;"	e	enum:ofp_multipart_type
+OFPMP_METER_STATS	openflow.h	/^    OFPMP_METER_STATS = 9,$/;"	e	enum:ofp_multipart_type
+OFPMP_PORT_DESC	openflow.h	/^    OFPMP_PORT_DESC = 13,$/;"	e	enum:ofp_multipart_type
+OFPMP_PORT_STATS	openflow.h	/^    OFPMP_PORT_STATS = 4,$/;"	e	enum:ofp_multipart_type
+OFPMP_QUEUE_DESC	openflow.h	/^    OFPMP_QUEUE_DESC = 15,$/;"	e	enum:ofp_multipart_type
+OFPMP_QUEUE_STATS	openflow.h	/^    OFPMP_QUEUE_STATS = 5,$/;"	e	enum:ofp_multipart_type
+OFPMP_TABLE_DESC	openflow.h	/^    OFPMP_TABLE_DESC = 14,$/;"	e	enum:ofp_multipart_type
+OFPMP_TABLE_FEATURES	openflow.h	/^    OFPMP_TABLE_FEATURES = 12,$/;"	e	enum:ofp_multipart_type
+OFPMP_TABLE_STATS	openflow.h	/^    OFPMP_TABLE_STATS = 3,$/;"	e	enum:ofp_multipart_type
+OFPMT_OXM	openflow.h	/^    OFPMT_OXM      = 1,       \/* OpenFlow Extensible Match *\/$/;"	e	enum:ofp_match_type
+OFPMT_STANDARD	openflow.h	/^    OFPMT_STANDARD = 0,       \/* Deprecated. *\/$/;"	e	enum:ofp_match_type
+OFPM_ALL	openflow.h	/^    OFPM_ALL        = 0xffffffff,  \/* Represents all meters for stat requests$/;"	e	enum:ofp_meter
+OFPM_CONTROLLER	openflow.h	/^    OFPM_CONTROLLER = 0xfffffffe,  \/* Meter for controller connection. *\/$/;"	e	enum:ofp_meter
+OFPM_MAX	openflow.h	/^    OFPM_MAX        = 0xffff0000,$/;"	e	enum:ofp_meter
+OFPM_SLOWPATH	openflow.h	/^    OFPM_SLOWPATH   = 0xfffffffd,  \/* Meter for slow datapath. *\/$/;"	e	enum:ofp_meter
+OFPOPF_RX_TUNE	openflow.h	/^    OFPOPF_RX_TUNE   = 1 << 0,  \/* Receiver is tunable *\/$/;"	e	enum:ofp_optical_port_features
+OFPOPF_TX_PWR	openflow.h	/^    OFPOPF_TX_PWR    = 1 << 2,  \/* Power is configurable *\/$/;"	e	enum:ofp_optical_port_features
+OFPOPF_TX_TUNE	openflow.h	/^    OFPOPF_TX_TUNE   = 1 << 1,  \/* Transmit is tunable *\/$/;"	e	enum:ofp_optical_port_features
+OFPOPF_USE_FREQ	openflow.h	/^    OFPOPF_USE_FREQ  = 1 << 3,  \/* Use Frequency, not wavelength *\/$/;"	e	enum:ofp_optical_port_features
+OFPOSF_RX_PWR	openflow.h	/^    OFPOSF_RX_PWR    = 1 << 4,  \/* RX power is valid *\/$/;"	e	enum:ofp_port_stats_optical_flags
+OFPOSF_RX_TUNE	openflow.h	/^    OFPOSF_RX_TUNE   = 1 << 0,  \/* Receiver tune info valid *\/$/;"	e	enum:ofp_port_stats_optical_flags
+OFPOSF_TX_BIAS	openflow.h	/^    OFPOSF_TX_BIAS   = 1 << 5,  \/* Transmit bias is valid *\/$/;"	e	enum:ofp_port_stats_optical_flags
+OFPOSF_TX_PWR	openflow.h	/^    OFPOSF_TX_PWR    = 1 << 2,  \/* TX Power is valid *\/$/;"	e	enum:ofp_port_stats_optical_flags
+OFPOSF_TX_TEMP	openflow.h	/^    OFPOSF_TX_TEMP   = 1 << 6,  \/* TX Temp is valid *\/$/;"	e	enum:ofp_port_stats_optical_flags
+OFPOSF_TX_TUNE	openflow.h	/^    OFPOSF_TX_TUNE   = 1 << 1,  \/* Transmit tune info valid *\/$/;"	e	enum:ofp_port_stats_optical_flags
+OFPPC_NO_FWD	openflow.h	/^    OFPPC_NO_FWD       = 1 << 5,  \/* Drop packets forwarded to port. *\/$/;"	e	enum:ofp_port_config
+OFPPC_NO_PACKET_IN	openflow.h	/^    OFPPC_NO_PACKET_IN = 1 << 6   \/* Do not send packet-in msgs for port. *\/$/;"	e	enum:ofp_port_config
+OFPPC_NO_RECV	openflow.h	/^    OFPPC_NO_RECV      = 1 << 2,  \/* Drop all packets received by port. *\/$/;"	e	enum:ofp_port_config
+OFPPC_PORT_DOWN	openflow.h	/^    OFPPC_PORT_DOWN    = 1 << 0,  \/* Port is administratively down. *\/$/;"	e	enum:ofp_port_config
+OFPPDPT_ETHERNET	openflow.h	/^    OFPPDPT_ETHERNET          = 0,      \/* Ethernet property. *\/$/;"	e	enum:ofp_port_desc_prop_type
+OFPPDPT_EXPERIMENTER	openflow.h	/^    OFPPDPT_EXPERIMENTER      = 0xFFFF, \/* Experimenter property. *\/$/;"	e	enum:ofp_port_desc_prop_type
+OFPPDPT_OPTICAL	openflow.h	/^    OFPPDPT_OPTICAL           = 1,      \/* Optical property. *\/$/;"	e	enum:ofp_port_desc_prop_type
+OFPPDPT_PIPELINE_INPUT	openflow.h	/^    OFPPDPT_PIPELINE_INPUT    = 2,      \/* Ingress pipeline fields. *\/$/;"	e	enum:ofp_port_desc_prop_type
+OFPPDPT_PIPELINE_OUTPUT	openflow.h	/^    OFPPDPT_PIPELINE_OUTPUT   = 3,      \/* Egress pipeline fields. *\/$/;"	e	enum:ofp_port_desc_prop_type
+OFPPDPT_RECIRCULATE	openflow.h	/^    OFPPDPT_RECIRCULATE       = 4,      \/* Recirculation property. *\/$/;"	e	enum:ofp_port_desc_prop_type
+OFPPF_100GB_FD	openflow.h	/^    OFPPF_100GB_FD   = 1 << 8,  \/* 100 Gb full-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_100MB_FD	openflow.h	/^    OFPPF_100MB_FD   = 1 << 3,  \/* 100 Mb full-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_100MB_HD	openflow.h	/^    OFPPF_100MB_HD   = 1 << 2,  \/* 100 Mb half-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_10GB_FD	openflow.h	/^    OFPPF_10GB_FD    = 1 << 6,  \/* 10 Gb full-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_10MB_FD	openflow.h	/^    OFPPF_10MB_FD    = 1 << 1,  \/* 10 Mb full-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_10MB_HD	openflow.h	/^    OFPPF_10MB_HD    = 1 << 0,  \/* 10 Mb half-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_1GB_FD	openflow.h	/^    OFPPF_1GB_FD     = 1 << 5,  \/* 1 Gb full-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_1GB_HD	openflow.h	/^    OFPPF_1GB_HD     = 1 << 4,  \/* 1 Gb half-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_1TB_FD	openflow.h	/^    OFPPF_1TB_FD     = 1 << 9,  \/* 1 Tb full-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_40GB_FD	openflow.h	/^    OFPPF_40GB_FD    = 1 << 7,  \/* 40 Gb full-duplex rate support. *\/$/;"	e	enum:ofp_port_features
+OFPPF_AUTONEG	openflow.h	/^    OFPPF_AUTONEG    = 1 << 13, \/* Auto-negotiation. *\/$/;"	e	enum:ofp_port_features
+OFPPF_COPPER	openflow.h	/^    OFPPF_COPPER     = 1 << 11, \/* Copper medium. *\/$/;"	e	enum:ofp_port_features
+OFPPF_FIBER	openflow.h	/^    OFPPF_FIBER      = 1 << 12, \/* Fiber medium. *\/$/;"	e	enum:ofp_port_features
+OFPPF_OTHER	openflow.h	/^    OFPPF_OTHER      = 1 << 10, \/* Other rate, not in the list. *\/$/;"	e	enum:ofp_port_features
+OFPPF_PAUSE	openflow.h	/^    OFPPF_PAUSE      = 1 << 14, \/* Pause. *\/$/;"	e	enum:ofp_port_features
+OFPPF_PAUSE_ASYM	openflow.h	/^    OFPPF_PAUSE_ASYM = 1 << 15  \/* Asymmetric pause. *\/$/;"	e	enum:ofp_port_features
+OFPPMFC_BAD_ADVERTISE	openflow.h	/^    OFPPMFC_BAD_ADVERTISE = 3,   \/* Specified advertise is invalid. *\/$/;"	e	enum:ofp_port_mod_failed_code
+OFPPMFC_BAD_CONFIG	openflow.h	/^    OFPPMFC_BAD_CONFIG    = 2,   \/* Specified config is invalid. *\/$/;"	e	enum:ofp_port_mod_failed_code
+OFPPMFC_BAD_HW_ADDR	openflow.h	/^    OFPPMFC_BAD_HW_ADDR   = 1,   \/* Specified hardware address does not$/;"	e	enum:ofp_port_mod_failed_code
+OFPPMFC_BAD_PORT	openflow.h	/^    OFPPMFC_BAD_PORT      = 0,   \/* Specified port number does not exist. *\/$/;"	e	enum:ofp_port_mod_failed_code
+OFPPMFC_EPERM	openflow.h	/^    OFPPMFC_EPERM         = 4,   \/* Permissions error. *\/$/;"	e	enum:ofp_port_mod_failed_code
+OFPPMPT_ETHERNET	openflow.h	/^    OFPPMPT_ETHERNET          = 0,      \/* Ethernet property. *\/$/;"	e	enum:ofp_port_mod_prop_type
+OFPPMPT_EXPERIMENTER	openflow.h	/^    OFPPMPT_EXPERIMENTER      = 0xFFFF, \/* Experimenter property. *\/$/;"	e	enum:ofp_port_mod_prop_type
+OFPPMPT_OPTICAL	openflow.h	/^    OFPPMPT_OPTICAL           = 1,      \/* Optical property. *\/$/;"	e	enum:ofp_port_mod_prop_type
+OFPPR_ADD	openflow.h	/^    OFPPR_ADD     = 0,         \/* The port was added. *\/$/;"	e	enum:ofp_port_reason
+OFPPR_DELETE	openflow.h	/^    OFPPR_DELETE  = 1,         \/* The port was removed. *\/$/;"	e	enum:ofp_port_reason
+OFPPR_MODIFY	openflow.h	/^    OFPPR_MODIFY  = 2,         \/* Some attribute of the port has changed. *\/$/;"	e	enum:ofp_port_reason
+OFPPSPT_ETHERNET	openflow.h	/^    OFPPSPT_ETHERNET          = 0,      \/* Ethernet property. *\/$/;"	e	enum:ofp_port_stats_prop_type
+OFPPSPT_EXPERIMENTER	openflow.h	/^    OFPPSPT_EXPERIMENTER      = 0xFFFF, \/* Experimenter property. *\/$/;"	e	enum:ofp_port_stats_prop_type
+OFPPSPT_OPTICAL	openflow.h	/^    OFPPSPT_OPTICAL           = 1,      \/* Optical property. *\/$/;"	e	enum:ofp_port_stats_prop_type
+OFPPS_BLOCKED	openflow.h	/^    OFPPS_BLOCKED      = 1 << 1,  \/* Port is blocked *\/$/;"	e	enum:ofp_port_state
+OFPPS_LINK_DOWN	openflow.h	/^    OFPPS_LINK_DOWN    = 1 << 0,  \/* No physical link present. *\/$/;"	e	enum:ofp_port_state
+OFPPS_LIVE	openflow.h	/^    OFPPS_LIVE         = 1 << 2,  \/* Live for Fast Failover Group. *\/$/;"	e	enum:ofp_port_state
+OFPP_ALL	openflow.h	/^    OFPP_ALL        = 0xfffffffc,  \/* All standard ports except input port. *\/$/;"	e	enum:ofp_port_no
+OFPP_ANY	openflow.h	/^    OFPP_ANY        = 0xffffffff   \/* Special value used in some requests when$/;"	e	enum:ofp_port_no
+OFPP_CONTROLLER	openflow.h	/^    OFPP_CONTROLLER = 0xfffffffd,  \/* Send to controller. *\/$/;"	e	enum:ofp_port_no
+OFPP_FLOOD	openflow.h	/^    OFPP_FLOOD      = 0xfffffffb,  \/* Flood using non-OpenFlow pipeline. *\/$/;"	e	enum:ofp_port_no
+OFPP_IN_PORT	openflow.h	/^    OFPP_IN_PORT    = 0xfffffff8,  \/* Send the packet out the input port.  This$/;"	e	enum:ofp_port_no
+OFPP_LOCAL	openflow.h	/^    OFPP_LOCAL      = 0xfffffffe,  \/* Local openflow "port". *\/$/;"	e	enum:ofp_port_no
+OFPP_MAX	openflow.h	/^    OFPP_MAX        = 0xffffff00,$/;"	e	enum:ofp_port_no
+OFPP_NORMAL	openflow.h	/^    OFPP_NORMAL     = 0xfffffffa,  \/* Forward using non-OpenFlow pipeline. *\/$/;"	e	enum:ofp_port_no
+OFPP_TABLE	openflow.h	/^    OFPP_TABLE      = 0xfffffff9,  \/* Submit the packet to the first flow table$/;"	e	enum:ofp_port_no
+OFPP_UNSET	openflow.h	/^    OFPP_UNSET      = 0xfffffff7,  \/* Output port not set in action-set.$/;"	e	enum:ofp_port_no
+OFPQDPT_EXPERIMENTER	openflow.h	/^    OFPQDPT_EXPERIMENTER  = 0xffff  \/* Experimenter defined property. *\/$/;"	e	enum:ofp_queue_desc_prop_type
+OFPQDPT_MAX_RATE	openflow.h	/^    OFPQDPT_MAX_RATE      = 2,      \/* Maximum datarate. *\/$/;"	e	enum:ofp_queue_desc_prop_type
+OFPQDPT_MIN_RATE	openflow.h	/^    OFPQDPT_MIN_RATE      = 1,      \/* Minimum datarate guaranteed. *\/$/;"	e	enum:ofp_queue_desc_prop_type
+OFPQOFC_BAD_PORT	openflow.h	/^    OFPQOFC_BAD_PORT   = 0,     \/* Invalid port (or port does not exist). *\/$/;"	e	enum:ofp_queue_op_failed_code
+OFPQOFC_BAD_QUEUE	openflow.h	/^    OFPQOFC_BAD_QUEUE  = 1,     \/* Queue does not exist. *\/$/;"	e	enum:ofp_queue_op_failed_code
+OFPQOFC_EPERM	openflow.h	/^    OFPQOFC_EPERM      = 2,     \/* Permissions error. *\/$/;"	e	enum:ofp_queue_op_failed_code
+OFPQSPT_EXPERIMENTER	openflow.h	/^    OFPQSPT_EXPERIMENTER  = 0xffff  \/* Experimenter defined property. *\/$/;"	e	enum:ofp_queue_stats_prop_type
+OFPQ_ALL	openflow.h	3066;"	d
+OFPQ_MAX_RATE_UNCFG	openflow.h	3072;"	d
+OFPQ_MIN_RATE_UNCFG	openflow.h	3069;"	d
+OFPRFR_GROUP_MOD	openflow.h	/^    OFPRFR_GROUP_MOD = 0,       \/* Forward group mod requests. *\/$/;"	e	enum:ofp_requestforward_reason
+OFPRFR_METER_MOD	openflow.h	/^    OFPRFR_METER_MOD = 1,       \/* Forward meter mod requests. *\/$/;"	e	enum:ofp_requestforward_reason
+OFPRPT_EXPERIMENTER	openflow.h	/^    OFPRPT_EXPERIMENTER           = 0xFFFF, \/* Experimenter property. *\/$/;"	e	enum:ofp_role_prop_type
+OFPRRFC_BAD_ROLE	openflow.h	/^    OFPRRFC_BAD_ROLE   = 2,      \/* Invalid role. *\/$/;"	e	enum:ofp_role_request_failed_code
+OFPRRFC_ID_IN_USE	openflow.h	/^    OFPRRFC_ID_IN_USE  = 4,      \/* Requested ID is in use. *\/$/;"	e	enum:ofp_role_request_failed_code
+OFPRRFC_ID_UNSUP	openflow.h	/^    OFPRRFC_ID_UNSUP   = 3,      \/* Switch doesn't support changing ID. *\/$/;"	e	enum:ofp_role_request_failed_code
+OFPRRFC_STALE	openflow.h	/^    OFPRRFC_STALE      = 0,      \/* Stale Message: old generation_id. *\/$/;"	e	enum:ofp_role_request_failed_code
+OFPRRFC_UNSUP	openflow.h	/^    OFPRRFC_UNSUP      = 1,      \/* Controller role change unsupported. *\/$/;"	e	enum:ofp_role_request_failed_code
+OFPRR_DELETE	openflow.h	/^    OFPRR_DELETE       = 2,     \/* Evicted by a DELETE flow mod. *\/$/;"	e	enum:ofp_flow_removed_reason
+OFPRR_EVICTION	openflow.h	/^    OFPRR_EVICTION     = 5,     \/* Switch eviction to free resources. *\/$/;"	e	enum:ofp_flow_removed_reason
+OFPRR_GROUP_DELETE	openflow.h	/^    OFPRR_GROUP_DELETE = 3,     \/* Group was removed. *\/$/;"	e	enum:ofp_flow_removed_reason
+OFPRR_HARD_TIMEOUT	openflow.h	/^    OFPRR_HARD_TIMEOUT = 1,     \/* Time exceeded hard_timeout. *\/$/;"	e	enum:ofp_flow_removed_reason
+OFPRR_IDLE_TIMEOUT	openflow.h	/^    OFPRR_IDLE_TIMEOUT = 0,     \/* Flow idle time exceeded idle_timeout. *\/$/;"	e	enum:ofp_flow_removed_reason
+OFPRR_METER_DELETE	openflow.h	/^    OFPRR_METER_DELETE = 4,     \/* Meter was removed. *\/$/;"	e	enum:ofp_flow_removed_reason
+OFPR_ACTION_SET	openflow.h	/^    OFPR_ACTION_SET   = 3,   \/* Output to controller in action set. *\/$/;"	e	enum:ofp_packet_in_reason
+OFPR_APPLY_ACTION	openflow.h	/^    OFPR_APPLY_ACTION = 1,   \/* Output to controller in apply-actions. *\/$/;"	e	enum:ofp_packet_in_reason
+OFPR_GROUP	openflow.h	/^    OFPR_GROUP        = 4,   \/* Output to controller in group bucket. *\/$/;"	e	enum:ofp_packet_in_reason
+OFPR_INVALID_TTL	openflow.h	/^    OFPR_INVALID_TTL  = 2,   \/* Packet has invalid TTL *\/$/;"	e	enum:ofp_packet_in_reason
+OFPR_PACKET_OUT	openflow.h	/^    OFPR_PACKET_OUT   = 5,   \/* Output to controller in packet-out. *\/$/;"	e	enum:ofp_packet_in_reason
+OFPR_TABLE_MISS	openflow.h	/^    OFPR_TABLE_MISS   = 0,   \/* No matching flow (table-miss flow entry). *\/$/;"	e	enum:ofp_packet_in_reason
+OFPSCFC_BAD_FLAGS	openflow.h	/^    OFPSCFC_BAD_FLAGS    = 0,   \/* Specified flags is invalid. *\/$/;"	e	enum:ofp_switch_config_failed_code
+OFPSCFC_BAD_LEN	openflow.h	/^    OFPSCFC_BAD_LEN      = 1,   \/* Specified miss send len is invalid. *\/$/;"	e	enum:ofp_switch_config_failed_code
+OFPSCFC_EPERM	openflow.h	/^    OFPSCFC_EPERM        = 2,   \/* Permissions error. *\/$/;"	e	enum:ofp_switch_config_failed_code
+OFPSTF_ONLY_FIRST	openflow.h	/^    OFPSTF_ONLY_FIRST  = 1 << 1,  \/* Trigger on only first reach threshold. *\/$/;"	e	enum:ofp_stat_trigger_flags
+OFPSTF_PERIODIC	openflow.h	/^    OFPSTF_PERIODIC    = 1 << 0,  \/* Trigger for all multiples of thresholds. *\/$/;"	e	enum:ofp_stat_trigger_flags
+OFPTC_DEPRECATED_MASK	openflow.h	/^    OFPTC_DEPRECATED_MASK    = 3,       \/* Deprecated bits *\/$/;"	e	enum:ofp_table_config
+OFPTC_EVICTION	openflow.h	/^    OFPTC_EVICTION           = 1 << 2,  \/* Authorise table to evict flows. *\/$/;"	e	enum:ofp_table_config
+OFPTC_VACANCY_EVENTS	openflow.h	/^    OFPTC_VACANCY_EVENTS     = 1 << 3,  \/* Enable vacancy events. *\/$/;"	e	enum:ofp_table_config
+OFPTFC_DISABLE	openflow.h	/^    OFPTFC_DISABLE = 3,       \/* Disable flow tables in pipeline. *\/$/;"	e	enum:ofp_table_features_command
+OFPTFC_ENABLE	openflow.h	/^    OFPTFC_ENABLE  = 2,       \/* Enable flow tables in the pipeline. *\/$/;"	e	enum:ofp_table_features_command
+OFPTFC_MODIFY	openflow.h	/^    OFPTFC_MODIFY  = 1,       \/* Modify flow tables capabilities. *\/$/;"	e	enum:ofp_table_features_command
+OFPTFC_REPLACE	openflow.h	/^    OFPTFC_REPLACE = 0,       \/* Replace full pipeline. *\/$/;"	e	enum:ofp_table_features_command
+OFPTFFC_BAD_CAPA	openflow.h	/^    OFPTFFC_BAD_CAPA     = 6,      \/* Invalid capability field. *\/$/;"	e	enum:ofp_table_features_failed_code
+OFPTFFC_BAD_COMMAND	openflow.h	/^    OFPTFFC_BAD_COMMAND  = 9,      \/* Invalid command. *\/$/;"	e	enum:ofp_table_features_failed_code
+OFPTFFC_BAD_FEATURES	openflow.h	/^    OFPTFFC_BAD_FEATURES = 8,      \/* Invalid features field. *\/$/;"	e	enum:ofp_table_features_failed_code
+OFPTFFC_BAD_MAX_ENT	openflow.h	/^    OFPTFFC_BAD_MAX_ENT  = 7,      \/* Invalid max_entries field. *\/$/;"	e	enum:ofp_table_features_failed_code
+OFPTFFC_BAD_METADATA	openflow.h	/^    OFPTFFC_BAD_METADATA = 1,      \/* Invalid metadata mask. *\/$/;"	e	enum:ofp_table_features_failed_code
+OFPTFFC_BAD_TABLE	openflow.h	/^    OFPTFFC_BAD_TABLE    = 0,      \/* Specified table does not exist. *\/$/;"	e	enum:ofp_table_features_failed_code
+OFPTFFC_EPERM	openflow.h	/^    OFPTFFC_EPERM        = 5,      \/* Permissions error. *\/$/;"	e	enum:ofp_table_features_failed_code
+OFPTFFC_TOO_MANY	openflow.h	/^    OFPTFFC_TOO_MANY     = 10,     \/* Can't handle this many flow tables. *\/$/;"	e	enum:ofp_table_features_failed_code
+OFPTFF_EGRESS_TABLE	openflow.h	/^    OFPTFF_EGRESS_TABLE      = 1 << 1, \/* Can be configured as egress table. *\/$/;"	e	enum:ofp_table_feature_flag
+OFPTFF_FIRST_EGRESS	openflow.h	/^    OFPTFF_FIRST_EGRESS      = 1 << 4, \/* Is the first egress table. *\/$/;"	e	enum:ofp_table_feature_flag
+OFPTFF_INGRESS_TABLE	openflow.h	/^    OFPTFF_INGRESS_TABLE     = 1 << 0, \/* Can be configured as ingress table. *\/$/;"	e	enum:ofp_table_feature_flag
+OFPTFPT_APPLY_ACTIONS	openflow.h	/^    OFPTFPT_APPLY_ACTIONS          = 6,  \/* Apply Actions property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_APPLY_ACTIONS_MISS	openflow.h	/^    OFPTFPT_APPLY_ACTIONS_MISS     = 7,  \/* Apply Actions for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_APPLY_COPYFIELD	openflow.h	/^    OFPTFPT_APPLY_COPYFIELD        = 20, \/* Apply Copy-Field property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_APPLY_COPYFIELD_MISS	openflow.h	/^    OFPTFPT_APPLY_COPYFIELD_MISS   = 21, \/* Apply Copy-Field for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_APPLY_SETFIELD	openflow.h	/^    OFPTFPT_APPLY_SETFIELD         = 14, \/* Apply Set-Field property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_APPLY_SETFIELD_MISS	openflow.h	/^    OFPTFPT_APPLY_SETFIELD_MISS    = 15, \/* Apply Set-Field for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_EXPERIMENTER	openflow.h	/^    OFPTFPT_EXPERIMENTER           = 0xFFFE, \/* Experimenter property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_EXPERIMENTER_MISS	openflow.h	/^    OFPTFPT_EXPERIMENTER_MISS      = 0xFFFF, \/* Experimenter for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_INSTRUCTIONS	openflow.h	/^    OFPTFPT_INSTRUCTIONS           = 0,  \/* Instructions property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_INSTRUCTIONS_MISS	openflow.h	/^    OFPTFPT_INSTRUCTIONS_MISS      = 1,  \/* Instructions for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_MATCH	openflow.h	/^    OFPTFPT_MATCH                  = 8,  \/* Match property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_NEXT_TABLES	openflow.h	/^    OFPTFPT_NEXT_TABLES            = 2,  \/* Next Table property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_NEXT_TABLES_MISS	openflow.h	/^    OFPTFPT_NEXT_TABLES_MISS       = 3,  \/* Next Table for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_PACKET_TYPES	openflow.h	/^    OFPTFPT_PACKET_TYPES           = 22, \/* Packet types property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_TABLE_SYNC_FROM	openflow.h	/^    OFPTFPT_TABLE_SYNC_FROM        = 16, \/* Table synchronisation property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_WILDCARDS	openflow.h	/^    OFPTFPT_WILDCARDS              = 10, \/* Wildcards property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_WRITE_ACTIONS	openflow.h	/^    OFPTFPT_WRITE_ACTIONS          = 4,  \/* Write Actions property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_WRITE_ACTIONS_MISS	openflow.h	/^    OFPTFPT_WRITE_ACTIONS_MISS     = 5,  \/* Write Actions for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_WRITE_COPYFIELD	openflow.h	/^    OFPTFPT_WRITE_COPYFIELD        = 18, \/* Write Copy-Field property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_WRITE_COPYFIELD_MISS	openflow.h	/^    OFPTFPT_WRITE_COPYFIELD_MISS   = 19, \/* Write Copy-Field for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_WRITE_SETFIELD	openflow.h	/^    OFPTFPT_WRITE_SETFIELD         = 12, \/* Write Set-Field property. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTFPT_WRITE_SETFIELD_MISS	openflow.h	/^    OFPTFPT_WRITE_SETFIELD_MISS    = 13, \/* Write Set-Field for table-miss. *\/$/;"	e	enum:ofp_table_feature_prop_type
+OFPTMFC_BAD_CONFIG	openflow.h	/^    OFPTMFC_BAD_CONFIG = 1,      \/* Specified config is invalid. *\/$/;"	e	enum:ofp_table_mod_failed_code
+OFPTMFC_BAD_TABLE	openflow.h	/^    OFPTMFC_BAD_TABLE  = 0,      \/* Specified table does not exist. *\/$/;"	e	enum:ofp_table_mod_failed_code
+OFPTMFC_EPERM	openflow.h	/^    OFPTMFC_EPERM      = 2,      \/* Permissions error. *\/$/;"	e	enum:ofp_table_mod_failed_code
+OFPTMPBF_EXPERIMENTER	openflow.h	/^    OFPTMPBF_EXPERIMENTER = 0xFFFF, \/* Experimenter property. *\/$/;"	e	enum:ofp_bundle_features_prop_type
+OFPTMPBF_TIME_CAPABILITY	openflow.h	/^    OFPTMPBF_TIME_CAPABILITY = 0x1, \/* Time feature property. *\/$/;"	e	enum:ofp_bundle_features_prop_type
+OFPTMPEF_IMPORTANCE	openflow.h	/^    OFPTMPEF_IMPORTANCE      = 1 << 1,     \/* Using flow entry importance. *\/$/;"	e	enum:ofp_table_mod_prop_eviction_flag
+OFPTMPEF_LIFETIME	openflow.h	/^    OFPTMPEF_LIFETIME        = 1 << 2,     \/* Using flow entry lifetime. *\/$/;"	e	enum:ofp_table_mod_prop_eviction_flag
+OFPTMPEF_OTHER	openflow.h	/^    OFPTMPEF_OTHER           = 1 << 0,     \/* Using other factors. *\/$/;"	e	enum:ofp_table_mod_prop_eviction_flag
+OFPTMPT_EVICTION	openflow.h	/^    OFPTMPT_EVICTION               = 0x2,    \/* Eviction property. *\/$/;"	e	enum:ofp_table_mod_prop_type
+OFPTMPT_EXPERIMENTER	openflow.h	/^    OFPTMPT_EXPERIMENTER           = 0xFFFF, \/* Experimenter property. *\/$/;"	e	enum:ofp_table_mod_prop_type
+OFPTMPT_VACANCY	openflow.h	/^    OFPTMPT_VACANCY                = 0x3,    \/* Vacancy property. *\/$/;"	e	enum:ofp_table_mod_prop_type
+OFPTR_VACANCY_DOWN	openflow.h	/^    OFPTR_VACANCY_DOWN  = 3,        \/* Vacancy down threshold event. *\/$/;"	e	enum:ofp_table_reason
+OFPTR_VACANCY_UP	openflow.h	/^    OFPTR_VACANCY_UP    = 4,        \/* Vacancy up threshold event. *\/$/;"	e	enum:ofp_table_reason
+OFPTT_ALL	openflow.h	/^    OFPTT_ALL        = 0xff   \/* Wildcard table used for table config,$/;"	e	enum:ofp_table
+OFPTT_MAX	openflow.h	/^    OFPTT_MAX        = 0xfe,$/;"	e	enum:ofp_table
+OFPT_BARRIER_REPLY	openflow.h	/^    OFPT_BARRIER_REPLY      = 21, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_BARRIER_REQUEST	openflow.h	/^    OFPT_BARRIER_REQUEST    = 20, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_BUNDLE_ADD_MESSAGE	openflow.h	/^    OFPT_BUNDLE_ADD_MESSAGE = 34, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_BUNDLE_CONTROL	openflow.h	/^    OFPT_BUNDLE_CONTROL     = 33, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_CONTROLLER_STATUS	openflow.h	/^    OFPT_CONTROLLER_STATUS  = 35, \/* Async message *\/$/;"	e	enum:ofp_type
+OFPT_ECHO_REPLY	openflow.h	/^    OFPT_ECHO_REPLY         = 3,  \/* Symmetric message *\/$/;"	e	enum:ofp_type
+OFPT_ECHO_REQUEST	openflow.h	/^    OFPT_ECHO_REQUEST       = 2,  \/* Symmetric message *\/$/;"	e	enum:ofp_type
+OFPT_ERROR	openflow.h	/^    OFPT_ERROR              = 1,  \/* Symmetric message *\/$/;"	e	enum:ofp_type
+OFPT_EXPERIMENTER	openflow.h	/^    OFPT_EXPERIMENTER       = 4,  \/* Symmetric message *\/$/;"	e	enum:ofp_type
+OFPT_FEATURES_REPLY	openflow.h	/^    OFPT_FEATURES_REPLY     = 6,  \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_FEATURES_REQUEST	openflow.h	/^    OFPT_FEATURES_REQUEST   = 5,  \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_FLOW_MOD	openflow.h	/^    OFPT_FLOW_MOD           = 14, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_FLOW_REMOVED	openflow.h	/^    OFPT_FLOW_REMOVED       = 11, \/* Async message *\/$/;"	e	enum:ofp_type
+OFPT_GET_ASYNC_REPLY	openflow.h	/^    OFPT_GET_ASYNC_REPLY    = 27, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_GET_ASYNC_REQUEST	openflow.h	/^    OFPT_GET_ASYNC_REQUEST  = 26, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_GET_CONFIG_REPLY	openflow.h	/^    OFPT_GET_CONFIG_REPLY   = 8,  \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_GET_CONFIG_REQUEST	openflow.h	/^    OFPT_GET_CONFIG_REQUEST = 7,  \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_GROUP_MOD	openflow.h	/^    OFPT_GROUP_MOD          = 15, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_HELLO	openflow.h	/^    OFPT_HELLO              = 0,  \/* Symmetric message *\/$/;"	e	enum:ofp_type
+OFPT_METER_MOD	openflow.h	/^    OFPT_METER_MOD          = 29, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_MULTIPART_REPLY	openflow.h	/^    OFPT_MULTIPART_REPLY        = 19, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_MULTIPART_REQUEST	openflow.h	/^    OFPT_MULTIPART_REQUEST      = 18, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_PACKET_IN	openflow.h	/^    OFPT_PACKET_IN          = 10, \/* Async message *\/$/;"	e	enum:ofp_type
+OFPT_PACKET_OUT	openflow.h	/^    OFPT_PACKET_OUT         = 13, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_PORT_MOD	openflow.h	/^    OFPT_PORT_MOD           = 16, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_PORT_STATUS	openflow.h	/^    OFPT_PORT_STATUS        = 12, \/* Async message *\/$/;"	e	enum:ofp_type
+OFPT_REQUESTFORWARD	openflow.h	/^    OFPT_REQUESTFORWARD     = 32, \/* Async message *\/$/;"	e	enum:ofp_type
+OFPT_ROLE_REPLY	openflow.h	/^    OFPT_ROLE_REPLY         = 25, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_ROLE_REQUEST	openflow.h	/^    OFPT_ROLE_REQUEST       = 24, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_ROLE_STATUS	openflow.h	/^    OFPT_ROLE_STATUS        = 30, \/* Async message *\/$/;"	e	enum:ofp_type
+OFPT_SET_ASYNC	openflow.h	/^    OFPT_SET_ASYNC          = 28, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_SET_CONFIG	openflow.h	/^    OFPT_SET_CONFIG         = 9,  \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_TABLE_MOD	openflow.h	/^    OFPT_TABLE_MOD          = 17, \/* Controller\/switch message *\/$/;"	e	enum:ofp_type
+OFPT_TABLE_STATUS	openflow.h	/^    OFPT_TABLE_STATUS       = 31, \/* Async message *\/$/;"	e	enum:ofp_type
+OFPVID_NONE	openflow.h	/^    OFPVID_NONE    = 0x0000, \/* No VLAN id was set. *\/$/;"	e	enum:ofp_vlan_id
+OFPVID_PRESENT	openflow.h	/^    OFPVID_PRESENT = 0x1000, \/* Bit that indicate that a VLAN id is set *\/$/;"	e	enum:ofp_vlan_id
+OFPXMC_EXPERIMENTER	openflow.h	/^    OFPXMC_EXPERIMENTER   = 0xFFFF,    \/* Experimenter class *\/$/;"	e	enum:ofp_oxm_class
+OFPXMC_NXM_0	openflow.h	/^    OFPXMC_NXM_0          = 0x0000,    \/* Backward compatibility with NXM *\/$/;"	e	enum:ofp_oxm_class
+OFPXMC_NXM_1	openflow.h	/^    OFPXMC_NXM_1          = 0x0001,    \/* Backward compatibility with NXM *\/$/;"	e	enum:ofp_oxm_class
+OFPXMC_OPENFLOW_BASIC	openflow.h	/^    OFPXMC_OPENFLOW_BASIC = 0x8000,    \/* Basic class for OpenFlow *\/$/;"	e	enum:ofp_oxm_class
+OFPXMC_PACKET_REGS	openflow.h	/^    OFPXMC_PACKET_REGS    = 0x8001,    \/* Packet registers (pipeline fields). *\/$/;"	e	enum:ofp_oxm_class
+OFPXMT_OFB_ACTSET_OUTPUT	openflow.h	/^    OFPXMT_OFB_ACTSET_OUTPUT  = 43, \/* Output port from action set metadata. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ALL	openflow.h	746;"	d
+OFPXMT_OFB_ARP_OP	openflow.h	/^    OFPXMT_OFB_ARP_OP         = 21, \/* ARP opcode. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ARP_SHA	openflow.h	/^    OFPXMT_OFB_ARP_SHA        = 24, \/* ARP source hardware address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ARP_SPA	openflow.h	/^    OFPXMT_OFB_ARP_SPA        = 22, \/* ARP source IPv4 address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ARP_THA	openflow.h	/^    OFPXMT_OFB_ARP_THA        = 25, \/* ARP target hardware address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ARP_TPA	openflow.h	/^    OFPXMT_OFB_ARP_TPA        = 23, \/* ARP target IPv4 address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ETH_DST	openflow.h	/^    OFPXMT_OFB_ETH_DST        = 3,  \/* Ethernet destination address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ETH_SRC	openflow.h	/^    OFPXMT_OFB_ETH_SRC        = 4,  \/* Ethernet source address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ETH_TYPE	openflow.h	/^    OFPXMT_OFB_ETH_TYPE       = 5,  \/* Ethernet frame type. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ICMPV4_CODE	openflow.h	/^    OFPXMT_OFB_ICMPV4_CODE    = 20, \/* ICMP code. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ICMPV4_TYPE	openflow.h	/^    OFPXMT_OFB_ICMPV4_TYPE    = 19, \/* ICMP type. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ICMPV6_CODE	openflow.h	/^    OFPXMT_OFB_ICMPV6_CODE    = 30, \/* ICMPv6 code. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_ICMPV6_TYPE	openflow.h	/^    OFPXMT_OFB_ICMPV6_TYPE    = 29, \/* ICMPv6 type. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IN_PHY_PORT	openflow.h	/^    OFPXMT_OFB_IN_PHY_PORT    = 1,  \/* Switch physical input port. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IN_PORT	openflow.h	/^    OFPXMT_OFB_IN_PORT        = 0,  \/* Switch input port. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV4_DST	openflow.h	/^    OFPXMT_OFB_IPV4_DST       = 12, \/* IPv4 destination address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV4_SRC	openflow.h	/^    OFPXMT_OFB_IPV4_SRC       = 11, \/* IPv4 source address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV6_DST	openflow.h	/^    OFPXMT_OFB_IPV6_DST       = 27, \/* IPv6 destination address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV6_EXTHDR	openflow.h	/^    OFPXMT_OFB_IPV6_EXTHDR    = 39, \/* IPv6 Extension Header pseudo-field *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV6_FLABEL	openflow.h	/^    OFPXMT_OFB_IPV6_FLABEL    = 28, \/* IPv6 Flow Label *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV6_ND_SLL	openflow.h	/^    OFPXMT_OFB_IPV6_ND_SLL    = 32, \/* Source link-layer for ND. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV6_ND_TARGET	openflow.h	/^    OFPXMT_OFB_IPV6_ND_TARGET = 31, \/* Target address for ND. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV6_ND_TLL	openflow.h	/^    OFPXMT_OFB_IPV6_ND_TLL    = 33, \/* Target link-layer for ND. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IPV6_SRC	openflow.h	/^    OFPXMT_OFB_IPV6_SRC       = 26, \/* IPv6 source address. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IP_DSCP	openflow.h	/^    OFPXMT_OFB_IP_DSCP        = 8,  \/* IP DSCP (6 bits in ToS field). *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IP_ECN	openflow.h	/^    OFPXMT_OFB_IP_ECN         = 9,  \/* IP ECN (2 bits in ToS field). *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_IP_PROTO	openflow.h	/^    OFPXMT_OFB_IP_PROTO       = 10, \/* IP protocol. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_METADATA	openflow.h	/^    OFPXMT_OFB_METADATA       = 2,  \/* Metadata passed between tables. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_MPLS_LABEL	openflow.h	/^    OFPXMT_OFB_MPLS_LABEL     = 34, \/* MPLS label. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_MPLS_TC	openflow.h	/^    OFPXMT_OFB_MPLS_TC        = 35, \/* MPLS TC. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_PACKET_TYPE	openflow.h	/^    OFPXMT_OFB_PACKET_TYPE    = 44, \/* Packet type value. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_PBB_ISID	openflow.h	/^    OFPXMT_OFB_PBB_ISID       = 37, \/* PBB I-SID. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_PBB_UCA	openflow.h	/^    OFPXMT_OFB_PBB_UCA        = 41, \/* PBB UCA header field. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_SCTP_DST	openflow.h	/^    OFPXMT_OFB_SCTP_DST       = 18, \/* SCTP destination port. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_SCTP_SRC	openflow.h	/^    OFPXMT_OFB_SCTP_SRC       = 17, \/* SCTP source port. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_TCP_DST	openflow.h	/^    OFPXMT_OFB_TCP_DST        = 14, \/* TCP destination port. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_TCP_FLAGS	openflow.h	/^    OFPXMT_OFB_TCP_FLAGS      = 42, \/* TCP flags. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_TCP_SRC	openflow.h	/^    OFPXMT_OFB_TCP_SRC        = 13, \/* TCP source port. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_TUNNEL_ID	openflow.h	/^    OFPXMT_OFB_TUNNEL_ID      = 38, \/* Logical Port Metadata. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_UDP_DST	openflow.h	/^    OFPXMT_OFB_UDP_DST        = 16, \/* UDP destination port. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_UDP_SRC	openflow.h	/^    OFPXMT_OFB_UDP_SRC        = 15, \/* UDP source port. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_VLAN_PCP	openflow.h	/^    OFPXMT_OFB_VLAN_PCP       = 7,  \/* VLAN priority. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFB_VLAN_VID	openflow.h	/^    OFPXMT_OFB_VLAN_VID       = 6,  \/* VLAN id. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXMT_OFP_MPLS_BOS	openflow.h	/^    OFPXMT_OFP_MPLS_BOS       = 36, \/* MPLS BoS bit. *\/$/;"	e	enum:oxm_ofb_match_fields
+OFPXSC_EXPERIMENTER	openflow.h	/^    OFPXSC_EXPERIMENTER   = 0xFFFF,    \/* Experimenter class *\/$/;"	e	enum:ofp_oxs_class
+OFPXSC_OPENFLOW_BASIC	openflow.h	/^    OFPXSC_OPENFLOW_BASIC = 0x8002,    \/* Basic stats class for OpenFlow *\/$/;"	e	enum:ofp_oxs_class
+OFPXST_OFB_ALL	openflow.h	1320;"	d
+OFPXST_OFB_BYTE_COUNT	openflow.h	/^    OFPXST_OFB_BYTE_COUNT      = 5,  \/* Number of bytes in flow entry. *\/$/;"	e	enum:oxs_ofb_stat_fields
+OFPXST_OFB_DURATION	openflow.h	/^    OFPXST_OFB_DURATION        = 0,  \/* Time flow entry has been alive. *\/$/;"	e	enum:oxs_ofb_stat_fields
+OFPXST_OFB_FLOW_COUNT	openflow.h	/^    OFPXST_OFB_FLOW_COUNT      = 3,  \/* Number of aggregated flow entries. *\/$/;"	e	enum:oxs_ofb_stat_fields
+OFPXST_OFB_IDLE_TIME	openflow.h	/^    OFPXST_OFB_IDLE_TIME       = 1,  \/* Time flow entry has been idle. *\/$/;"	e	enum:oxs_ofb_stat_fields
+OFPXST_OFB_PACKET_COUNT	openflow.h	/^    OFPXST_OFB_PACKET_COUNT    = 4,  \/* Number of packets in flow entry. *\/$/;"	e	enum:oxs_ofb_stat_fields
+OFP_ASSERT	openflow.h	47;"	d
+OFP_ASSERT	openflow.h	50;"	d
+OFP_ASSERT	openflow.h	54;"	d
+OFP_DEFAULT_MISS_SEND_LEN	openflow.h	220;"	d
+OFP_DEFAULT_PRIORITY	openflow.h	1641;"	d
+OFP_ETH_ALEN	openflow.h	80;"	d
+OFP_FLOW_PERMANENT	openflow.h	1638;"	d
+OFP_MAX_PORT_NAME_LEN	openflow.h	74;"	d
+OFP_MAX_TABLE_NAME_LEN	openflow.h	73;"	d
+OFP_NO_BUFFER	openflow.h	1857;"	d
+OFP_PACKED	openflow.h	58;"	d
+OFP_PACKED	openflow.h	60;"	d
+OFP_SSL_PORT	openflow.h	78;"	d
+OFP_TCP_PORT	openflow.h	77;"	d
+OFP_VERSION	openflow.h	71;"	d
+OFP_VLAN_NONE	openflow.h	820;"	d
+OPENFLOW_OPENFLOW_H	openflow.h	38;"	d
+OXM_CLASS	openflow.h	676;"	d
+OXM_FIELD	openflow.h	677;"	d
+OXM_HASMASK	openflow.h	679;"	d
+OXM_HEADER	openflow.h	672;"	d
+OXM_HEADER_W	openflow.h	674;"	d
+OXM_HEADER__	openflow.h	670;"	d
+OXM_LENGTH	openflow.h	680;"	d
+OXM_MAKE_WILD_HEADER	openflow.h	682;"	d
+OXM_OF_ACTSET_OUTPUT	openflow.h	1229;"	d
+OXM_OF_ARP_OP	openflow.h	1000;"	d
+OXM_OF_ARP_SHA	openflow.h	1024;"	d
+OXM_OF_ARP_SPA	openflow.h	1011;"	d
+OXM_OF_ARP_SPA_W	openflow.h	1012;"	d
+OXM_OF_ARP_THA	openflow.h	1025;"	d
+OXM_OF_ARP_TPA	openflow.h	1013;"	d
+OXM_OF_ARP_TPA_W	openflow.h	1014;"	d
+OXM_OF_ETH_DST	openflow.h	798;"	d
+OXM_OF_ETH_DST_W	openflow.h	799;"	d
+OXM_OF_ETH_SRC	openflow.h	800;"	d
+OXM_OF_ETH_SRC_W	openflow.h	801;"	d
+OXM_OF_ETH_TYPE	openflow.h	810;"	d
+OXM_OF_ICMPV4_CODE	openflow.h	988;"	d
+OXM_OF_ICMPV4_TYPE	openflow.h	987;"	d
+OXM_OF_ICMPV6_CODE	openflow.h	1067;"	d
+OXM_OF_ICMPV6_TYPE	openflow.h	1066;"	d
+OXM_OF_IN_PHY_PORT	openflow.h	778;"	d
+OXM_OF_IN_PORT	openflow.h	756;"	d
+OXM_OF_IPV4_DST	openflow.h	923;"	d
+OXM_OF_IPV4_DST_W	openflow.h	924;"	d
+OXM_OF_IPV4_SRC	openflow.h	921;"	d
+OXM_OF_IPV4_SRC_W	openflow.h	922;"	d
+OXM_OF_IPV6_DST	openflow.h	1039;"	d
+OXM_OF_IPV6_DST_W	openflow.h	1040;"	d
+OXM_OF_IPV6_EXTHDR	openflow.h	1186;"	d
+OXM_OF_IPV6_EXTHDR_W	openflow.h	1187;"	d
+OXM_OF_IPV6_FLABEL	openflow.h	1053;"	d
+OXM_OF_IPV6_FLABEL_W	openflow.h	1054;"	d
+OXM_OF_IPV6_ND_SLL	openflow.h	1094;"	d
+OXM_OF_IPV6_ND_TARGET	openflow.h	1080;"	d
+OXM_OF_IPV6_ND_TLL	openflow.h	1108;"	d
+OXM_OF_IPV6_SRC	openflow.h	1037;"	d
+OXM_OF_IPV6_SRC_W	openflow.h	1038;"	d
+OXM_OF_IP_DSCP	openflow.h	885;"	d
+OXM_OF_IP_ECN	openflow.h	898;"	d
+OXM_OF_IP_PROTO	openflow.h	909;"	d
+OXM_OF_METADATA	openflow.h	788;"	d
+OXM_OF_METADATA_W	openflow.h	789;"	d
+OXM_OF_MPLS_BOS	openflow.h	1141;"	d
+OXM_OF_MPLS_LABEL	openflow.h	1119;"	d
+OXM_OF_MPLS_TC	openflow.h	1130;"	d
+OXM_OF_PACKET_TYPE	openflow.h	1242;"	d
+OXM_OF_PBB_ISID	openflow.h	1154;"	d
+OXM_OF_PBB_ISID_W	openflow.h	1155;"	d
+OXM_OF_PBB_UCA	openflow.h	1215;"	d
+OXM_OF_PKT_REG	openflow.h	1267;"	d
+OXM_OF_PKT_REG_W	openflow.h	1268;"	d
+OXM_OF_SCTP_DST	openflow.h	975;"	d
+OXM_OF_SCTP_SRC	openflow.h	974;"	d
+OXM_OF_TCP_DST	openflow.h	937;"	d
+OXM_OF_TCP_FLAGS	openflow.h	948;"	d
+OXM_OF_TCP_FLAGS_W	openflow.h	949;"	d
+OXM_OF_TCP_SRC	openflow.h	936;"	d
+OXM_OF_TUNNEL_ID	openflow.h	1173;"	d
+OXM_OF_TUNNEL_ID_W	openflow.h	1174;"	d
+OXM_OF_UDP_DST	openflow.h	962;"	d
+OXM_OF_UDP_SRC	openflow.h	961;"	d
+OXM_OF_VLAN_PCP	openflow.h	872;"	d
+OXM_OF_VLAN_VID	openflow.h	856;"	d
+OXM_OF_VLAN_VID_W	openflow.h	857;"	d
+OXM_TYPE	openflow.h	678;"	d
+OXS_CLASS	openflow.h	1295;"	d
+OXS_FIELD	openflow.h	1296;"	d
+OXS_HEADER	openflow.h	1293;"	d
+OXS_HEADER__	openflow.h	1291;"	d
+OXS_LENGTH	openflow.h	1299;"	d
+OXS_OF_BYTE_COUNT	openflow.h	1363;"	d
+OXS_OF_DURATION	openflow.h	1330;"	d
+OXS_OF_FLOW_COUNT	openflow.h	1349;"	d
+OXS_OF_IDLE_TIME	openflow.h	1341;"	d
+OXS_OF_PACKET_COUNT	openflow.h	1356;"	d
+OXS_RESERVED	openflow.h	1298;"	d
+OXS_TYPE	openflow.h	1297;"	d
+SERIAL_NUM_LEN	openflow.h	2519;"	d
+Send_Message	ofproto.c	/^void Send_Message(void * msg)$/;"	f
+TABLE_ID	ofproto.c	11;"	d	file:
+action_array_len	openflow.h	/^    uint16_t action_array_len;      \/* Length of all actions in bytes. *\/$/;"	m	struct:ofp_bucket
+action_ids	openflow.h	/^    struct ofp_action_id  action_ids[0];      \/* List of actions *\/$/;"	m	struct:ofp_table_feature_prop_actions	typeref:struct:ofp_table_feature_prop_actions::ofp_action_id
+actions	openflow.h	/^    struct ofp_action_header actions[0];  \/* 0 or more actions associated with$/;"	m	struct:ofp_instruction_actions	typeref:struct:ofp_instruction_actions::ofp_action_header
+actions	openflow.h	/^    struct ofp_action_header actions[0]; \/* The length of the action array is$/;"	m	struct:ofp_bucket	typeref:struct:ofp_bucket::ofp_action_header
+actions	openflow.h	/^    uint32_t  actions[4];      \/* Bitmaps of (1 << OFPAT_*) values supported. *\/$/;"	m	struct:ofp_group_features
+actions_len	openflow.h	/^    uint16_t actions_len;         \/* Size of action array in bytes. *\/$/;"	m	struct:ofp_packet_out
+active_count	openflow.h	/^    uint32_t active_count;   \/* Number of active entries. *\/$/;"	m	struct:ofp_table_stats
+advertise	openflow.h	/^    uint32_t      advertise;  \/* Bitmap of OFPPF_*.  Zero all bits to prevent$/;"	m	struct:ofp_port_mod_prop_ethernet
+advertised	openflow.h	/^    uint32_t advertised;    \/* Features being advertised by the port. *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+auxiliary_id	openflow.h	/^    uint8_t auxiliary_id;   \/* Identify auxiliary connections *\/$/;"	m	struct:ofp_switch_features
+band_stats	openflow.h	/^    struct ofp_meter_band_stats band_stats[0]; \/* The band_stats length is$/;"	m	struct:ofp_meter_stats	typeref:struct:ofp_meter_stats::ofp_meter_band_stats
+band_types	openflow.h	/^    uint32_t    band_types;   \/* Bitmaps of (1 << OFPMBT_*) values supported. *\/$/;"	m	struct:ofp_meter_features
+bands	openflow.h	/^    struct ofp_meter_band_header bands[0]; \/* The band list length is$/;"	m	struct:ofp_meter_mod	typeref:struct:ofp_meter_mod::ofp_meter_band_header
+bands	openflow.h	/^    struct ofp_meter_band_header bands[0]; \/* The bands length is$/;"	m	struct:ofp_meter_desc	typeref:struct:ofp_meter_desc::ofp_meter_band_header
+bias_current	openflow.h	/^    uint16_t bias_current;   \/* TX Bias Current *\/$/;"	m	struct:ofp_port_stats_prop_optical
+bitmaps	openflow.h	/^    uint32_t         bitmaps[0];   \/* List of bitmaps - supported versions *\/$/;"	m	struct:ofp_hello_elem_versionbitmap
+body	openflow.h	/^    uint8_t body[0];            \/* Body of the reply. 0 or more bytes. *\/$/;"	m	struct:ofp_multipart_reply
+body	openflow.h	/^    uint8_t body[0];            \/* Body of the request. 0 or more bytes. *\/$/;"	m	struct:ofp_multipart_request
+bucket_array_len	openflow.h	/^    uint16_t bucket_array_len;    \/* Length of action buckets data. *\/$/;"	m	struct:ofp_group_desc
+bucket_array_len	openflow.h	/^    uint16_t bucket_array_len;    \/* Length of action buckets data. *\/$/;"	m	struct:ofp_group_mod
+bucket_id	openflow.h	/^    uint32_t bucket_id;             \/* Bucket Id used to identify bucket*\/$/;"	m	struct:ofp_bucket
+bucket_stats	openflow.h	/^    struct ofp_bucket_counter bucket_stats[0]; \/* One counter set per bucket. *\/$/;"	m	struct:ofp_group_stats	typeref:struct:ofp_group_stats::ofp_bucket_counter
+buckets	openflow.h	/^    struct ofp_bucket buckets[0];   \/* List of buckets - 0 or more. *\/$/;"	m	struct:ofp_group_desc	typeref:struct:ofp_group_desc::ofp_bucket
+buckets	openflow.h	/^    struct ofp_bucket buckets[0]; \/* The length of the bucket array is$/;"	m	struct:ofp_group_mod	typeref:struct:ofp_group_mod::ofp_bucket
+buffer_id	openflow.h	/^    uint32_t buffer_id;           \/* Buffered packet to apply to, or$/;"	m	struct:ofp_flow_mod
+buffer_id	openflow.h	/^    uint32_t buffer_id;           \/* ID assigned by datapath (OFP_NO_BUFFER$/;"	m	struct:ofp_packet_out
+buffer_id	openflow.h	/^    uint32_t buffer_id;     \/* ID assigned by datapath. *\/$/;"	m	struct:ofp_packet_in
+bundle_id	openflow.h	/^    uint32_t              bundle_id;      \/* Identify the bundle. *\/$/;"	m	struct:ofp_bundle_add_msg
+bundle_id	openflow.h	/^    uint32_t              bundle_id;      \/* Identify the bundle. *\/$/;"	m	struct:ofp_bundle_ctrl_msg
+burst_size	openflow.h	/^    uint32_t        burst_size;   \/* Size of bursts. *\/$/;"	m	struct:ofp_meter_band_experimenter
+burst_size	openflow.h	/^    uint32_t        burst_size; \/* Size of bursts. *\/$/;"	m	struct:ofp_meter_band_drop
+burst_size	openflow.h	/^    uint32_t        burst_size; \/* Size of bursts. *\/$/;"	m	struct:ofp_meter_band_dscp_remark
+burst_size	openflow.h	/^    uint32_t        burst_size; \/* Size of bursts. *\/$/;"	m	struct:ofp_meter_band_header
+byte_band_count	openflow.h	/^    uint64_t        byte_band_count;     \/* Number of bytes in band. *\/$/;"	m	struct:ofp_meter_band_stats
+byte_count	openflow.h	/^    uint64_t byte_count;     \/* Number of bytes processed by bucket. *\/$/;"	m	struct:ofp_bucket_counter
+byte_count	openflow.h	/^    uint64_t byte_count;     \/* Number of bytes processed by group. *\/$/;"	m	struct:ofp_group_stats
+byte_in_count	openflow.h	/^    uint64_t        byte_in_count;    \/* Number of bytes in input. *\/$/;"	m	struct:ofp_meter_stats
+capabilities	openflow.h	/^    uint16_t capabilities; \/* Bitmap of "ofp_bundle_flags". *\/$/;"	m	struct:ofp_bundle_features
+capabilities	openflow.h	/^    uint32_t    capabilities; \/* Bitmaps of "ofp_meter_flags". *\/$/;"	m	struct:ofp_meter_features
+capabilities	openflow.h	/^    uint32_t  capabilities;    \/* Bitmap of OFPGFC_* capability supported. *\/$/;"	m	struct:ofp_group_features
+capabilities	openflow.h	/^    uint32_t capabilities;   \/* Bitmap of OFPTC_* values. *\/$/;"	m	struct:ofp_table_features
+capabilities	openflow.h	/^    uint32_t capabilities;  \/* Bitmap of support "ofp_capabilities". *\/$/;"	m	struct:ofp_switch_features
+channel_status	openflow.h	/^   uint8_t channel_status;     \/* Status of control channel.$/;"	m	struct:ofp_controller_status
+code	openflow.h	/^    uint16_t code;$/;"	m	struct:ofp_error_msg
+collisions	openflow.h	/^    uint64_t collisions;     \/* Number of collisions. *\/$/;"	m	struct:ofp_port_stats_prop_ethernet
+command	openflow.h	/^    uint16_t            command;        \/* One of OFPMC_*. *\/$/;"	m	struct:ofp_meter_mod
+command	openflow.h	/^    uint16_t command;             \/* One of OFPGC_*. *\/$/;"	m	struct:ofp_group_mod
+command	openflow.h	/^    uint8_t command;              \/* One of OFPFC_*. *\/$/;"	m	struct:ofp_flow_mod
+command	openflow.h	/^    uint8_t command;            \/* One of OFPFMC_*. *\/$/;"	m	struct:ofp_flow_monitor_request
+command	openflow.h	/^    uint8_t command;         \/* One of OFPTFC_*. *\/$/;"	m	struct:ofp_table_features
+command_bucket_id	openflow.h	/^    uint32_t command_bucket_id;   \/* Bucket Id used as part of$/;"	m	struct:ofp_group_mod
+config	openflow.h	/^    uint32_t config;         \/* Bitmap of OFPTC_* values. *\/$/;"	m	struct:ofp_table_desc
+config	openflow.h	/^    uint32_t config;        \/* Bitmap of OFPPC_* flags. *\/$/;"	m	struct:ofp_port
+config	openflow.h	/^    uint32_t config;        \/* Bitmap of OFPPC_* flags. *\/$/;"	m	struct:ofp_port_mod
+config	openflow.h	/^    uint32_t config;      \/* Bitmap of OFPTC_* flags *\/$/;"	m	struct:ofp_table_mod
+configure	openflow.h	/^    uint32_t      configure;  \/* Bitmap of OFPOPF_*. *\/$/;"	m	struct:ofp_port_mod_prop_optical
+cookie	openflow.h	/^    uint64_t cookie;              \/* Opaque controller-issued identifier. *\/$/;"	m	struct:ofp_flow_mod
+cookie	openflow.h	/^    uint64_t cookie;            \/* Opaque controller-issued identifier. *\/$/;"	m	struct:ofp_flow_update_full
+cookie	openflow.h	/^    uint64_t cookie;          \/* Opaque controller-issued identifier. *\/$/;"	m	struct:ofp_flow_desc
+cookie	openflow.h	/^    uint64_t cookie;          \/* Opaque controller-issued identifier. *\/$/;"	m	struct:ofp_flow_removed
+cookie	openflow.h	/^    uint64_t cookie;          \/* Require matching entries to contain this$/;"	m	struct:ofp_aggregate_stats_request
+cookie	openflow.h	/^    uint64_t cookie;          \/* Require matching entries to contain this$/;"	m	struct:ofp_flow_stats_request
+cookie	openflow.h	/^    uint64_t cookie;        \/* Cookie of the flow entry that was looked up. *\/$/;"	m	struct:ofp_packet_in
+cookie_mask	openflow.h	/^    uint64_t cookie_mask;         \/* Mask used to restrict the cookie bits$/;"	m	struct:ofp_flow_mod
+cookie_mask	openflow.h	/^    uint64_t cookie_mask;     \/* Mask used to restrict the cookie bits that$/;"	m	struct:ofp_aggregate_stats_request
+cookie_mask	openflow.h	/^    uint64_t cookie_mask;     \/* Mask used to restrict the cookie bits that$/;"	m	struct:ofp_flow_stats_request
+creat_pkt	ofproto.c	/^void  creat_pkt(unsigned int packet_type,unsigned char *packet)$/;"	f
+curr	openflow.h	/^    uint32_t curr;          \/* Current features. *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+curr_speed	openflow.h	/^    uint32_t curr_speed;    \/* Current port bitrate in kbps. *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+data	openflow.h	/^    uint8_t data[0];          \/* Variable-length data.  Interpreted based$/;"	m	struct:ofp_error_experimenter_msg
+data	openflow.h	/^    uint8_t data[0];          \/* Variable-length data.  Interpreted based$/;"	m	struct:ofp_error_msg
+datapath_id	openflow.h	/^    uint64_t datapath_id;   \/* Datapath unique ID.  The lower 48-bits are for$/;"	m	struct:ofp_switch_features
+desc	openflow.h	/^    struct ofp_port desc;$/;"	m	struct:ofp_port_status	typeref:struct:ofp_port_status::ofp_port
+dp_desc	openflow.h	/^    char dp_desc[DESC_STR_LEN];        \/* Human readable description of$/;"	m	struct:ofp_desc
+dst_offset	openflow.h	/^    uint16_t dst_offset;            \/* Starting bit offset in destination. *\/$/;"	m	struct:ofp_action_copy_field
+duration_nsec	openflow.h	/^    uint32_t   duration_nsec; \/* Time meter has been alive in nanoseconds beyond$/;"	m	struct:ofp_meter_stats
+duration_nsec	openflow.h	/^    uint32_t duration_nsec;  \/* Time group has been alive in nanoseconds beyond$/;"	m	struct:ofp_group_stats
+duration_nsec	openflow.h	/^    uint32_t duration_nsec;  \/* Time port has been alive in nanoseconds beyond$/;"	m	struct:ofp_port_stats
+duration_nsec	openflow.h	/^    uint32_t duration_nsec;  \/* Time queue has been alive in nanoseconds beyond$/;"	m	struct:ofp_queue_stats
+duration_sec	openflow.h	/^    uint32_t   duration_sec;  \/* Time meter has been alive in seconds. *\/$/;"	m	struct:ofp_meter_stats
+duration_sec	openflow.h	/^    uint32_t duration_sec;   \/* Time group has been alive in seconds. *\/$/;"	m	struct:ofp_group_stats
+duration_sec	openflow.h	/^    uint32_t duration_sec;   \/* Time port has been alive in seconds. *\/$/;"	m	struct:ofp_port_stats
+duration_sec	openflow.h	/^    uint32_t duration_sec;   \/* Time queue has been alive in seconds. *\/$/;"	m	struct:ofp_queue_stats
+elements	openflow.h	/^    struct ofp_hello_elem_header elements[0]; \/* List of elements - 0 or more *\/$/;"	m	struct:ofp_hello	typeref:struct:ofp_hello::ofp_hello_elem_header
+ethertype	openflow.h	/^    uint16_t ethertype;             \/* Ethertype *\/$/;"	m	struct:ofp_action_pop_mpls
+ethertype	openflow.h	/^    uint16_t ethertype;             \/* Ethertype *\/$/;"	m	struct:ofp_action_push
+event	openflow.h	/^    uint16_t event;             \/* OFPFME_ABBREV. *\/$/;"	m	struct:ofp_flow_update_abbrev
+event	openflow.h	/^    uint16_t event;             \/* One of OFPFME_*. *\/$/;"	m	struct:ofp_flow_update_full
+event	openflow.h	/^    uint16_t event;             \/* One of OFPFME_*. *\/$/;"	m	struct:ofp_flow_update_header
+event	openflow.h	/^    uint16_t event;             \/* One of OFPFME_*. *\/$/;"	m	struct:ofp_flow_update_paused
+exp_code	openflow.h	/^    uint16_t exp_code;        \/* Experimenter defined. *\/$/;"	m	struct:ofp_error_experimenter_msg
+exp_data	openflow.h	/^    uint8_t exp_data[0];          \/* Optional experimenter id + data. *\/$/;"	m	struct:ofp_action_id
+exp_data	openflow.h	/^    uint8_t exp_data[0];          \/* Optional experimenter id + data. *\/$/;"	m	struct:ofp_instruction_id
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_async_config_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_bundle_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_controller_status_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_group_bucket_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_group_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_port_desc_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_port_mod_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_port_stats_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_queue_desc_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_queue_stats_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_role_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_table_feature_prop_experimenter
+exp_type	openflow.h	/^    uint32_t         exp_type;      \/* Experimenter defined. *\/$/;"	m	struct:ofp_table_mod_prop_experimenter
+exp_type	openflow.h	/^    uint32_t exp_type;          \/* Experimenter defined. *\/$/;"	m	struct:ofp_experimenter_msg
+exp_type	openflow.h	/^    uint32_t exp_type;          \/* Experimenter defined. *\/$/;"	m	struct:ofp_experimenter_structure
+exp_type	openflow.h	/^    uint32_t exp_type;        \/* Experimenter defined. *\/$/;"	m	struct:ofp_experimenter_multipart_header
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_async_config_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_bundle_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_controller_status_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_group_bucket_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_group_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_port_desc_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_port_mod_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_port_stats_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_queue_desc_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_queue_stats_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_role_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_table_feature_prop_experimenter
+experimenter	openflow.h	/^    uint32_t         experimenter;  \/* Experimenter ID which takes the same$/;"	m	struct:ofp_table_mod_prop_experimenter
+experimenter	openflow.h	/^    uint32_t        experimenter; \/* Experimenter ID. *\/$/;"	m	struct:ofp_meter_band_experimenter
+experimenter	openflow.h	/^    uint32_t experimenter;          \/* Experimenter ID. *\/$/;"	m	struct:ofp_action_experimenter_header
+experimenter	openflow.h	/^    uint32_t experimenter;      \/* Experimenter ID. *\/$/;"	m	struct:ofp_instruction_experimenter_header
+experimenter	openflow.h	/^    uint32_t experimenter;      \/* Experimenter ID. *\/$/;"	m	struct:ofp_oxm_experimenter_header
+experimenter	openflow.h	/^    uint32_t experimenter;      \/* Experimenter ID. *\/$/;"	m	struct:ofp_oxs_experimenter_header
+experimenter	openflow.h	/^    uint32_t experimenter;      \/* Experimenter ID:$/;"	m	struct:ofp_experimenter_msg
+experimenter	openflow.h	/^    uint32_t experimenter;      \/* Experimenter ID:$/;"	m	struct:ofp_experimenter_structure
+experimenter	openflow.h	/^    uint32_t experimenter;    \/* Experimenter ID. *\/$/;"	m	struct:ofp_error_experimenter_msg
+experimenter	openflow.h	/^    uint32_t experimenter;    \/* Experimenter ID. *\/$/;"	m	struct:ofp_experimenter_multipart_header
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_async_config_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_bundle_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_controller_status_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_group_bucket_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_group_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_port_desc_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_port_mod_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_port_stats_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_queue_desc_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_queue_stats_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_role_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_table_feature_prop_experimenter
+experimenter_data	openflow.h	/^    uint32_t         experimenter_data[0];$/;"	m	struct:ofp_table_mod_prop_experimenter
+experimenter_data	openflow.h	/^    uint8_t  experimenter_data[0];$/;"	m	struct:ofp_experimenter_msg
+experimenter_data	openflow.h	/^    uint8_t  experimenter_data[0];$/;"	m	struct:ofp_experimenter_structure
+feature_request_flags	openflow.h	/^    uint32_t feature_request_flags;  \/* Bitmap of "ofp_bundle_feature_flags". *\/$/;"	m	struct:ofp_bundle_features_request
+features	openflow.h	/^    uint32_t    features;     \/* Bitmaps of "ofp_meter_feature_flags". *\/$/;"	m	struct:ofp_meter_features
+features	openflow.h	/^    uint32_t features;       \/* Bitmap of OFPTFF_* values. *\/$/;"	m	struct:ofp_table_features
+field	openflow.h	/^    uint8_t field[4];               \/* OXM TLV - Make compiler happy *\/$/;"	m	struct:ofp_action_set_field
+fl_offset	openflow.h	/^    int32_t       fl_offset;  \/* signed frequency offset *\/$/;"	m	struct:ofp_port_mod_prop_optical
+flags	openflow.h	/^    uint16_t              flags;          \/* Bitmap of OFPBF_* flags. *\/$/;"	m	struct:ofp_bundle_add_msg
+flags	openflow.h	/^    uint16_t              flags;          \/* Bitmap of OFPBF_* flags. *\/$/;"	m	struct:ofp_bundle_ctrl_msg
+flags	openflow.h	/^    uint16_t            flags;          \/* Bitmap of OFPMF_* flags. *\/$/;"	m	struct:ofp_meter_mod
+flags	openflow.h	/^    uint16_t        flags;            \/* All OFPMC_* that apply. *\/$/;"	m	struct:ofp_meter_desc
+flags	openflow.h	/^    uint16_t flags;               \/* Bitmap of OFPFF_* flags. *\/$/;"	m	struct:ofp_flow_mod
+flags	openflow.h	/^    uint16_t flags;             \/* Bitmap of OFPC_* flags. *\/$/;"	m	struct:ofp_switch_config
+flags	openflow.h	/^    uint16_t flags;             \/* OFPFMF_*. *\/$/;"	m	struct:ofp_flow_monitor_request
+flags	openflow.h	/^    uint16_t flags;             \/* OFPMPF_REPLY_* flags. *\/$/;"	m	struct:ofp_multipart_reply
+flags	openflow.h	/^    uint16_t flags;             \/* OFPMPF_REQ_* flags. *\/$/;"	m	struct:ofp_multipart_request
+flags	openflow.h	/^    uint16_t flags;           \/* Bitmap of OFPFF_* flags. *\/$/;"	m	struct:ofp_flow_desc
+flags	openflow.h	/^    uint32_t         flags;   \/* Bitmap of OFPTMPEF_* flags *\/$/;"	m	struct:ofp_table_mod_prop_eviction
+flags	openflow.h	/^    uint32_t flags;               \/* Bitmap of OFPSTF_* flags. *\/$/;"	m	struct:ofp_instruction_stat_trigger
+flags	openflow.h	/^    uint32_t flags;          \/* Features enabled by the port. *\/$/;"	m	struct:ofp_port_stats_prop_optical
+freq_lmda	openflow.h	/^    uint32_t      freq_lmda;  \/* The "center" frequency *\/$/;"	m	struct:ofp_port_mod_prop_optical
+generation_id	openflow.h	/^    uint64_t generation_id;     \/* Master Election Generation Id *\/$/;"	m	struct:ofp_role_request
+generation_id	openflow.h	/^    uint64_t generation_id;     \/* Master Election Generation Id *\/$/;"	m	struct:ofp_role_status
+grid_span	openflow.h	/^    uint32_t      grid_span;  \/* The size of the grid for this port *\/$/;"	m	struct:ofp_port_mod_prop_optical
+group_id	openflow.h	/^    uint32_t group_id;              \/* Group identifier. *\/$/;"	m	struct:ofp_action_group
+group_id	openflow.h	/^    uint32_t group_id;            \/* Group identifier. *\/$/;"	m	struct:ofp_group_desc
+group_id	openflow.h	/^    uint32_t group_id;            \/* Group identifier. *\/$/;"	m	struct:ofp_group_mod
+group_id	openflow.h	/^    uint32_t group_id;       \/* All groups if OFPG_ALL. *\/$/;"	m	struct:ofp_group_multipart_request
+group_id	openflow.h	/^    uint32_t group_id;       \/* Group identifier. *\/$/;"	m	struct:ofp_group_stats
+hard_timeout	openflow.h	/^    uint16_t hard_timeout;        \/* Max time before discarding (seconds). *\/$/;"	m	struct:ofp_flow_mod
+hard_timeout	openflow.h	/^    uint16_t hard_timeout;      \/* Number of seconds before expiration. *\/$/;"	m	struct:ofp_flow_update_full
+hard_timeout	openflow.h	/^    uint16_t hard_timeout;    \/* Hard timeout from original flow mod. *\/$/;"	m	struct:ofp_flow_removed
+hard_timeout	openflow.h	/^    uint16_t hard_timeout;    \/* Number of seconds before expiration. *\/$/;"	m	struct:ofp_flow_desc
+header	openflow.h	/^    struct ofp_header	header;$/;"	m	struct:ofp_meter_mod	typeref:struct:ofp_meter_mod::ofp_header
+header	openflow.h	/^    struct ofp_header     header;$/;"	m	struct:ofp_bundle_add_msg	typeref:struct:ofp_bundle_add_msg::ofp_header
+header	openflow.h	/^    struct ofp_header     header;$/;"	m	struct:ofp_bundle_ctrl_msg	typeref:struct:ofp_bundle_ctrl_msg::ofp_header
+header	openflow.h	/^    struct ofp_header header;               \/* Type OFPT_CONTROLLER_STATUS. *\/$/;"	m	struct:ofp_controller_status_header	typeref:struct:ofp_controller_status_header::ofp_header
+header	openflow.h	/^    struct ofp_header header;     \/* OFPT_GET_ASYNC_REPLY or OFPT_SET_ASYNC. *\/$/;"	m	struct:ofp_async_config	typeref:struct:ofp_async_config::ofp_header
+header	openflow.h	/^    struct ofp_header header;   \/* Type OFPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_experimenter_msg	typeref:struct:ofp_experimenter_msg::ofp_header
+header	openflow.h	/^    struct ofp_header header;   \/* Type OFPT_REQUESTFORWARD. *\/$/;"	m	struct:ofp_requestforward_header	typeref:struct:ofp_requestforward_header::ofp_header
+header	openflow.h	/^    struct ofp_header header;   \/* Type OFPT_ROLE_REQUEST\/OFPT_ROLE_REPLY. *\/$/;"	m	struct:ofp_role_request	typeref:struct:ofp_role_request::ofp_header
+header	openflow.h	/^    struct ofp_header header;   \/* Type OFPT_ROLE_STATUS. *\/$/;"	m	struct:ofp_role_status	typeref:struct:ofp_role_status::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_error_experimenter_msg	typeref:struct:ofp_error_experimenter_msg::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_error_msg	typeref:struct:ofp_error_msg::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_flow_mod	typeref:struct:ofp_flow_mod::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_flow_removed	typeref:struct:ofp_flow_removed::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_group_mod	typeref:struct:ofp_group_mod::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_hello	typeref:struct:ofp_hello::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_multipart_reply	typeref:struct:ofp_multipart_reply::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_multipart_request	typeref:struct:ofp_multipart_request::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_packet_in	typeref:struct:ofp_packet_in::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_packet_out	typeref:struct:ofp_packet_out::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_port_mod	typeref:struct:ofp_port_mod::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_port_status	typeref:struct:ofp_port_status::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_switch_config	typeref:struct:ofp_switch_config::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_switch_features	typeref:struct:ofp_switch_features::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_table_mod	typeref:struct:ofp_table_mod::ofp_header
+header	openflow.h	/^    struct ofp_header header;$/;"	m	struct:ofp_table_status	typeref:struct:ofp_table_status::ofp_header
+hw_addr	openflow.h	/^    uint8_t hw_addr[OFP_ETH_ALEN]; \/* The hardware address is not$/;"	m	struct:ofp_port_mod
+hw_addr	openflow.h	/^    uint8_t hw_addr[OFP_ETH_ALEN];$/;"	m	struct:ofp_port
+hw_desc	openflow.h	/^    char hw_desc[DESC_STR_LEN];        \/* Hardware description. *\/$/;"	m	struct:ofp_desc
+idle_timeout	openflow.h	/^    uint16_t idle_timeout;        \/* Idle time before discarding (seconds). *\/$/;"	m	struct:ofp_flow_mod
+idle_timeout	openflow.h	/^    uint16_t idle_timeout;      \/* Number of seconds idle before expiration. *\/$/;"	m	struct:ofp_flow_update_full
+idle_timeout	openflow.h	/^    uint16_t idle_timeout;    \/* Idle timeout from original flow mod. *\/$/;"	m	struct:ofp_flow_removed
+idle_timeout	openflow.h	/^    uint16_t idle_timeout;    \/* Number of seconds idle before expiration. *\/$/;"	m	struct:ofp_flow_desc
+importance	openflow.h	/^    uint16_t importance;          \/* Eviction precedence (optional). *\/$/;"	m	struct:ofp_flow_mod
+importance	openflow.h	/^    uint16_t importance;      \/* Eviction precedence. *\/$/;"	m	struct:ofp_flow_desc
+instruction_ids	openflow.h	/^    struct ofp_instruction_id  instruction_ids[0];   \/* List of instructions *\/$/;"	m	struct:ofp_table_feature_prop_instructions	typeref:struct:ofp_table_feature_prop_instructions::ofp_instruction_id
+len	openflow.h	/^    uint16_t        len;              \/* Length in bytes of this stats. *\/$/;"	m	struct:ofp_meter_stats
+len	openflow.h	/^    uint16_t        len;     \/* Length in bytes of this band. *\/$/;"	m	struct:ofp_meter_band_experimenter
+len	openflow.h	/^    uint16_t        len;     \/* Length in bytes of this band. *\/$/;"	m	struct:ofp_meter_band_header
+len	openflow.h	/^    uint16_t        len;     \/* Length is 16. *\/$/;"	m	struct:ofp_meter_band_drop
+len	openflow.h	/^    uint16_t        len;     \/* Length is 16. *\/$/;"	m	struct:ofp_meter_band_dscp_remark
+len	openflow.h	/^    uint16_t len;                   \/* Length is 16. *\/$/;"	m	struct:ofp_action_output
+len	openflow.h	/^    uint16_t len;                   \/* Length is 8. *\/$/;"	m	struct:ofp_action_generic
+len	openflow.h	/^    uint16_t len;                   \/* Length is 8. *\/$/;"	m	struct:ofp_action_group
+len	openflow.h	/^    uint16_t len;                   \/* Length is 8. *\/$/;"	m	struct:ofp_action_mpls_ttl
+len	openflow.h	/^    uint16_t len;                   \/* Length is 8. *\/$/;"	m	struct:ofp_action_nw_ttl
+len	openflow.h	/^    uint16_t len;                   \/* Length is 8. *\/$/;"	m	struct:ofp_action_pop_mpls
+len	openflow.h	/^    uint16_t len;                   \/* Length is 8. *\/$/;"	m	struct:ofp_action_push
+len	openflow.h	/^    uint16_t len;                   \/* Length is a multiple of 8. *\/$/;"	m	struct:ofp_action_experimenter_header
+len	openflow.h	/^    uint16_t len;                   \/* Length is padded to 64 bits. *\/$/;"	m	struct:ofp_action_copy_field
+len	openflow.h	/^    uint16_t len;                   \/* Length is padded to 64 bits. *\/$/;"	m	struct:ofp_action_set_field
+len	openflow.h	/^    uint16_t len;                   \/* Length of the bucket in bytes, including$/;"	m	struct:ofp_bucket
+len	openflow.h	/^    uint16_t len;                   \/* Length of this struct in bytes. *\/$/;"	m	struct:ofp_action_header
+len	openflow.h	/^    uint16_t len;                 \/* Length is 24. *\/$/;"	m	struct:ofp_instruction_write_metadata
+len	openflow.h	/^    uint16_t len;                 \/* Length is 4 or experimenter defined. *\/$/;"	m	struct:ofp_action_id
+len	openflow.h	/^    uint16_t len;                 \/* Length is 4 or experimenter defined. *\/$/;"	m	struct:ofp_instruction_id
+len	openflow.h	/^    uint16_t len;                 \/* Length is 8. *\/$/;"	m	struct:ofp_action_meter
+len	openflow.h	/^    uint16_t len;                 \/* Length is 8. *\/$/;"	m	struct:ofp_instruction_goto_table
+len	openflow.h	/^    uint16_t len;                 \/* Length is padded to 64 bits. *\/$/;"	m	struct:ofp_instruction_stat_trigger
+len	openflow.h	/^    uint16_t len;                 \/* Length of this struct in bytes. *\/$/;"	m	struct:ofp_instruction_header
+len	openflow.h	/^    uint16_t len;               \/* Length is padded to 64 bits. *\/$/;"	m	struct:ofp_instruction_actions
+len	openflow.h	/^    uint16_t len;               \/* Length is padded to 64 bits. *\/$/;"	m	struct:ofp_instruction_experimenter_header
+len	openflow.h	/^    uint16_t len;             \/* Len is 8. *\/$/;"	m	struct:ofp_action_set_queue
+len	openflow.h	/^    uint16_t len;          \/* Length in bytes of this queue desc. *\/$/;"	m	struct:ofp_queue_desc
+length	openflow.h	/^    uint16_t         length;       \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_group_bucket_prop_experimenter
+length	openflow.h	/^    uint16_t         length;       \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_group_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* 8. *\/$/;"	m	struct:ofp_group_bucket_prop_watch
+length	openflow.h	/^    uint16_t         length;  \/* 8. *\/$/;"	m	struct:ofp_group_bucket_prop_weight
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of the element,$/;"	m	struct:ofp_hello_elem_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this element,$/;"	m	struct:ofp_hello_elem_versionbitmap
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_async_config_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_async_config_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_async_config_prop_reasons
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_bundle_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_bundle_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_controller_status_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_controller_status_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_controller_status_prop_uri
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_group_bucket_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_group_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_desc_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_desc_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_desc_prop_optical
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_desc_prop_oxm
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_mod_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_mod_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_stats_prop_ethernet
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_stats_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_stats_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_stats_prop_optical
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_queue_desc_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_queue_desc_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_queue_stats_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_queue_stats_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_role_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_role_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_feature_prop_actions
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_feature_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_feature_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_feature_prop_instructions
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_feature_prop_oxm
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_feature_prop_oxm_values
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_feature_prop_tables
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_mod_prop_eviction
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_mod_prop_experimenter
+length	openflow.h	/^    uint16_t         length;  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_mod_prop_header
+length	openflow.h	/^    uint16_t         length;  \/* Length is 8. *\/$/;"	m	struct:ofp_queue_desc_prop_max_rate
+length	openflow.h	/^    uint16_t         length;  \/* Length is 8. *\/$/;"	m	struct:ofp_queue_desc_prop_min_rate
+length	openflow.h	/^    uint16_t         length; \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_table_mod_prop_vacancy
+length	openflow.h	/^    uint16_t        length;           \/* Length of this entry. *\/$/;"	m	struct:ofp_meter_desc
+length	openflow.h	/^    uint16_t      length;     \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_mod_prop_ethernet
+length	openflow.h	/^    uint16_t      length;     \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_port_mod_prop_optical
+length	openflow.h	/^    uint16_t     length;        \/* Length in bytes of the property,$/;"	m	struct:ofp_port_desc_prop_recirculate
+length	openflow.h	/^    uint16_t length;                  \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_bundle_features_prop_time
+length	openflow.h	/^    uint16_t length;              \/* Length of this entry. *\/$/;"	m	struct:ofp_group_desc
+length	openflow.h	/^    uint16_t length;            \/* Length is 32 + match + instructions. *\/$/;"	m	struct:ofp_flow_update_full
+length	openflow.h	/^    uint16_t length;            \/* Length is 8. *\/$/;"	m	struct:ofp_flow_update_abbrev
+length	openflow.h	/^    uint16_t length;            \/* Length is 8. *\/$/;"	m	struct:ofp_flow_update_paused
+length	openflow.h	/^    uint16_t length;            \/* Length of this entry. *\/$/;"	m	struct:ofp_flow_update_header
+length	openflow.h	/^    uint16_t length;           \/* Length of ofp_match (excluding padding) *\/$/;"	m	struct:ofp_match
+length	openflow.h	/^    uint16_t length;           \/* Length of ofp_stats (excluding padding) *\/$/;"	m	struct:ofp_stats
+length	openflow.h	/^    uint16_t length;          \/* Length of this entry. *\/$/;"	m	struct:ofp_flow_desc
+length	openflow.h	/^    uint16_t length;          \/* Length of this entry. *\/$/;"	m	struct:ofp_flow_stats
+length	openflow.h	/^    uint16_t length;         \/* Length is padded to 64 bits. *\/$/;"	m	struct:ofp_table_desc
+length	openflow.h	/^    uint16_t length;         \/* Length is padded to 64 bits. *\/$/;"	m	struct:ofp_table_features
+length	openflow.h	/^    uint16_t length;         \/* Length of this entry. *\/$/;"	m	struct:ofp_group_stats
+length	openflow.h	/^    uint16_t length;         \/* Length of this entry. *\/$/;"	m	struct:ofp_port_stats
+length	openflow.h	/^    uint16_t length;         \/* Length of this entry. *\/$/;"	m	struct:ofp_queue_stats
+length	openflow.h	/^    uint16_t length;        \/* Length in bytes of this property. *\/$/;"	m	struct:ofp_bundle_features_prop_header
+length	openflow.h	/^    uint16_t length;     \/* Length in bytes of this property (24). *\/$/;"	m	struct:ofp_bundle_prop_time
+length	openflow.h	/^    uint16_t length;    \/* Length including this ofp_header. *\/$/;"	m	struct:ofp_header
+length	openflow.h	/^    uint16_t length;$/;"	m	struct:ofp_port
+length	openflow.h	/^   uint16_t length;            \/* Length of this entry. *\/$/;"	m	struct:ofp_controller_status
+lookup_count	openflow.h	/^    uint64_t lookup_count;   \/* Number of packets looked up in table. *\/$/;"	m	struct:ofp_table_stats
+main	ofproto.c	/^int main(int argc,char *argv[])$/;"	f
+mask	openflow.h	/^    uint32_t         mask;    \/* Bitmasks of reason values. *\/$/;"	m	struct:ofp_async_config_prop_reasons
+mask	openflow.h	/^    uint32_t mask;          \/* Bitmap of OFPPC_* flags to be changed. *\/$/;"	m	struct:ofp_port_mod
+match	openflow.h	/^    struct ofp_match match;       \/* Fields to match. Variable size. *\/$/;"	m	struct:ofp_flow_mod	typeref:struct:ofp_flow_mod::ofp_match
+match	openflow.h	/^    struct ofp_match match;       \/* Packet pipeline fields. Variable size. *\/$/;"	m	struct:ofp_packet_out	typeref:struct:ofp_packet_out::ofp_match
+match	openflow.h	/^    struct ofp_match match;     \/* Fields to match. Variable size. *\/$/;"	m	struct:ofp_flow_monitor_request	typeref:struct:ofp_flow_monitor_request::ofp_match
+match	openflow.h	/^    struct ofp_match match;     \/* Fields to match. Variable size. *\/$/;"	m	struct:ofp_flow_update_full	typeref:struct:ofp_flow_update_full::ofp_match
+match	openflow.h	/^    struct ofp_match match;   \/* Description of fields. Variable size. *\/$/;"	m	struct:ofp_flow_desc	typeref:struct:ofp_flow_desc::ofp_match
+match	openflow.h	/^    struct ofp_match match;   \/* Description of fields. Variable size. *\/$/;"	m	struct:ofp_flow_removed	typeref:struct:ofp_flow_removed::ofp_match
+match	openflow.h	/^    struct ofp_match match;   \/* Description of fields. Variable size. *\/$/;"	m	struct:ofp_flow_stats	typeref:struct:ofp_flow_stats::ofp_match
+match	openflow.h	/^    struct ofp_match match;   \/* Fields to match. Variable size. *\/$/;"	m	struct:ofp_aggregate_stats_request	typeref:struct:ofp_aggregate_stats_request::ofp_match
+match	openflow.h	/^    struct ofp_match match;   \/* Fields to match. Variable size. *\/$/;"	m	struct:ofp_flow_stats_request	typeref:struct:ofp_flow_stats_request::ofp_match
+match	openflow.h	/^    struct ofp_match match; \/* Packet metadata. Variable size. *\/$/;"	m	struct:ofp_packet_in	typeref:struct:ofp_packet_in::ofp_match
+matched_count	openflow.h	/^    uint64_t matched_count;  \/* Number of packets that hit table. *\/$/;"	m	struct:ofp_table_stats
+max_bands	openflow.h	/^    uint8_t     max_bands;    \/* Maximum bands per meters *\/$/;"	m	struct:ofp_meter_features
+max_color	openflow.h	/^    uint8_t     max_color;    \/* Maximum color value *\/$/;"	m	struct:ofp_meter_features
+max_entries	openflow.h	/^    uint32_t max_entries;    \/* Max number of entries supported. *\/$/;"	m	struct:ofp_table_features
+max_groups	openflow.h	/^    uint32_t  max_groups[4];   \/* Maximum number of groups for each type. *\/$/;"	m	struct:ofp_group_features
+max_len	openflow.h	/^    uint16_t max_len;               \/* Max length to send to controller. *\/$/;"	m	struct:ofp_action_output
+max_meter	openflow.h	/^    uint32_t    max_meter;    \/* Maximum number of meters. *\/$/;"	m	struct:ofp_meter_features
+max_speed	openflow.h	/^    uint32_t max_speed;     \/* Max port bitrate in kbps *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+message	openflow.h	/^    struct ofp_header     message;        \/* Message added to the bundle. *\/$/;"	m	struct:ofp_bundle_add_msg	typeref:struct:ofp_bundle_add_msg::ofp_header
+metadata	openflow.h	/^    uint64_t metadata;            \/* Metadata value to write *\/$/;"	m	struct:ofp_instruction_write_metadata
+metadata_mask	openflow.h	/^    uint64_t metadata_mask;       \/* Metadata write bitmask *\/$/;"	m	struct:ofp_instruction_write_metadata
+metadata_match	openflow.h	/^    uint64_t metadata_match; \/* Bits of metadata table can match. *\/$/;"	m	struct:ofp_table_features
+metadata_write	openflow.h	/^    uint64_t metadata_write; \/* Bits of metadata table can write. *\/$/;"	m	struct:ofp_table_features
+meter_id	openflow.h	/^    uint32_t            meter_id;       \/* Meter instance. *\/$/;"	m	struct:ofp_meter_mod
+meter_id	openflow.h	/^    uint32_t        meter_id;         \/* Meter instance. *\/$/;"	m	struct:ofp_meter_desc
+meter_id	openflow.h	/^    uint32_t        meter_id;         \/* Meter instance. *\/$/;"	m	struct:ofp_meter_stats
+meter_id	openflow.h	/^    uint32_t meter_id;            \/* Meter instance. *\/$/;"	m	struct:ofp_action_meter
+meter_id	openflow.h	/^    uint32_t meter_id;       \/* Meter instance, or OFPM_ALL. *\/$/;"	m	struct:ofp_meter_multipart_request
+mfr_desc	openflow.h	/^    char mfr_desc[DESC_STR_LEN];       \/* Manufacturer description. *\/$/;"	m	struct:ofp_desc
+miss_send_len	openflow.h	/^    uint16_t miss_send_len;     \/* Max bytes of packet that datapath$/;"	m	struct:ofp_switch_config
+monitor_id	openflow.h	/^    uint32_t monitor_id;        \/* Controller-assigned ID for this monitor. *\/$/;"	m	struct:ofp_flow_monitor_request
+mpls_ttl	openflow.h	/^    uint8_t mpls_ttl;               \/* MPLS TTL *\/$/;"	m	struct:ofp_action_mpls_ttl
+n_bits	openflow.h	/^    uint16_t n_bits;                \/* Number of bits to copy. *\/$/;"	m	struct:ofp_action_copy_field
+n_buffers	openflow.h	/^    uint32_t n_buffers;     \/* Max packets buffered at once. *\/$/;"	m	struct:ofp_switch_features
+n_tables	openflow.h	/^    uint8_t n_tables;       \/* Number of tables supported by datapath. *\/$/;"	m	struct:ofp_switch_features
+name	openflow.h	/^    char name[OFP_MAX_PORT_NAME_LEN]; \/* Null-terminated *\/$/;"	m	struct:ofp_port
+name	openflow.h	/^    char name[OFP_MAX_TABLE_NAME_LEN];$/;"	m	struct:ofp_table_features
+nanoseconds	openflow.h	/^    uint32_t nanoseconds;$/;"	m	struct:ofp_time
+ns_type	openflow.h	/^    uint16_t    ns_type;      \/* Type within namespace. *\/$/;"	m	struct:ofp_header_type
+nw_ttl	openflow.h	/^    uint8_t nw_ttl;                 \/* IP TTL *\/$/;"	m	struct:ofp_action_nw_ttl
+ofp_action_copy_field	openflow.h	/^struct ofp_action_copy_field {$/;"	s
+ofp_action_experimenter_header	openflow.h	/^struct ofp_action_experimenter_header {$/;"	s
+ofp_action_generic	openflow.h	/^struct ofp_action_generic {$/;"	s
+ofp_action_group	openflow.h	/^struct ofp_action_group {$/;"	s
+ofp_action_header	openflow.h	/^struct ofp_action_header {$/;"	s
+ofp_action_id	openflow.h	/^struct ofp_action_id {$/;"	s
+ofp_action_meter	openflow.h	/^struct ofp_action_meter {$/;"	s
+ofp_action_mpls_ttl	openflow.h	/^struct ofp_action_mpls_ttl {$/;"	s
+ofp_action_nw_ttl	openflow.h	/^struct ofp_action_nw_ttl {$/;"	s
+ofp_action_output	openflow.h	/^struct ofp_action_output {$/;"	s
+ofp_action_pop_mpls	openflow.h	/^struct ofp_action_pop_mpls {$/;"	s
+ofp_action_push	openflow.h	/^struct ofp_action_push {$/;"	s
+ofp_action_set_field	openflow.h	/^struct ofp_action_set_field {$/;"	s
+ofp_action_set_queue	openflow.h	/^struct ofp_action_set_queue {$/;"	s
+ofp_action_type	openflow.h	/^enum ofp_action_type {$/;"	g
+ofp_aggregate_stats_reply	openflow.h	/^struct ofp_aggregate_stats_reply {$/;"	s
+ofp_aggregate_stats_request	openflow.h	/^struct ofp_aggregate_stats_request {$/;"	s
+ofp_async_config	openflow.h	/^struct ofp_async_config {$/;"	s
+ofp_async_config_failed_code	openflow.h	/^enum ofp_async_config_failed_code {$/;"	g
+ofp_async_config_prop_experimenter	openflow.h	/^struct ofp_async_config_prop_experimenter {$/;"	s
+ofp_async_config_prop_header	openflow.h	/^struct ofp_async_config_prop_header {$/;"	s
+ofp_async_config_prop_reasons	openflow.h	/^struct ofp_async_config_prop_reasons {$/;"	s
+ofp_async_config_prop_type	openflow.h	/^enum ofp_async_config_prop_type {$/;"	g
+ofp_bad_action_code	openflow.h	/^enum ofp_bad_action_code {$/;"	g
+ofp_bad_instruction_code	openflow.h	/^enum ofp_bad_instruction_code {$/;"	g
+ofp_bad_match_code	openflow.h	/^enum ofp_bad_match_code {$/;"	g
+ofp_bad_property_code	openflow.h	/^enum ofp_bad_property_code {$/;"	g
+ofp_bad_request_code	openflow.h	/^enum ofp_bad_request_code {$/;"	g
+ofp_bucket	openflow.h	/^struct ofp_bucket {$/;"	s
+ofp_bucket_counter	openflow.h	/^struct ofp_bucket_counter {$/;"	s
+ofp_bundle_add_msg	openflow.h	/^struct ofp_bundle_add_msg {$/;"	s
+ofp_bundle_ctrl_msg	openflow.h	/^struct ofp_bundle_ctrl_msg {$/;"	s
+ofp_bundle_ctrl_type	openflow.h	/^enum ofp_bundle_ctrl_type {$/;"	g
+ofp_bundle_failed_code	openflow.h	/^enum ofp_bundle_failed_code {$/;"	g
+ofp_bundle_feature_flags	openflow.h	/^enum ofp_bundle_feature_flags {$/;"	g
+ofp_bundle_features	openflow.h	/^struct ofp_bundle_features {$/;"	s
+ofp_bundle_features_prop_header	openflow.h	/^struct ofp_bundle_features_prop_header {$/;"	s
+ofp_bundle_features_prop_time	openflow.h	/^struct ofp_bundle_features_prop_time {$/;"	s
+ofp_bundle_features_prop_type	openflow.h	/^enum ofp_bundle_features_prop_type {$/;"	g
+ofp_bundle_features_request	openflow.h	/^struct ofp_bundle_features_request {$/;"	s
+ofp_bundle_flags	openflow.h	/^enum ofp_bundle_flags {$/;"	g
+ofp_bundle_prop_experimenter	openflow.h	/^struct ofp_bundle_prop_experimenter {$/;"	s
+ofp_bundle_prop_header	openflow.h	/^struct ofp_bundle_prop_header {$/;"	s
+ofp_bundle_prop_time	openflow.h	/^    struct ofp_bundle_prop_time {$/;"	s
+ofp_bundle_prop_type	openflow.h	/^enum ofp_bundle_prop_type {$/;"	g
+ofp_capabilities	openflow.h	/^enum ofp_capabilities {$/;"	g
+ofp_config_flags	openflow.h	/^enum ofp_config_flags {$/;"	g
+ofp_control_channel_status	openflow.h	/^enum ofp_control_channel_status {$/;"	g
+ofp_controller_max_len	openflow.h	/^enum ofp_controller_max_len {$/;"	g
+ofp_controller_role	openflow.h	/^enum ofp_controller_role {$/;"	g
+ofp_controller_role_reason	openflow.h	/^enum ofp_controller_role_reason {$/;"	g
+ofp_controller_status	openflow.h	/^struct ofp_controller_status {$/;"	s
+ofp_controller_status_header	openflow.h	/^struct ofp_controller_status_header {$/;"	s
+ofp_controller_status_prop_experimenter	openflow.h	/^struct ofp_controller_status_prop_experimenter {$/;"	s
+ofp_controller_status_prop_header	openflow.h	/^struct ofp_controller_status_prop_header {$/;"	s
+ofp_controller_status_prop_type	openflow.h	/^enum ofp_controller_status_prop_type {$/;"	g
+ofp_controller_status_prop_uri	openflow.h	/^struct ofp_controller_status_prop_uri {$/;"	s
+ofp_controller_status_reason	openflow.h	/^enum ofp_controller_status_reason {$/;"	g
+ofp_desc	openflow.h	/^struct ofp_desc {$/;"	s
+ofp_error_experimenter_msg	openflow.h	/^struct ofp_error_experimenter_msg {$/;"	s
+ofp_error_msg	openflow.h	/^struct ofp_error_msg {$/;"	s
+ofp_error_type	openflow.h	/^enum ofp_error_type {$/;"	g
+ofp_experimenter_msg	openflow.h	/^struct ofp_experimenter_msg {$/;"	s
+ofp_experimenter_multipart_header	openflow.h	/^struct ofp_experimenter_multipart_header {$/;"	s
+ofp_experimenter_structure	openflow.h	/^struct ofp_experimenter_structure {$/;"	s
+ofp_flow_desc	openflow.h	/^struct ofp_flow_desc {$/;"	s
+ofp_flow_mod	openflow.h	/^struct ofp_flow_mod {$/;"	s
+ofp_flow_mod_command	openflow.h	/^enum ofp_flow_mod_command {$/;"	g
+ofp_flow_mod_failed_code	openflow.h	/^enum ofp_flow_mod_failed_code {$/;"	g
+ofp_flow_mod_flags	openflow.h	/^enum ofp_flow_mod_flags {$/;"	g
+ofp_flow_monitor_command	openflow.h	/^enum ofp_flow_monitor_command {$/;"	g
+ofp_flow_monitor_failed_code	openflow.h	/^enum ofp_flow_monitor_failed_code {$/;"	g
+ofp_flow_monitor_flags	openflow.h	/^enum ofp_flow_monitor_flags {$/;"	g
+ofp_flow_monitor_request	openflow.h	/^struct ofp_flow_monitor_request {$/;"	s
+ofp_flow_removed	openflow.h	/^struct ofp_flow_removed {$/;"	s
+ofp_flow_removed_reason	openflow.h	/^enum ofp_flow_removed_reason {$/;"	g
+ofp_flow_stats	openflow.h	/^struct ofp_flow_stats {$/;"	s
+ofp_flow_stats_reason	openflow.h	/^enum ofp_flow_stats_reason {$/;"	g
+ofp_flow_stats_request	openflow.h	/^struct ofp_flow_stats_request {$/;"	s
+ofp_flow_update_abbrev	openflow.h	/^struct ofp_flow_update_abbrev {$/;"	s
+ofp_flow_update_event	openflow.h	/^enum ofp_flow_update_event {$/;"	g
+ofp_flow_update_full	openflow.h	/^struct ofp_flow_update_full {$/;"	s
+ofp_flow_update_header	openflow.h	/^struct ofp_flow_update_header {$/;"	s
+ofp_flow_update_paused	openflow.h	/^struct ofp_flow_update_paused {$/;"	s
+ofp_group	openflow.h	/^enum ofp_group {$/;"	g
+ofp_group_bucket	openflow.h	/^enum ofp_group_bucket {$/;"	g
+ofp_group_bucket_prop_experimenter	openflow.h	/^struct ofp_group_bucket_prop_experimenter {$/;"	s
+ofp_group_bucket_prop_header	openflow.h	/^struct ofp_group_bucket_prop_header {$/;"	s
+ofp_group_bucket_prop_type	openflow.h	/^enum ofp_group_bucket_prop_type {$/;"	g
+ofp_group_bucket_prop_watch	openflow.h	/^struct ofp_group_bucket_prop_watch {$/;"	s
+ofp_group_bucket_prop_weight	openflow.h	/^struct ofp_group_bucket_prop_weight {$/;"	s
+ofp_group_capabilities	openflow.h	/^enum ofp_group_capabilities {$/;"	g
+ofp_group_desc	openflow.h	/^struct ofp_group_desc {$/;"	s
+ofp_group_desc_stats	openflow.h	2985;"	d
+ofp_group_features	openflow.h	/^struct ofp_group_features {$/;"	s
+ofp_group_mod	openflow.h	/^struct ofp_group_mod {$/;"	s
+ofp_group_mod_command	openflow.h	/^enum ofp_group_mod_command {$/;"	g
+ofp_group_mod_failed_code	openflow.h	/^enum ofp_group_mod_failed_code {$/;"	g
+ofp_group_multipart_request	openflow.h	/^struct ofp_group_multipart_request {$/;"	s
+ofp_group_prop_experimenter	openflow.h	/^struct ofp_group_prop_experimenter {$/;"	s
+ofp_group_prop_header	openflow.h	/^struct ofp_group_prop_header {$/;"	s
+ofp_group_prop_type	openflow.h	/^enum ofp_group_prop_type {$/;"	g
+ofp_group_stats	openflow.h	/^struct ofp_group_stats {$/;"	s
+ofp_group_type	openflow.h	/^enum ofp_group_type {$/;"	g
+ofp_header	openflow.h	/^struct ofp_header {$/;"	s
+ofp_header_type	openflow.h	/^struct ofp_header_type {$/;"	s
+ofp_header_type_namespaces	openflow.h	/^enum ofp_header_type_namespaces {$/;"	g
+ofp_header_type_onf	openflow.h	/^enum ofp_header_type_onf {$/;"	g
+ofp_hello	openflow.h	/^struct ofp_hello {$/;"	s
+ofp_hello_elem_header	openflow.h	/^struct ofp_hello_elem_header {$/;"	s
+ofp_hello_elem_type	openflow.h	/^enum ofp_hello_elem_type {$/;"	g
+ofp_hello_elem_versionbitmap	openflow.h	/^struct ofp_hello_elem_versionbitmap {$/;"	s
+ofp_hello_failed_code	openflow.h	/^enum ofp_hello_failed_code {$/;"	g
+ofp_instruction_actions	openflow.h	/^struct ofp_instruction_actions {$/;"	s
+ofp_instruction_experimenter_header	openflow.h	/^struct ofp_instruction_experimenter_header {$/;"	s
+ofp_instruction_goto_table	openflow.h	/^struct ofp_instruction_goto_table {$/;"	s
+ofp_instruction_header	openflow.h	/^struct ofp_instruction_header {$/;"	s
+ofp_instruction_id	openflow.h	/^struct ofp_instruction_id {$/;"	s
+ofp_instruction_stat_trigger	openflow.h	/^struct ofp_instruction_stat_trigger {$/;"	s
+ofp_instruction_type	openflow.h	/^enum ofp_instruction_type {$/;"	g
+ofp_instruction_write_metadata	openflow.h	/^struct ofp_instruction_write_metadata {$/;"	s
+ofp_ipv6exthdr_flags	openflow.h	/^enum ofp_ipv6exthdr_flags {$/;"	g
+ofp_match	openflow.h	/^struct ofp_match {$/;"	s
+ofp_match_type	openflow.h	/^enum ofp_match_type {$/;"	g
+ofp_meter	openflow.h	/^enum ofp_meter {$/;"	g
+ofp_meter_band_drop	openflow.h	/^struct ofp_meter_band_drop {$/;"	s
+ofp_meter_band_dscp_remark	openflow.h	/^struct ofp_meter_band_dscp_remark {$/;"	s
+ofp_meter_band_experimenter	openflow.h	/^struct ofp_meter_band_experimenter {$/;"	s
+ofp_meter_band_header	openflow.h	/^struct ofp_meter_band_header {$/;"	s
+ofp_meter_band_stats	openflow.h	/^struct ofp_meter_band_stats {$/;"	s
+ofp_meter_band_type	openflow.h	/^enum ofp_meter_band_type {$/;"	g
+ofp_meter_desc	openflow.h	/^struct ofp_meter_desc {$/;"	s
+ofp_meter_feature_flags	openflow.h	/^enum ofp_meter_feature_flags {$/;"	g
+ofp_meter_features	openflow.h	/^struct ofp_meter_features {$/;"	s
+ofp_meter_flags	openflow.h	/^enum ofp_meter_flags {$/;"	g
+ofp_meter_mod	openflow.h	/^struct ofp_meter_mod {$/;"	s
+ofp_meter_mod_command	openflow.h	/^enum ofp_meter_mod_command {$/;"	g
+ofp_meter_mod_failed_code	openflow.h	/^enum ofp_meter_mod_failed_code {$/;"	g
+ofp_meter_multipart_request	openflow.h	/^struct ofp_meter_multipart_request {$/;"	s
+ofp_meter_stats	openflow.h	/^struct ofp_meter_stats {$/;"	s
+ofp_multipart_reply	openflow.h	/^struct ofp_multipart_reply {$/;"	s
+ofp_multipart_reply_flags	openflow.h	/^enum ofp_multipart_reply_flags {$/;"	g
+ofp_multipart_request	openflow.h	/^struct ofp_multipart_request {$/;"	s
+ofp_multipart_request_flags	openflow.h	/^enum ofp_multipart_request_flags {$/;"	g
+ofp_multipart_type	openflow.h	/^enum ofp_multipart_type {$/;"	g
+ofp_multipart_types	openflow.h	2490;"	d
+ofp_optical_port_features	openflow.h	/^enum ofp_optical_port_features {$/;"	g
+ofp_oxm_class	openflow.h	/^enum ofp_oxm_class {$/;"	g
+ofp_oxm_experimenter_header	openflow.h	/^struct ofp_oxm_experimenter_header {$/;"	s
+ofp_oxs_class	openflow.h	/^enum ofp_oxs_class {$/;"	g
+ofp_oxs_experimenter_header	openflow.h	/^struct ofp_oxs_experimenter_header {$/;"	s
+ofp_packet_in	openflow.h	/^struct ofp_packet_in {$/;"	s
+ofp_packet_in_reason	openflow.h	/^enum ofp_packet_in_reason {$/;"	g
+ofp_packet_out	openflow.h	/^struct ofp_packet_out {$/;"	s
+ofp_port	openflow.h	/^struct ofp_port {$/;"	s
+ofp_port_config	openflow.h	/^enum ofp_port_config {$/;"	g
+ofp_port_desc_prop_ethernet	openflow.h	/^struct ofp_port_desc_prop_ethernet {$/;"	s
+ofp_port_desc_prop_experimenter	openflow.h	/^struct ofp_port_desc_prop_experimenter {$/;"	s
+ofp_port_desc_prop_header	openflow.h	/^struct ofp_port_desc_prop_header {$/;"	s
+ofp_port_desc_prop_optical	openflow.h	/^struct ofp_port_desc_prop_optical {$/;"	s
+ofp_port_desc_prop_oxm	openflow.h	/^struct ofp_port_desc_prop_oxm {$/;"	s
+ofp_port_desc_prop_recirculate	openflow.h	/^struct ofp_port_desc_prop_recirculate {$/;"	s
+ofp_port_desc_prop_type	openflow.h	/^enum ofp_port_desc_prop_type {$/;"	g
+ofp_port_features	openflow.h	/^enum ofp_port_features {$/;"	g
+ofp_port_mod	openflow.h	/^struct ofp_port_mod {$/;"	s
+ofp_port_mod_failed_code	openflow.h	/^enum ofp_port_mod_failed_code {$/;"	g
+ofp_port_mod_prop_ethernet	openflow.h	/^struct ofp_port_mod_prop_ethernet {$/;"	s
+ofp_port_mod_prop_experimenter	openflow.h	/^struct ofp_port_mod_prop_experimenter {$/;"	s
+ofp_port_mod_prop_header	openflow.h	/^struct ofp_port_mod_prop_header {$/;"	s
+ofp_port_mod_prop_optical	openflow.h	/^struct ofp_port_mod_prop_optical {$/;"	s
+ofp_port_mod_prop_type	openflow.h	/^enum ofp_port_mod_prop_type {$/;"	g
+ofp_port_multipart_request	openflow.h	/^struct ofp_port_multipart_request {$/;"	s
+ofp_port_no	openflow.h	/^enum ofp_port_no {$/;"	g
+ofp_port_reason	openflow.h	/^enum ofp_port_reason {$/;"	g
+ofp_port_state	openflow.h	/^enum ofp_port_state {$/;"	g
+ofp_port_stats	openflow.h	/^struct ofp_port_stats {$/;"	s
+ofp_port_stats_optical_flags	openflow.h	/^enum ofp_port_stats_optical_flags  {$/;"	g
+ofp_port_stats_prop_ethernet	openflow.h	/^struct ofp_port_stats_prop_ethernet {$/;"	s
+ofp_port_stats_prop_experimenter	openflow.h	/^struct ofp_port_stats_prop_experimenter {$/;"	s
+ofp_port_stats_prop_header	openflow.h	/^struct ofp_port_stats_prop_header {$/;"	s
+ofp_port_stats_prop_optical	openflow.h	/^struct ofp_port_stats_prop_optical {$/;"	s
+ofp_port_stats_prop_type	openflow.h	/^enum ofp_port_stats_prop_type {$/;"	g
+ofp_port_status	openflow.h	/^struct ofp_port_status {$/;"	s
+ofp_queue_desc	openflow.h	/^struct ofp_queue_desc {$/;"	s
+ofp_queue_desc_prop_experimenter	openflow.h	/^struct ofp_queue_desc_prop_experimenter {$/;"	s
+ofp_queue_desc_prop_header	openflow.h	/^struct ofp_queue_desc_prop_header {$/;"	s
+ofp_queue_desc_prop_max_rate	openflow.h	/^struct ofp_queue_desc_prop_max_rate {$/;"	s
+ofp_queue_desc_prop_min_rate	openflow.h	/^struct ofp_queue_desc_prop_min_rate {$/;"	s
+ofp_queue_desc_prop_type	openflow.h	/^enum ofp_queue_desc_prop_type {$/;"	g
+ofp_queue_multipart_request	openflow.h	/^struct ofp_queue_multipart_request {$/;"	s
+ofp_queue_op_failed_code	openflow.h	/^enum ofp_queue_op_failed_code {$/;"	g
+ofp_queue_stats	openflow.h	/^struct ofp_queue_stats {$/;"	s
+ofp_queue_stats_prop_experimenter	openflow.h	/^struct ofp_queue_stats_prop_experimenter {$/;"	s
+ofp_queue_stats_prop_header	openflow.h	/^struct ofp_queue_stats_prop_header {$/;"	s
+ofp_queue_stats_prop_type	openflow.h	/^enum ofp_queue_stats_prop_type {$/;"	g
+ofp_requestforward_header	openflow.h	/^struct ofp_requestforward_header {$/;"	s
+ofp_requestforward_reason	openflow.h	/^enum ofp_requestforward_reason {$/;"	g
+ofp_role_prop_experimenter	openflow.h	/^struct ofp_role_prop_experimenter {$/;"	s
+ofp_role_prop_header	openflow.h	/^struct ofp_role_prop_header {$/;"	s
+ofp_role_prop_type	openflow.h	/^enum ofp_role_prop_type {$/;"	g
+ofp_role_request	openflow.h	/^struct ofp_role_request {$/;"	s
+ofp_role_request_failed_code	openflow.h	/^enum ofp_role_request_failed_code {$/;"	g
+ofp_role_status	openflow.h	/^struct ofp_role_status {$/;"	s
+ofp_stat_trigger_flags	openflow.h	/^enum ofp_stat_trigger_flags {$/;"	g
+ofp_stats	openflow.h	/^struct ofp_stats {$/;"	s
+ofp_switch_config	openflow.h	/^struct ofp_switch_config {$/;"	s
+ofp_switch_config_failed_code	openflow.h	/^enum ofp_switch_config_failed_code {$/;"	g
+ofp_switch_features	openflow.h	/^struct ofp_switch_features {$/;"	s
+ofp_table	openflow.h	/^enum ofp_table {$/;"	g
+ofp_table_config	openflow.h	/^enum ofp_table_config {$/;"	g
+ofp_table_desc	openflow.h	/^struct ofp_table_desc {$/;"	s
+ofp_table_feature_flag	openflow.h	/^enum ofp_table_feature_flag {$/;"	g
+ofp_table_feature_prop_actions	openflow.h	/^struct ofp_table_feature_prop_actions {$/;"	s
+ofp_table_feature_prop_experimenter	openflow.h	/^struct ofp_table_feature_prop_experimenter {$/;"	s
+ofp_table_feature_prop_header	openflow.h	/^struct ofp_table_feature_prop_header {$/;"	s
+ofp_table_feature_prop_instructions	openflow.h	/^struct ofp_table_feature_prop_instructions {$/;"	s
+ofp_table_feature_prop_oxm	openflow.h	/^struct ofp_table_feature_prop_oxm {$/;"	s
+ofp_table_feature_prop_oxm_values	openflow.h	/^struct ofp_table_feature_prop_oxm_values {$/;"	s
+ofp_table_feature_prop_tables	openflow.h	/^struct ofp_table_feature_prop_tables {$/;"	s
+ofp_table_feature_prop_type	openflow.h	/^enum ofp_table_feature_prop_type {$/;"	g
+ofp_table_features	openflow.h	/^struct ofp_table_features {$/;"	s
+ofp_table_features_command	openflow.h	/^enum ofp_table_features_command {$/;"	g
+ofp_table_features_failed_code	openflow.h	/^enum ofp_table_features_failed_code {$/;"	g
+ofp_table_mod	openflow.h	/^struct ofp_table_mod {$/;"	s
+ofp_table_mod_failed_code	openflow.h	/^enum ofp_table_mod_failed_code {$/;"	g
+ofp_table_mod_prop_eviction	openflow.h	/^struct ofp_table_mod_prop_eviction {$/;"	s
+ofp_table_mod_prop_eviction_flag	openflow.h	/^enum ofp_table_mod_prop_eviction_flag {$/;"	g
+ofp_table_mod_prop_experimenter	openflow.h	/^struct ofp_table_mod_prop_experimenter {$/;"	s
+ofp_table_mod_prop_header	openflow.h	/^struct ofp_table_mod_prop_header {$/;"	s
+ofp_table_mod_prop_type	openflow.h	/^enum ofp_table_mod_prop_type {$/;"	g
+ofp_table_mod_prop_vacancy	openflow.h	/^struct ofp_table_mod_prop_vacancy {$/;"	s
+ofp_table_reason	openflow.h	/^enum ofp_table_reason {$/;"	g
+ofp_table_stats	openflow.h	/^struct ofp_table_stats {$/;"	s
+ofp_table_status	openflow.h	/^struct ofp_table_status {$/;"	s
+ofp_time	openflow.h	/^struct ofp_time {$/;"	s
+ofp_type	openflow.h	/^enum ofp_type {$/;"	g
+ofp_vlan_id	openflow.h	/^enum ofp_vlan_id {$/;"	g
+out_group	openflow.h	/^    uint32_t out_group;           \/* For OFPFC_DELETE* commands, require$/;"	m	struct:ofp_flow_mod
+out_group	openflow.h	/^    uint32_t out_group;         \/* Required group number, if not OFPG_ANY. *\/$/;"	m	struct:ofp_flow_monitor_request
+out_group	openflow.h	/^    uint32_t out_group;       \/* Require matching entries to include this$/;"	m	struct:ofp_aggregate_stats_request
+out_group	openflow.h	/^    uint32_t out_group;       \/* Require matching entries to include this$/;"	m	struct:ofp_flow_stats_request
+out_port	openflow.h	/^    uint32_t out_port;            \/* For OFPFC_DELETE* commands, require$/;"	m	struct:ofp_flow_mod
+out_port	openflow.h	/^    uint32_t out_port;          \/* Required output port, if not OFPP_ANY. *\/$/;"	m	struct:ofp_flow_monitor_request
+out_port	openflow.h	/^    uint32_t out_port;        \/* Require matching entries to include this$/;"	m	struct:ofp_aggregate_stats_request
+out_port	openflow.h	/^    uint32_t out_port;        \/* Require matching entries to include this$/;"	m	struct:ofp_flow_stats_request
+oxm_fields	openflow.h	/^    uint8_t oxm_fields[0];     \/* 0 or more OXM match fields *\/$/;"	m	struct:ofp_match
+oxm_header	openflow.h	/^    uint32_t oxm_header;        \/* oxm_class = OFPXMC_EXPERIMENTER *\/$/;"	m	struct:ofp_oxm_experimenter_header
+oxm_ids	openflow.h	/^    uint32_t         oxm_ids[0];   \/* Array of OXM headers *\/$/;"	m	struct:ofp_port_desc_prop_oxm
+oxm_ids	openflow.h	/^    uint32_t         oxm_ids[0];   \/* Array of OXM headers *\/$/;"	m	struct:ofp_table_feature_prop_oxm
+oxm_ids	openflow.h	/^    uint32_t         oxm_ids[0];   \/* Source and destination OXM headers *\/$/;"	m	struct:ofp_action_copy_field
+oxm_ofb_match_fields	openflow.h	/^enum oxm_ofb_match_fields {$/;"	g
+oxm_values	openflow.h	/^    uint32_t         oxm_values[0];   \/* Array of OXM values *\/$/;"	m	struct:ofp_table_feature_prop_oxm_values
+oxs_fields	openflow.h	/^    uint8_t oxs_fields[0];     \/* 0 or more OXS stat fields *\/$/;"	m	struct:ofp_stats
+oxs_header	openflow.h	/^    uint32_t oxs_header;        \/* oxs_class = OFPXSC_EXPERIMENTER *\/$/;"	m	struct:ofp_oxs_experimenter_header
+oxs_ofb_stat_fields	openflow.h	/^enum oxs_ofb_stat_fields {$/;"	g
+packet_band_count	openflow.h	/^    uint64_t        packet_band_count;   \/* Number of packets in band. *\/$/;"	m	struct:ofp_meter_band_stats
+packet_count	openflow.h	/^    uint64_t packet_count;   \/* Number of packets processed by bucket. *\/$/;"	m	struct:ofp_bucket_counter
+packet_count	openflow.h	/^    uint64_t packet_count;   \/* Number of packets processed by group. *\/$/;"	m	struct:ofp_group_stats
+packet_in_count	openflow.h	/^    uint64_t        packet_in_count;  \/* Number of packets in input. *\/$/;"	m	struct:ofp_meter_stats
+pad	openflow.h	/^    uint16_t              pad;            \/* Align to 64 bits. *\/$/;"	m	struct:ofp_bundle_add_msg
+pad	openflow.h	/^    uint8_t          pad[2];  \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_group_bucket_prop_weight
+pad	openflow.h	/^    uint8_t          pad[4];  \/* Align to 64 bits. *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+pad	openflow.h	/^    uint8_t          pad[4];  \/* Align to 64 bits. *\/$/;"	m	struct:ofp_port_desc_prop_optical
+pad	openflow.h	/^    uint8_t          pad[4];  \/* Align to 64 bits. *\/$/;"	m	struct:ofp_port_stats_prop_ethernet
+pad	openflow.h	/^    uint8_t          pad[4];  \/* Align to 64 bits. *\/$/;"	m	struct:ofp_port_stats_prop_optical
+pad	openflow.h	/^    uint8_t         pad[3];$/;"	m	struct:ofp_meter_band_dscp_remark
+pad	openflow.h	/^    uint8_t         pad[4];$/;"	m	struct:ofp_meter_band_drop
+pad	openflow.h	/^    uint8_t         pad[6];$/;"	m	struct:ofp_meter_stats
+pad	openflow.h	/^    uint8_t     pad[2];$/;"	m	struct:ofp_meter_features
+pad	openflow.h	/^    uint8_t  pad[4];$/;"	m	struct:ofp_bundle_prop_time
+pad	openflow.h	/^    uint8_t  pad[4];$/;"	m	struct:ofp_time
+pad	openflow.h	/^    uint8_t pad;                  \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_group_desc
+pad	openflow.h	/^    uint8_t pad;                  \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_group_mod
+pad	openflow.h	/^    uint8_t pad;$/;"	m	struct:ofp_flow_desc
+pad	openflow.h	/^    uint8_t pad[1];          \/* Align to 32-bits. *\/$/;"	m	struct:ofp_table_desc
+pad	openflow.h	/^    uint8_t pad[1];          \/* Align to 64 bits. *\/$/;"	m	struct:ofp_table_mod_prop_vacancy
+pad	openflow.h	/^    uint8_t pad[2];                 \/* Align to 32 bits. *\/$/;"	m	struct:ofp_action_copy_field
+pad	openflow.h	/^    uint8_t pad[2];               \/* Align to 64 bits. *\/$/;"	m	struct:ofp_packet_out
+pad	openflow.h	/^    uint8_t pad[2];             \/* Align to 64 bits. *\/$/;"	m	struct:ofp_role_request
+pad	openflow.h	/^    uint8_t pad[2];          \/* Align to 64 bits. *\/$/;"	m	struct:ofp_group_stats
+pad	openflow.h	/^    uint8_t pad[2];          \/* Align to 64 bits. *\/$/;"	m	struct:ofp_port_stats
+pad	openflow.h	/^    uint8_t pad[2];         \/* Align to 64-bits. *\/$/;"	m	struct:ofp_switch_features
+pad	openflow.h	/^    uint8_t pad[2];       \/* 64-bit alignment *\/$/;"	m	struct:ofp_queue_desc_prop_max_rate
+pad	openflow.h	/^    uint8_t pad[2];       \/* 64-bit alignment *\/$/;"	m	struct:ofp_queue_desc_prop_min_rate
+pad	openflow.h	/^    uint8_t pad[2];$/;"	m	struct:ofp_action_pop_mpls
+pad	openflow.h	/^    uint8_t pad[2];$/;"	m	struct:ofp_action_push
+pad	openflow.h	/^    uint8_t pad[2];$/;"	m	struct:ofp_port
+pad	openflow.h	/^    uint8_t pad[3];               \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_instruction_goto_table
+pad	openflow.h	/^    uint8_t pad[3];             \/* Align to 64 bits. *\/$/;"	m	struct:ofp_role_status
+pad	openflow.h	/^    uint8_t pad[3];           \/* Align to 32 bits. *\/$/;"	m	struct:ofp_aggregate_stats_request
+pad	openflow.h	/^    uint8_t pad[3];           \/* Align to 32 bits. *\/$/;"	m	struct:ofp_flow_stats_request
+pad	openflow.h	/^    uint8_t pad[3];          \/* Align to 32-bits. *\/$/;"	m	struct:ofp_table_stats
+pad	openflow.h	/^    uint8_t pad[3];       \/* Pad to 32 bits *\/$/;"	m	struct:ofp_table_mod
+pad	openflow.h	/^    uint8_t pad[3];$/;"	m	struct:ofp_action_mpls_ttl
+pad	openflow.h	/^    uint8_t pad[3];$/;"	m	struct:ofp_action_nw_ttl
+pad	openflow.h	/^    uint8_t pad[4];                 \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_action_generic
+pad	openflow.h	/^    uint8_t pad[4];               \/* Align to 64-bits *\/$/;"	m	struct:ofp_instruction_write_metadata
+pad	openflow.h	/^    uint8_t pad[4];             \/* Align to 64-bits *\/$/;"	m	struct:ofp_instruction_actions
+pad	openflow.h	/^    uint8_t pad[4];            \/* Zero bytes - see above for sizing *\/$/;"	m	struct:ofp_match
+pad	openflow.h	/^    uint8_t pad[4];            \/* Zero bytes - see above for sizing *\/$/;"	m	struct:ofp_stats
+pad	openflow.h	/^    uint8_t pad[4];          \/* Align to 64 bits. *\/$/;"	m	struct:ofp_group_multipart_request
+pad	openflow.h	/^    uint8_t pad[4];          \/* Align to 64 bits. *\/$/;"	m	struct:ofp_meter_multipart_request
+pad	openflow.h	/^    uint8_t pad[4];$/;"	m	struct:ofp_bundle_features_prop_time
+pad	openflow.h	/^    uint8_t pad[4];$/;"	m	struct:ofp_bundle_features_request
+pad	openflow.h	/^    uint8_t pad[4];$/;"	m	struct:ofp_multipart_reply
+pad	openflow.h	/^    uint8_t pad[4];$/;"	m	struct:ofp_multipart_request
+pad	openflow.h	/^    uint8_t pad[4];$/;"	m	struct:ofp_port_mod
+pad	openflow.h	/^    uint8_t pad[4];$/;"	m	struct:ofp_port_multipart_request
+pad	openflow.h	/^    uint8_t pad[6];                 \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_action_output
+pad	openflow.h	/^    uint8_t pad[6];          \/* Align to 64 bits. *\/$/;"	m	struct:ofp_queue_stats
+pad	openflow.h	/^    uint8_t pad[6];        \/* 64-bit alignment. *\/$/;"	m	struct:ofp_queue_desc
+pad	openflow.h	/^    uint8_t pad[6];$/;"	m	struct:ofp_bundle_features
+pad	openflow.h	/^    uint8_t pad[7];          \/* Align to 64-bits. *\/$/;"	m	struct:ofp_port_status
+pad	openflow.h	/^    uint8_t pad[7];         \/* Pad to 64 bits *\/$/;"	m	struct:ofp_table_status
+pad	openflow.h	/^   uint8_t pad[6];             \/* Align to 64-bits. *\/$/;"	m	struct:ofp_controller_status
+pad2	openflow.h	/^    uint8_t     pad2[4];$/;"	m	struct:ofp_meter_features
+pad2	openflow.h	/^    uint8_t pad2[2];                  \/* Align to 64 bits. *\/$/;"	m	struct:ofp_port
+pad2	openflow.h	/^    uint8_t pad2[2];              \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_group_mod
+pad2	openflow.h	/^    uint8_t pad2[2];          \/* Align to 64-bits. *\/$/;"	m	struct:ofp_flow_desc
+pad2	openflow.h	/^    uint8_t pad2[2];          \/* Align to 64-bits. *\/$/;"	m	struct:ofp_flow_stats
+pad2	openflow.h	/^    uint8_t pad2[2];        \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_port_mod
+pad2	openflow.h	/^    uint8_t pad2[4];          \/* Align to 64 bits. *\/$/;"	m	struct:ofp_aggregate_stats_request
+pad2	openflow.h	/^    uint8_t pad2[4];          \/* Align to 64 bits. *\/$/;"	m	struct:ofp_flow_stats_request
+pad2	openflow.h	/^    uint8_t pad2[4];         \/* Align to 64 bits. *\/$/;"	m	struct:ofp_group_stats
+pad2	openflow.h	/^    uint8_t pad2[6];              \/* Pad to 64 bits. *\/$/;"	m	struct:ofp_group_desc
+peer	openflow.h	/^    uint32_t peer;          \/* Features advertised by peer. *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+port	openflow.h	/^    uint32_t port;                  \/* Output port. *\/$/;"	m	struct:ofp_action_output
+port_no	openflow.h	/^    uint32_t port_no;        \/* All ports if OFPP_ANY. *\/$/;"	m	struct:ofp_queue_multipart_request
+port_no	openflow.h	/^    uint32_t port_no;        \/* OFPMP_PORT message must request statistics$/;"	m	struct:ofp_port_multipart_request
+port_no	openflow.h	/^    uint32_t port_no;        \/* Port the queue is attached to. *\/$/;"	m	struct:ofp_queue_stats
+port_no	openflow.h	/^    uint32_t port_no;      \/* Port this queue is attached to. *\/$/;"	m	struct:ofp_queue_desc
+port_no	openflow.h	/^    uint32_t port_no;$/;"	m	struct:ofp_port
+port_no	openflow.h	/^    uint32_t port_no;$/;"	m	struct:ofp_port_mod
+port_no	openflow.h	/^    uint32_t port_no;$/;"	m	struct:ofp_port_stats
+port_nos	openflow.h	/^    uint32_t     port_nos[0];    \/* List of recirculated input port numbers.$/;"	m	struct:ofp_port_desc_prop_recirculate
+prec_level	openflow.h	/^    uint8_t         prec_level; \/* Number of drop precedence level to add. *\/$/;"	m	struct:ofp_meter_band_dscp_remark
+priority	openflow.h	/^    uint16_t priority;            \/* Priority level of flow entry. *\/$/;"	m	struct:ofp_flow_mod
+priority	openflow.h	/^    uint16_t priority;          \/* Priority of the entry. *\/$/;"	m	struct:ofp_flow_update_full
+priority	openflow.h	/^    uint16_t priority;        \/* Priority level of flow entry. *\/$/;"	m	struct:ofp_flow_removed
+priority	openflow.h	/^    uint16_t priority;        \/* Priority of the entry. *\/$/;"	m	struct:ofp_flow_desc
+priority	openflow.h	/^    uint16_t priority;        \/* Priority of the entry. *\/$/;"	m	struct:ofp_flow_stats
+properties	openflow.h	/^    struct ofp_async_config_prop_header properties[0];$/;"	m	struct:ofp_async_config	typeref:struct:ofp_async_config::ofp_async_config_prop_header
+properties	openflow.h	/^    struct ofp_bundle_features_prop_header properties[0];$/;"	m	struct:ofp_bundle_features	typeref:struct:ofp_bundle_features::ofp_bundle_features_prop_header
+properties	openflow.h	/^    struct ofp_bundle_features_prop_header properties[0];$/;"	m	struct:ofp_bundle_features_request	typeref:struct:ofp_bundle_features_request::ofp_bundle_features_prop_header
+properties	openflow.h	/^    struct ofp_bundle_prop_header properties[0]; \/* Zero or more properties. *\/$/;"	m	struct:ofp_bundle_ctrl_msg	typeref:struct:ofp_bundle_ctrl_msg::ofp_bundle_prop_header
+properties	openflow.h	/^    struct ofp_controller_status_prop_header properties[0];$/;"	m	struct:ofp_controller_status	typeref:struct:ofp_controller_status::ofp_controller_status_prop_header
+properties	openflow.h	/^    struct ofp_port_desc_prop_header properties[0];$/;"	m	struct:ofp_port	typeref:struct:ofp_port::ofp_port_desc_prop_header
+properties	openflow.h	/^    struct ofp_port_mod_prop_header properties[0];$/;"	m	struct:ofp_port_mod	typeref:struct:ofp_port_mod::ofp_port_mod_prop_header
+properties	openflow.h	/^    struct ofp_port_stats_prop_header properties[0];$/;"	m	struct:ofp_port_stats	typeref:struct:ofp_port_stats::ofp_port_stats_prop_header
+properties	openflow.h	/^    struct ofp_queue_desc_prop_header properties[0]; \/* List of properties. *\/$/;"	m	struct:ofp_queue_desc	typeref:struct:ofp_queue_desc::ofp_queue_desc_prop_header
+properties	openflow.h	/^    struct ofp_queue_stats_prop_header properties[0]; \/* List of properties. *\/$/;"	m	struct:ofp_queue_stats	typeref:struct:ofp_queue_stats::ofp_queue_stats_prop_header
+properties	openflow.h	/^    struct ofp_role_prop_header properties[0];$/;"	m	struct:ofp_role_status	typeref:struct:ofp_role_status::ofp_role_prop_header
+properties	openflow.h	/^    struct ofp_table_feature_prop_header properties[0]; \/* List of properties *\/$/;"	m	struct:ofp_table_features	typeref:struct:ofp_table_features::ofp_table_feature_prop_header
+properties	openflow.h	/^    struct ofp_table_mod_prop_header properties[0];$/;"	m	struct:ofp_table_desc	typeref:struct:ofp_table_desc::ofp_table_mod_prop_header
+properties	openflow.h	/^    struct ofp_table_mod_prop_header properties[0];$/;"	m	struct:ofp_table_mod	typeref:struct:ofp_table_mod::ofp_table_mod_prop_header
+queue_id	openflow.h	/^    uint32_t queue_id;        \/* Queue id for the packets. *\/$/;"	m	struct:ofp_action_set_queue
+queue_id	openflow.h	/^    uint32_t queue_id;       \/* All queues if OFPQ_ALL. *\/$/;"	m	struct:ofp_queue_multipart_request
+queue_id	openflow.h	/^    uint32_t queue_id;       \/* Queue i.d *\/$/;"	m	struct:ofp_queue_stats
+queue_id	openflow.h	/^    uint32_t queue_id;     \/* id for the specific queue. *\/$/;"	m	struct:ofp_queue_desc
+rate	openflow.h	/^    uint16_t rate;        \/* In 1\/10 of a percent; >1000 -> disabled. *\/$/;"	m	struct:ofp_queue_desc_prop_max_rate
+rate	openflow.h	/^    uint16_t rate;        \/* In 1\/10 of a percent; >1000 -> disabled. *\/$/;"	m	struct:ofp_queue_desc_prop_min_rate
+rate	openflow.h	/^    uint32_t        rate;    \/* Rate for dropping packets. *\/$/;"	m	struct:ofp_meter_band_drop
+rate	openflow.h	/^    uint32_t        rate;    \/* Rate for remarking packets. *\/$/;"	m	struct:ofp_meter_band_dscp_remark
+rate	openflow.h	/^    uint32_t        rate;    \/* Rate for this band. *\/$/;"	m	struct:ofp_meter_band_experimenter
+rate	openflow.h	/^    uint32_t        rate;    \/* Rate for this band. *\/$/;"	m	struct:ofp_meter_band_header
+reason	openflow.h	/^    uint8_t reason;             \/* OFPRR_* for OFPFME_REMOVED, else zero. *\/$/;"	m	struct:ofp_flow_update_full
+reason	openflow.h	/^    uint8_t reason;             \/* One of OFPCRR_*. *\/$/;"	m	struct:ofp_role_status
+reason	openflow.h	/^    uint8_t reason;           \/* One of OFPFSR_*. *\/$/;"	m	struct:ofp_flow_stats
+reason	openflow.h	/^    uint8_t reason;           \/* One of OFPRR_*. *\/$/;"	m	struct:ofp_flow_removed
+reason	openflow.h	/^    uint8_t reason;          \/* One of OFPPR_*. *\/$/;"	m	struct:ofp_port_status
+reason	openflow.h	/^    uint8_t reason;         \/* One of OFPTR_*. *\/$/;"	m	struct:ofp_table_status
+reason	openflow.h	/^    uint8_t reason;         \/* Reason packet is being sent (one of OFPR_*) *\/$/;"	m	struct:ofp_packet_in
+reason	openflow.h	/^   uint8_t reason;             \/* One of OFPCSR_* reason codes. *\/$/;"	m	struct:ofp_controller_status
+ref_count	openflow.h	/^    uint32_t        ref_count;        \/* Number of flows or groups that$/;"	m	struct:ofp_meter_stats
+ref_count	openflow.h	/^    uint32_t ref_count;      \/* Number of flows or groups that directly forward$/;"	m	struct:ofp_group_stats
+request	openflow.h	/^    struct ofp_header request;  \/* Request being forwarded. *\/$/;"	m	struct:ofp_requestforward_header	typeref:struct:ofp_requestforward_header::ofp_header
+reserved	openflow.h	/^    uint16_t reserved;         \/* Reserved for future use, currently zeroed. *\/$/;"	m	struct:ofp_stats
+reserved	openflow.h	/^    uint32_t reserved;$/;"	m	struct:ofp_switch_features
+role	openflow.h	/^    uint32_t role;              \/* One of OFPCR_ROLE_*. *\/$/;"	m	struct:ofp_role_request
+role	openflow.h	/^    uint32_t role;              \/* One of OFPCR_ROLE_*. *\/$/;"	m	struct:ofp_role_status
+role	openflow.h	/^   uint32_t role;              \/* Controller's role. One of OFPCR_ROLE_*. *\/$/;"	m	struct:ofp_controller_status
+rx_bytes	openflow.h	/^    uint64_t rx_bytes;       \/* Number of received bytes. *\/$/;"	m	struct:ofp_port_stats
+rx_crc_err	openflow.h	/^    uint64_t rx_crc_err;     \/* Number of CRC errors. *\/$/;"	m	struct:ofp_port_stats_prop_ethernet
+rx_dropped	openflow.h	/^    uint64_t rx_dropped;     \/* Number of packets dropped by RX. *\/$/;"	m	struct:ofp_port_stats
+rx_errors	openflow.h	/^    uint64_t rx_errors;      \/* Number of receive errors.  This is a super-set$/;"	m	struct:ofp_port_stats
+rx_frame_err	openflow.h	/^    uint64_t rx_frame_err;   \/* Number of frame alignment errors. *\/$/;"	m	struct:ofp_port_stats_prop_ethernet
+rx_freq_lmda	openflow.h	/^    uint32_t rx_freq_lmda;   \/* Current RX Frequency\/Wavelength *\/$/;"	m	struct:ofp_port_stats_prop_optical
+rx_grid_freq_lmda	openflow.h	/^    uint32_t rx_grid_freq_lmda;  \/* RX Grid Spacing Frequency\/Wavelength *\/$/;"	m	struct:ofp_port_desc_prop_optical
+rx_grid_span	openflow.h	/^    uint32_t rx_grid_span;   \/* RX Grid Spacing *\/$/;"	m	struct:ofp_port_stats_prop_optical
+rx_max_freq_lmda	openflow.h	/^    uint32_t rx_max_freq_lmda;   \/* Maximum RX Frequency\/Wavelength *\/$/;"	m	struct:ofp_port_desc_prop_optical
+rx_min_freq_lmda	openflow.h	/^    uint32_t rx_min_freq_lmda;   \/* Minimum RX Frequency\/Wavelength *\/$/;"	m	struct:ofp_port_desc_prop_optical
+rx_offset	openflow.h	/^    uint32_t rx_offset;      \/* RX Offset *\/$/;"	m	struct:ofp_port_stats_prop_optical
+rx_over_err	openflow.h	/^    uint64_t rx_over_err;    \/* Number of packets with RX overrun. *\/$/;"	m	struct:ofp_port_stats_prop_ethernet
+rx_packets	openflow.h	/^    uint64_t rx_packets;     \/* Number of received packets. *\/$/;"	m	struct:ofp_port_stats
+rx_pwr	openflow.h	/^    uint16_t rx_pwr;         \/* Current RX power *\/$/;"	m	struct:ofp_port_stats_prop_optical
+sched_accuracy	openflow.h	/^    struct ofp_time sched_accuracy;   \/* The scheduling accuracy, i.e., how$/;"	m	struct:ofp_bundle_features_prop_time	typeref:struct:ofp_bundle_features_prop_time::ofp_time
+sched_max_future	openflow.h	/^    struct ofp_time sched_max_future; \/* The maximal difference between the$/;"	m	struct:ofp_bundle_features_prop_time	typeref:struct:ofp_bundle_features_prop_time::ofp_time
+sched_max_past	openflow.h	/^    struct ofp_time sched_max_past;   \/* If the scheduling time occurs in the$/;"	m	struct:ofp_bundle_features_prop_time	typeref:struct:ofp_bundle_features_prop_time::ofp_time
+scheduled_time	openflow.h	/^    struct ofp_time scheduled_time;$/;"	m	struct:ofp_bundle_prop_time	typeref:struct:ofp_bundle_prop_time::ofp_time
+seconds	openflow.h	/^    uint64_t seconds;$/;"	m	struct:ofp_time
+serial_num	openflow.h	/^    char serial_num[SERIAL_NUM_LEN];   \/* Serial number. *\/$/;"	m	struct:ofp_desc
+short_id	openflow.h	/^    uint16_t short_id;          \/* ID number for the controller. *\/$/;"	m	struct:ofp_role_request
+short_id	openflow.h	/^   uint16_t short_id;          \/* ID number which identifies the controller. *\/$/;"	m	struct:ofp_controller_status
+src_offset	openflow.h	/^    uint16_t src_offset;            \/* Starting bit offset in source. *\/$/;"	m	struct:ofp_action_copy_field
+state	openflow.h	/^    uint32_t state;         \/* Bitmap of OFPPS_* flags. *\/$/;"	m	struct:ofp_port
+stats	openflow.h	/^    struct ofp_stats stats;   \/* Aggregated statistics list. Variable size. *\/$/;"	m	struct:ofp_aggregate_stats_reply	typeref:struct:ofp_aggregate_stats_reply::ofp_stats
+status	openflow.h	/^    struct ofp_controller_status status;    \/* Controller status. *\/$/;"	m	struct:ofp_controller_status_header	typeref:struct:ofp_controller_status_header::ofp_controller_status
+supported	openflow.h	/^    uint32_t supported;     \/* Features supported by the port. *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+supported	openflow.h	/^    uint32_t supported;     \/* Features supported by the port. *\/$/;"	m	struct:ofp_port_desc_prop_optical
+sw_desc	openflow.h	/^    char sw_desc[DESC_STR_LEN];        \/* Software description. *\/$/;"	m	struct:ofp_desc
+table	openflow.h	/^    struct ofp_table_desc table;   \/* New table config. *\/$/;"	m	struct:ofp_table_status	typeref:struct:ofp_table_status::ofp_table_desc
+table_id	openflow.h	/^    uint8_t table_id;             \/* ID of the table to put the flow in.$/;"	m	struct:ofp_flow_mod
+table_id	openflow.h	/^    uint8_t table_id;             \/* Set next table in the lookup pipeline *\/$/;"	m	struct:ofp_instruction_goto_table
+table_id	openflow.h	/^    uint8_t table_id;           \/* ID of flow's table. *\/$/;"	m	struct:ofp_flow_update_full
+table_id	openflow.h	/^    uint8_t table_id;           \/* One table's ID or OFPTT_ALL (all tables). *\/$/;"	m	struct:ofp_flow_monitor_request
+table_id	openflow.h	/^    uint8_t table_id;         \/* ID of table flow came from. *\/$/;"	m	struct:ofp_flow_desc
+table_id	openflow.h	/^    uint8_t table_id;         \/* ID of table flow came from. *\/$/;"	m	struct:ofp_flow_stats
+table_id	openflow.h	/^    uint8_t table_id;         \/* ID of table to read (from ofp_table_desc),$/;"	m	struct:ofp_flow_stats_request
+table_id	openflow.h	/^    uint8_t table_id;         \/* ID of table to read (from ofp_table_stats)$/;"	m	struct:ofp_aggregate_stats_request
+table_id	openflow.h	/^    uint8_t table_id;         \/* ID of the table *\/$/;"	m	struct:ofp_flow_removed
+table_id	openflow.h	/^    uint8_t table_id;        \/* Identifier of table.  Lower numbered tables$/;"	m	struct:ofp_table_desc
+table_id	openflow.h	/^    uint8_t table_id;        \/* Identifier of table.  Lower numbered tables$/;"	m	struct:ofp_table_features
+table_id	openflow.h	/^    uint8_t table_id;        \/* Identifier of table.  Lower numbered tables$/;"	m	struct:ofp_table_stats
+table_id	openflow.h	/^    uint8_t table_id;       \/* ID of the table that was looked up *\/$/;"	m	struct:ofp_packet_in
+table_id	openflow.h	/^    uint8_t table_id;     \/* ID of the table, OFPTT_ALL indicates all tables *\/$/;"	m	struct:ofp_table_mod
+table_ids	openflow.h	/^    uint8_t          table_ids[0];        \/* List of table ids. *\/$/;"	m	struct:ofp_table_feature_prop_tables
+temperature	openflow.h	/^    uint16_t temperature;    \/* TX Laser Temperature *\/$/;"	m	struct:ofp_port_stats_prop_optical
+thresholds	openflow.h	/^    struct ofp_stats thresholds;  \/* Threshold list. Variable size. *\/$/;"	m	struct:ofp_instruction_stat_trigger	typeref:struct:ofp_instruction_stat_trigger::ofp_stats
+timestamp	openflow.h	/^    struct ofp_time timestamp;        \/* Indicates the time during the$/;"	m	struct:ofp_bundle_features_prop_time	typeref:struct:ofp_bundle_features_prop_time::ofp_time
+total_len	openflow.h	/^    uint16_t total_len;     \/* Full length of frame. *\/$/;"	m	struct:ofp_packet_in
+tx_bytes	openflow.h	/^    uint64_t tx_bytes;       \/* Number of transmitted bytes. *\/$/;"	m	struct:ofp_port_stats
+tx_bytes	openflow.h	/^    uint64_t tx_bytes;       \/* Number of transmitted bytes. *\/$/;"	m	struct:ofp_queue_stats
+tx_dropped	openflow.h	/^    uint64_t tx_dropped;     \/* Number of packets dropped by TX. *\/$/;"	m	struct:ofp_port_stats
+tx_errors	openflow.h	/^    uint64_t tx_errors;      \/* Number of packets dropped due to overrun. *\/$/;"	m	struct:ofp_queue_stats
+tx_errors	openflow.h	/^    uint64_t tx_errors;      \/* Number of transmit errors.  This is a super-set$/;"	m	struct:ofp_port_stats
+tx_freq_lmda	openflow.h	/^    uint32_t tx_freq_lmda;   \/* Current TX Frequency\/Wavelength *\/$/;"	m	struct:ofp_port_stats_prop_optical
+tx_grid_freq_lmda	openflow.h	/^    uint32_t tx_grid_freq_lmda;  \/* TX Grid Spacing Frequency\/Wavelength *\/$/;"	m	struct:ofp_port_desc_prop_optical
+tx_grid_span	openflow.h	/^    uint32_t tx_grid_span;   \/* TX Grid Spacing *\/$/;"	m	struct:ofp_port_stats_prop_optical
+tx_max_freq_lmda	openflow.h	/^    uint32_t tx_max_freq_lmda;   \/* Maximum TX Frequency\/Wavelength *\/$/;"	m	struct:ofp_port_desc_prop_optical
+tx_min_freq_lmda	openflow.h	/^    uint32_t tx_min_freq_lmda;   \/* Minimum TX Frequency\/Wavelength *\/$/;"	m	struct:ofp_port_desc_prop_optical
+tx_offset	openflow.h	/^    uint32_t tx_offset;      \/* TX Offset *\/$/;"	m	struct:ofp_port_stats_prop_optical
+tx_packets	openflow.h	/^    uint64_t tx_packets;     \/* Number of transmitted packets. *\/$/;"	m	struct:ofp_port_stats
+tx_packets	openflow.h	/^    uint64_t tx_packets;     \/* Number of transmitted packets. *\/$/;"	m	struct:ofp_queue_stats
+tx_pwr	openflow.h	/^    uint16_t tx_pwr;         \/* Current TX power *\/$/;"	m	struct:ofp_port_stats_prop_optical
+tx_pwr	openflow.h	/^    uint32_t      tx_pwr;     \/* tx power setting *\/$/;"	m	struct:ofp_port_mod_prop_optical
+tx_pwr_max	openflow.h	/^    uint16_t tx_pwr_max;         \/* Maximum TX power *\/$/;"	m	struct:ofp_port_desc_prop_optical
+tx_pwr_min	openflow.h	/^    uint16_t tx_pwr_min;         \/* Minimum TX power *\/$/;"	m	struct:ofp_port_desc_prop_optical
+type	openflow.h	/^    uint16_t              type;           \/* OFPBCT_*. *\/$/;"	m	struct:ofp_bundle_ctrl_msg
+type	openflow.h	/^    uint16_t         type;         \/* OFPGBPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_group_bucket_prop_experimenter
+type	openflow.h	/^    uint16_t         type;         \/* OFPGPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_group_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* OFPBPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_bundle_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* OFPCSPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_controller_status_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* OFPCSPT_URI. *\/$/;"	m	struct:ofp_controller_status_prop_uri
+type	openflow.h	/^    uint16_t         type;    \/* OFPGBPT_WATCH_PORT or OFPGBPT_WATCH_GROUP. *\/$/;"	m	struct:ofp_group_bucket_prop_watch
+type	openflow.h	/^    uint16_t         type;    \/* OFPGBPT_WEIGHT. *\/$/;"	m	struct:ofp_group_bucket_prop_weight
+type	openflow.h	/^    uint16_t         type;    \/* OFPHET_VERSIONBITMAP. *\/$/;"	m	struct:ofp_hello_elem_versionbitmap
+type	openflow.h	/^    uint16_t         type;    \/* OFPPDPT_3OPTICAL. *\/$/;"	m	struct:ofp_port_desc_prop_optical
+type	openflow.h	/^    uint16_t         type;    \/* OFPPDPT_ETHERNET. *\/$/;"	m	struct:ofp_port_desc_prop_ethernet
+type	openflow.h	/^    uint16_t         type;    \/* OFPPDPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_port_desc_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* OFPPMPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_port_mod_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* OFPPSPT_ETHERNET. *\/$/;"	m	struct:ofp_port_stats_prop_ethernet
+type	openflow.h	/^    uint16_t         type;    \/* OFPPSPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_port_stats_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* OFPPSPT_OPTICAL. *\/$/;"	m	struct:ofp_port_stats_prop_optical
+type	openflow.h	/^    uint16_t         type;    \/* OFPQDPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_queue_desc_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* OFPQDPT_MAX_RATE. *\/$/;"	m	struct:ofp_queue_desc_prop_max_rate
+type	openflow.h	/^    uint16_t         type;    \/* OFPQDPT_MIN_RATE. *\/$/;"	m	struct:ofp_queue_desc_prop_min_rate
+type	openflow.h	/^    uint16_t         type;    \/* OFPQSPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_queue_stats_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* OFPTFPT_PACKET_TYPES. *\/$/;"	m	struct:ofp_table_feature_prop_oxm_values
+type	openflow.h	/^    uint16_t         type;    \/* OFPTMPT_EVICTION. *\/$/;"	m	struct:ofp_table_mod_prop_eviction
+type	openflow.h	/^    uint16_t         type;    \/* OFPTMPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_table_mod_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPACPT_*. *\/$/;"	m	struct:ofp_async_config_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPACPT_PACKET_IN_*,$/;"	m	struct:ofp_async_config_prop_reasons
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPBPT_*. *\/$/;"	m	struct:ofp_bundle_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPCSPT_*. *\/$/;"	m	struct:ofp_controller_status_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPGBPT_*. *\/$/;"	m	struct:ofp_group_bucket_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPGPT_*. *\/$/;"	m	struct:ofp_group_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPHET_*. *\/$/;"	m	struct:ofp_hello_elem_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPPDPT_*. *\/$/;"	m	struct:ofp_port_desc_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPPDPT_PIPELINE_INPUT or$/;"	m	struct:ofp_port_desc_prop_oxm
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPPMPT_*. *\/$/;"	m	struct:ofp_port_mod_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPPSPT_*. *\/$/;"	m	struct:ofp_port_stats_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPQDPT_*. *\/$/;"	m	struct:ofp_queue_desc_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPQSPT_*. *\/$/;"	m	struct:ofp_queue_stats_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPRPT_*. *\/$/;"	m	struct:ofp_role_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPRPT_EXPERIMENTER. *\/$/;"	m	struct:ofp_role_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPTFPT_*. *\/$/;"	m	struct:ofp_table_feature_prop_header
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPTFPT_EXPERIMENTER,$/;"	m	struct:ofp_table_feature_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPTFPT_EXPERIMENTER_SLAVE,$/;"	m	struct:ofp_async_config_prop_experimenter
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPTFPT_INSTRUCTIONS,$/;"	m	struct:ofp_table_feature_prop_instructions
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPTFPT_MATCH,$/;"	m	struct:ofp_table_feature_prop_oxm
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPTFPT_NEXT_TABLES,$/;"	m	struct:ofp_table_feature_prop_tables
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPTFPT_WRITE_ACTIONS,$/;"	m	struct:ofp_table_feature_prop_actions
+type	openflow.h	/^    uint16_t         type;    \/* One of OFPTMPT_*. *\/$/;"	m	struct:ofp_table_mod_prop_header
+type	openflow.h	/^    uint16_t         type;   \/* OFPTMPT_VACANCY. *\/$/;"	m	struct:ofp_table_mod_prop_vacancy
+type	openflow.h	/^    uint16_t        type;    \/* OFPMBT_DROP. *\/$/;"	m	struct:ofp_meter_band_drop
+type	openflow.h	/^    uint16_t        type;    \/* OFPMBT_DSCP_REMARK. *\/$/;"	m	struct:ofp_meter_band_dscp_remark
+type	openflow.h	/^    uint16_t        type;    \/* One of OFPMBT_*. *\/$/;"	m	struct:ofp_meter_band_experimenter
+type	openflow.h	/^    uint16_t        type;    \/* One of OFPMBT_*. *\/$/;"	m	struct:ofp_meter_band_header
+type	openflow.h	/^    uint16_t      type;       \/* OFPPMPT_ETHERNET. *\/$/;"	m	struct:ofp_port_mod_prop_ethernet
+type	openflow.h	/^    uint16_t      type;       \/* OFPPMPT_OPTICAL. *\/$/;"	m	struct:ofp_port_mod_prop_optical
+type	openflow.h	/^    uint16_t     type;          \/* OFPPDPT_RECIRCULATE. *\/$/;"	m	struct:ofp_port_desc_prop_recirculate
+type	openflow.h	/^    uint16_t type;                    \/* OFPTMPBF_TIME_CAPABILITY. *\/$/;"	m	struct:ofp_bundle_features_prop_time
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_COPY_FIELD. *\/$/;"	m	struct:ofp_action_copy_field
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_EXPERIMENTER. *\/$/;"	m	struct:ofp_action_experimenter_header
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_GROUP. *\/$/;"	m	struct:ofp_action_group
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_OUTPUT. *\/$/;"	m	struct:ofp_action_output
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_POP_MPLS. *\/$/;"	m	struct:ofp_action_pop_mpls
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_PUSH_VLAN\/MPLS\/PBB. *\/$/;"	m	struct:ofp_action_push
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_SET_FIELD. *\/$/;"	m	struct:ofp_action_set_field
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_SET_MPLS_TTL. *\/$/;"	m	struct:ofp_action_mpls_ttl
+type	openflow.h	/^    uint16_t type;                  \/* OFPAT_SET_NW_TTL. *\/$/;"	m	struct:ofp_action_nw_ttl
+type	openflow.h	/^    uint16_t type;                  \/* One of OFPAT_*. *\/$/;"	m	struct:ofp_action_generic
+type	openflow.h	/^    uint16_t type;                  \/* One of OFPAT_*. *\/$/;"	m	struct:ofp_action_header
+type	openflow.h	/^    uint16_t type;                \/* OFPAT_METER *\/$/;"	m	struct:ofp_action_meter
+type	openflow.h	/^    uint16_t type;                \/* OFPIT_GOTO_TABLE *\/$/;"	m	struct:ofp_instruction_goto_table
+type	openflow.h	/^    uint16_t type;                \/* OFPIT_STAT_TRIGGER *\/$/;"	m	struct:ofp_instruction_stat_trigger
+type	openflow.h	/^    uint16_t type;                \/* OFPIT_WRITE_METADATA *\/$/;"	m	struct:ofp_instruction_write_metadata
+type	openflow.h	/^    uint16_t type;                \/* One of OFPAT_*. *\/$/;"	m	struct:ofp_action_id
+type	openflow.h	/^    uint16_t type;                \/* One of OFPIT_*. *\/$/;"	m	struct:ofp_instruction_header
+type	openflow.h	/^    uint16_t type;                \/* One of OFPIT_*. *\/$/;"	m	struct:ofp_instruction_id
+type	openflow.h	/^    uint16_t type;              \/* OFPIT_EXPERIMENTER. *\/$/;"	m	struct:ofp_instruction_experimenter_header
+type	openflow.h	/^    uint16_t type;              \/* One of OFPIT_*_ACTIONS *\/$/;"	m	struct:ofp_instruction_actions
+type	openflow.h	/^    uint16_t type;              \/* One of the OFPMP_* constants. *\/$/;"	m	struct:ofp_multipart_reply
+type	openflow.h	/^    uint16_t type;              \/* One of the OFPMP_* constants. *\/$/;"	m	struct:ofp_multipart_request
+type	openflow.h	/^    uint16_t type;             \/* One of OFPMT_* *\/$/;"	m	struct:ofp_match
+type	openflow.h	/^    uint16_t type;            \/* OFPAT_SET_QUEUE. *\/$/;"	m	struct:ofp_action_set_queue
+type	openflow.h	/^    uint16_t type;            \/* OFPET_EXPERIMENTER. *\/$/;"	m	struct:ofp_error_experimenter_msg
+type	openflow.h	/^    uint16_t type;          \/* One of OFPTMPBF_*. *\/$/;"	m	struct:ofp_bundle_features_prop_header
+type	openflow.h	/^    uint16_t type;       \/* OFPBPT_TIME *\/$/;"	m	struct:ofp_bundle_prop_time
+type	openflow.h	/^    uint16_t type;$/;"	m	struct:ofp_error_msg
+type	openflow.h	/^    uint8_t type;                 \/* One of OFPGT_*. *\/$/;"	m	struct:ofp_group_desc
+type	openflow.h	/^    uint8_t type;                 \/* One of OFPGT_*. *\/$/;"	m	struct:ofp_group_mod
+type	openflow.h	/^    uint8_t type;       \/* One of the OFPT_ constants. *\/$/;"	m	struct:ofp_header
+types	openflow.h	/^    uint32_t  types;           \/* Bitmap of (1 << OFPGT_*) values supported. *\/$/;"	m	struct:ofp_group_features
+uri	openflow.h	/^    char             uri[0];$/;"	m	struct:ofp_controller_status_prop_uri
+vacancy	openflow.h	/^    uint8_t vacancy;         \/* Current vacancy (%) - only in ofp_table_desc. *\/$/;"	m	struct:ofp_table_mod_prop_vacancy
+vacancy_down	openflow.h	/^    uint8_t vacancy_down;    \/* Vacancy threshold when space decreases (%). *\/$/;"	m	struct:ofp_table_mod_prop_vacancy
+vacancy_up	openflow.h	/^    uint8_t vacancy_up;      \/* Vacancy threshold when space increases (%). *\/$/;"	m	struct:ofp_table_mod_prop_vacancy
+version	openflow.h	/^    uint8_t version;    \/* OFP_VERSION. *\/$/;"	m	struct:ofp_header
+watch	openflow.h	/^    uint32_t         watch;   \/* The port or the group.  *\/$/;"	m	struct:ofp_group_bucket_prop_watch
+weight	openflow.h	/^    uint16_t         weight;  \/* Relative weight of bucket. *\/$/;"	m	struct:ofp_group_bucket_prop_weight
+xid	openflow.h	/^    uint32_t xid;               \/* Controller-specified xid from flow_mod. *\/$/;"	m	struct:ofp_flow_update_abbrev
+xid	openflow.h	/^    uint32_t xid;       \/* Transaction id associated with this packet.$/;"	m	struct:ofp_header
+zeros	openflow.h	/^    uint8_t zeros[4];           \/* Reserved, currently zeroed. *\/$/;"	m	struct:ofp_flow_update_full
+zeros	openflow.h	/^    uint8_t zeros[4];           \/* Reserved, currently zeroed. *\/$/;"	m	struct:ofp_flow_update_paused
